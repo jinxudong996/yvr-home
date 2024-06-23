@@ -89,15 +89,15 @@
           <div class="zpJobListMkBotTop">
             <div class="zpJobListMkBotTopMk">
               <h3 class="f18">Job description</h3>
-              <p class="f14" v-html="item.positionDescription"></p>
+              <p class="f14" style="white-space: pre-wrap;" v-html="item.positionDescription"></p>
             </div>
             <div class="zpJobListMkBotTopMk">
               <h3 class="f18">Job requirement</h3>
-              <p class="f14" v-html="item.positionRequirements"></p>
+              <p class="f14" style="white-space: pre-wrap;" v-html="item.positionRequirements"></p>
             </div>
             <div class="zpJobListMkBotTopMk">
               <h3 class="f18">Bonus</h3>
-              <p class="f14" v-html="item.benefits"></p>
+              <p class="f14" style="white-space: pre-wrap;" v-html="item.benefits"></p>
             </div>
           </div>
           <div class="zpJobListMkBotJlWc">

@@ -89,15 +89,15 @@
           <div class="zpJobListMkBotTop">
             <div class="zpJobListMkBotTopMk">
               <h3 class="f18">岗位描述</h3>
-              <p class="f14" v-html="item.positionDescription"></p>
+              <p class="f14" style="white-space: pre-wrap;" v-html="item.positionDescription"></p>
             </div>
             <div class="zpJobListMkBotTopMk">
               <h3 class="f18">岗位要求</h3>
-              <p class="f14" v-html="item.positionRequirements"></p>
+              <p class="f14" style="white-space: pre-wrap;" v-html="item.positionRequirements"></p>
             </div>
             <div class="zpJobListMkBotTopMk">
               <h3 class="f18">福利</h3>
-              <p class="f14" v-html="item.benefits"></p>
+              <p class="f14" style="white-space: pre-wrap;" v-html="item.benefits"></p>
             </div>
           </div>
           <div class="zpJobListMkBotJlWc">

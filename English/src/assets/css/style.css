@@ -6018,11 +6018,12 @@ background: -webkit-linear-gradient(45deg, #F9ECD8, #966C4D, #966C4D);
 		height: 500px;
 	}
 
-	.yhxqFs {
-		height: auto;
-		padding-top: 200px;
-		background: #000;
-	}
+	.yhxqFsWc{height: 500px;overflow: hidden;background: #000;}
+		.yhxqFs {
+			height: 600px;
+			/* padding-top: 200px; */
+			background: #000;
+		}
 
 	.yhxqFsBj {
 		opacity: 0;
@@ -6034,8 +6035,8 @@ background: -webkit-linear-gradient(45deg, #F9ECD8, #966C4D, #966C4D);
 
 	.yhxqFs video {
 		display: block;
-		width: 100%;
-		height: auto;
+		width: auto;
+		height: 600px;
 	}
 
 	.syNewsBj {
