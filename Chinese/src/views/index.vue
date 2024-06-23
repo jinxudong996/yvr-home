@@ -7,7 +7,7 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide swiper-no-swiping">
             <!-- <img class="img100" src="../assets/images/bj1.jpg"> -->
-            <video style="width: 110%;height: auto;" id="" src="../assets/video/home.mp4" loop autoplay muted></video>
+            <video style="" id="" src="../assets/video/home.mp4" loop autoplay muted></video>
             <div class="sjxxFsDypMc">
               <div class="sjxxFsDypCon">
                 <div class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s">

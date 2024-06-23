@@ -6777,9 +6777,9 @@ background: -webkit-linear-gradient(45deg, #F9ECD8, #966C4D, #966C4D);
 		width: 20px;
 	}
 }
-
+.sjxxFsDyp video{width: 110%;height: auto;transform: translateX(-5%);-webkit-transform: translateX(-5%);}
 @media screen and (max-width:850px) {
-  .sjxxFsDyp video{height: 500px!important;width: auto!important;}
+  .sjxxFsDyp video{height: 500px!important;width: auto!important; position: absolute; top: 0; left: 50%; transform: translateX(-50%);-webkit-transform: translateX(-50%);}
 }
 
 @media screen and (max-width:650px) {
