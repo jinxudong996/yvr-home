@@ -31,12 +31,12 @@ export default {
 				console.log(e)
 				if (e == 1) {
 					this.thisTitle = "Legal clause"
-					this.code = "legal_terms"
+					this.code = "legal_terms_en"
 
 				}
 				if (e == 2) {
 					this.thisTitle = "Privacy protection"
-					this.code = "privacy_policy"
+					this.code = "privacy_policy_en"
 
 				}
 				this.getPage()
@@ -83,11 +83,11 @@ export default {
 		}
 		if (thisIndex == 1) {
 			that.thisTitle = "Legal clause"
-			that.code = "legal_terms"
+			that.code = "legal_terms_en"
 		}
 		if (thisIndex == 2) {
 			that.thisTitle = "Privacy protection"
-			that.code = "privacy_policy"
+			that.code = "privacy_policy_en"
 		}
 
 		await this.getPage()

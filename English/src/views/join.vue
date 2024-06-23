@@ -41,7 +41,7 @@
         <div class="zpJobSxMk">
           <select class="zpJobSelect" name="" id="" v-model="data1">
             <option :value="null">City</option>
-            <option :value="item.dictValue" v-for="(item, index) in option1" :key="index * 1.11">{{ item.dictLabel }}
+            <option :value="item.dictValue" v-for="(item, index) in option1" :key="index * 1.11">{{ item.dictLabelEn }}
             </option>
 
           </select>
@@ -49,14 +49,14 @@
         <div class="zpJobSxMk">
           <select class="zpJobSelect" name="" id="" v-model="data2">
             <option :value="null">Job title</option>
-            <option :value="item.dictValue" v-for="(item, index) in option2" :key="index * 1.33">{{ item.dictLabel }}
+            <option :value="item.dictValue" v-for="(item, index) in option2" :key="index * 1.33">{{ item.dictLabelEn }}
             </option>
           </select>
         </div>
         <div class="zpJobSxMk">
           <select class="zpJobSelect" name="" id="" v-model="data3">
             <option :value="null">Work experience</option>
-            <option :value="item.dictValue" v-for="(item, index) in option3" :key="index * 1.33">{{ item.dictLabel }}
+            <option :value="item.dictValue" v-for="(item, index) in option3" :key="index * 1.33">{{ item.dictLabelEn }}
             </option>
           </select>
         </div>

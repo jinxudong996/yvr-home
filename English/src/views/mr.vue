@@ -2,23 +2,22 @@
   <div style="background: #000;">
     <headertop></headertop>
     <div class="mrBanner"><img class="img100" src="../assets/images/mr/banner1.jpg" alt="" /></div>
-    <div class="textCenter mrDBt1 wow fadeInUp">8大购买理由</div>
+    <div class="textCenter mrDBt1 wow fadeInUp">8 Reasons to Choose<br> Play For Dream MR</div>
     <div class="w1700">
       <div class="mrXzLyTop">
         <div class="mrXzLyMk">
           <img class="img100" src="../assets/images/mr/img1.png" alt="" />
-          <div class="mrXzLyMkPos wow fadeInUp">
-            <div class="f41 mrXzLyMkPos_1">1:1还原IMAX级影院视听盛宴</div>
-            <div class="f79 mrXzLyMkPos_2 bolder mrjbs">真 8K IMAX 级<br>
-              空间计算机</div>
+          <div class="mrXzLyMkPos  wow fadeInUp">
+            <div class="f41 mrXzLyMkPos_1">1:1 Representation of the IMAX-Level theater auditory and visual feast</div>
+            <div class="f79 mrXzLyMkPos_2 bolder mrjbs">True 8K IMAX-Level Spatial Computer</div>
           </div>
-          <div class="mrXzLyMkPosBot">
+          <div class="mrXzLyMkPosBot zsDzDyG">
             <div class="f41 mrXzLyMkPosIcoList wow fadeInUp">
               <ul class="hp mrXzLyMkPosIcoListUl">
-                <li><span>·</span>8K超清巨幕</li>
-                <li><span>·</span>DCI-P3广色域</li>
-                <li><span>·</span>逐台系统级显示校准</li>
-                <li><span>·</span>DTS: X Ultra定制音效</li>
+                <li><span>·</span>8K Ultra-Clear Screen</li>
+                <li><span>·</span>DCI-P3 92% Wide Color Gamut</li>
+                <li><span>·</span>Individual system-level display calibration</li>
+                <li><span>·</span>DTS Customized Sound Effects</li>
               </ul>
             </div>
           </div>
@@ -28,14 +27,15 @@
         <div class="mrXzLyMk">
           <img class="img100" src="../assets/images/mr/img2.png" alt="" />
           <div class="mrXzLyMkPos topSmall wow fadeInUp">
-            <div class="f41 mrXzLyMkPos_1">全新影像革命 打开拍看新可能</div>
-            <div class="f68 mrXzLyMkPos_2 bolder mrjbs">3D 空间视频</div>
+            <div class="f41 mrXzLyMkPos_1">A revolutionary imaging breakthrough that opens up new possibilities in
+              photography and videography</div>
+            <div class="f68 mrXzLyMkPos_2 bolder mrjbs">3D Spatial Video</div>
             <div class="f41 mrXzLyMkPosIcoList mt30">
               <ul class="mrXzLyMkPosIcoListUl">
-                <li><span>·</span>双3200万像素超高清相机</li>
-                <li><span>·</span>超大画幅空间视频拍摄</li>
-                <li><span>·</span>EIS立体视频防抖</li>
-                <li><span>·</span>3D智能美颜</li>
+                <li><span>·</span>Dual 32-megapixel ultra-high-definition cameras</li>
+                <li><span>·</span>Large-format spatial video capture</li>
+                <li><span>·</span>3D Intelligent Beauty Enhancements</li>
+                <li><span>·</span>EIS 3D Video Stabilization</li>
               </ul>
             </div>
           </div>
@@ -43,12 +43,12 @@
         <div class="mrXzLyMk">
           <img class="img100" src="../assets/images/mr/img3.png" alt="" />
           <div class="mrXzLyMkPos topSmall wow fadeInUp">
-            <div class="f41 mrXzLyMkPos_1">超强AI辅助  全场景效率再提升</div>
-            <div class="f68 mrXzLyMkPos_2 bolder mrjbs">AI加持 开启空间<br>
-              计算效率时代</div>
+            <div class="f41 mrXzLyMkPos_1">Powerful AI assistance boosts efficiency across all scenarios.</div>
+            <div class="f68 mrXzLyMkPos_2 bolder mrjbs">AI-powered, Entering the Era of Spatial Computing Efficiency
+            </div>
             <div class="f41 mrXzLyMkPosIcoList mt30">
               <ul class="mrXzLyMkPosIcoListUl">
-                <li>问答翻译、生活陪伴、办公娱乐</li>
+                <li>Q&A translation、Companionship、Productivity & Entertainment</li>
               </ul>
             </div>
           </div>
@@ -58,16 +58,15 @@
         <div class="mrXzLyMk">
           <img class="img100" src="../assets/images/mr/img4.png" alt="" />
           <div class="mrXzLyMkPos wow fadeInUp">
-            <div class="f41 mrXzLyMkPos_1">视听触效  全“芯”颠覆</div>
-            <div class="f74 mrXzLyMkPos_2 bolder mrjbs">次世代空间<br>
-              游戏体验</div>
+            <div class="f41 mrXzLyMkPos_1">A complete sensory revolution, all "core" transformed.</div>
+            <div class="f74 mrXzLyMkPos_2 bolder mrjbs">Next-Generation Spatial Gaming Experience</div>
             <div class="f41 mrXzLyMkPosIcoList mt30">
               <ul class="mrXzLyMkPosIcoListUl">
-                <li><span>·</span>全新第二代高通骁龙XR2+芯片</li>
+                <li><span>·</span>Gen 2 Qualcomm Snapdragon XR2+ chip</li>
               </ul>
               <ul class="hp mrXzLyMkPosIcoListUl">
-                <li><span>·</span>丰富MR+VR游戏</li>
-                <li><span>·</span>无光环6DoF手柄</li>
+                <li><span>·</span>Extensive MR and VR game library</li>
+                <li><span>·</span>6DoF Halo-free controller</li>
               </ul>
             </div>
           </div>
@@ -78,13 +77,13 @@
           <div class="mrXzLyMk">
             <img class="img100" src="../assets/images/mr/img5.png" alt="" />
             <div class="mrXzLyMkPos topBig wow fadeInUp">
-              <div class="f41 mrXzLyMkPos_1">所看所指 即刻触动</div>
-              <div class="f68 mrXzLyMkPos_2 bolder mrjbs">多模态自然交互</div>
+              <div class="f41 mrXzLyMkPos_1">Immediate response to what you see and point at.</div>
+              <div class="f68 mrXzLyMkPos_2 bolder mrjbs">Multimodal Natural Interaction</div>
               <div class="f41 mrXzLyMkPosIcoList mt30">
                 <ul class="mrXzLyMkPosIcoListUl">
-                  <li><span>·</span>手柄交互</li>
-                  <li><span>·</span>手势&眼动交互</li>
-                  <li><span>·</span>语音交互</li>
+                  <li><span>·</span>Controller Interaction</li>
+                  <li><span>·</span>Gesture & Eye-Tracking Interaction</li>
+                  <li><span>·</span>Voice Interaction</li>
                 </ul>
               </div>
             </div>
@@ -92,14 +91,14 @@
           <div class="mrXzLyMk">
             <img class="img100" src="../assets/images/mr/img6.png" alt="" />
             <div class="mrXzLyMkPos topBig wow fadeInUp">
-              <div class="f41 mrXzLyMkPos_1">虚实传送门 无界穿越</div>
-              <div class="f68 mrXzLyMkPos_2 bolder mrjbs">MR 数字生活新空间</div>
+              <div class="f41 mrXzLyMkPos_1">Virtual-Real Portal, Boundless Traversal</div>
+              <div class="f68 mrXzLyMkPos_2 bolder mrjbs">New Space of MR Digital Life</div>
               <div class="f41 mrXzLyMkPosIcoList mt30">
                 <ul class="hp mrXzLyMkPosIcoListUl">
-                  <li><span>·</span>彩色透视</li>
-                  <li><span>·</span>空间多屏</li>
-                  <li><span>·</span>空间组件</li>
-                  <li><span>·</span>无级MR旋钮</li>
+                  <li><span>·</span>Color passthrough</li>
+                  <li><span>·</span>Multiple spatial screens</li>
+                  <li><span>·</span>Spatial components</li>
+                  <li><span>·</span>Stepless MR dial</li>
                 </ul>
               </div>
             </div>
@@ -109,12 +108,12 @@
           <div class="mrXzLyMk">
             <img class="img100" src="../assets/images/mr/img7.png" alt="" />
             <div class="mrXzLyMkPos topBig wow fadeInUp">
-              <div class="f41 mrXzLyMkPos_1">不止为美 更为舒适佩戴</div>
-              <div class="f68 mrXzLyMkPos_2 bolder mrjbs">一体化曲面设计</div>
+              <div class="f41 mrXzLyMkPos_1">Not just beautiful, but also comfortable to wear.</div>
+              <div class="f68 mrXzLyMkPos_2 bolder mrjbs">Integrated Curved Design</div>
               <div class="f41 mrXzLyMkPosIcoList mt30">
                 <ul class="mrXzLyMkPosIcoListUl">
-                  <li><span>·</span>红点设计奖</li>
-                  <li><span>·</span>均衡配重</li>
+                  <li><span>·</span>Red Dot Design Award</li>
+                  <li><span>·</span>Balanced weight distribution</li>
                 </ul>
               </div>
             </div>
@@ -122,13 +121,13 @@
           <div class="mrXzLyMk">
             <img class="img100" src="../assets/images/mr/img8.png" alt="" />
             <div class="mrXzLyMkPos topBig wow fadeInUp">
-              <div class="f41 mrXzLyMkPos_1">让更多设备进入空间计算时代</div>
-              <div class="f68 mrXzLyMkPos_2 bolder mrjbs">多终端空间互联</div>
+              <div class="f41 mrXzLyMkPos_1">Bringing more devices into the era of spatial computing.</div>
+              <div class="f68 mrXzLyMkPos_2 bolder mrjbs">Multi-Terminal Spatial Connectivity</div>
               <div class="f41 mrXzLyMkPosIcoList mt30">
                 <ul class="mrXzLyMkPosIcoListUl">
-                  <li><span>·</span>兼容海量Android应用</li>
-                  <li><span>·</span>PC无线串流</li>
-                  <li><span>·</span>支持多种蓝牙外设</li>
+                  <li><span>·</span>Compatible with a vast amount of Android apps</li>
+                  <li><span>·</span>PC wireless streaming</li>
+                  <li><span>·</span>Supports various Bluetooth peripherals</li>
                 </ul>
               </div>
             </div>
@@ -140,46 +139,47 @@
       <img class="img100" src="../assets/images/mr/img10.png" alt="" />
       <div class="w1700 mr8KTit">
         <div class="f177 bolder mrjbs wow fadeInUp">
-          真 8K IMAX 级<br>
-          空间计算机
+          True 8K IMAX Level<br> Spatial Computer
         </div>
       </div>
       <div class="w1700 mr8KTit_1">
         <div class="f205 bolder mrjbs wow fadeInUp">
-          打造空间<br>
-          观影新标杆
+          Setting a New Standard for Spatial Cinema<br>
+          1000-inch IMAX-level Giant Screen Theater
         </div>
       </div>
     </div>
     <div class="w1700 mrJmYy">
       <div class="f147 bolder mrjbs mrJmYy_1 wow fadeInUp">
-        千寸IMAX级巨幕影院<br>
-        观影稳坐C位
+        Be the Star of the Show
       </div>
-      <div class="f60 mrJmYy_2 wow fadeInUp">打造超千英寸IMAX级空间巨幕, 可定制场景的私人影厅, MR旋钮轻松切换虚拟现实场景, 专属舒适区观影位, 享受影院级千寸巨幕震撼视听,
-        屏幕大小远近随意调。
+      <div class="f60 mrJmYy_2 wow fadeInUp">Crafting an IMAX level spatial screen exceeding 1,000 inches
+        This state-of-the-art system offers a private cinema experience in your own space, featuring an adjustable giant
+        IMAX screen that effortlessly switches between virtual and real scenes. Experience the ultimate comfort of a
+        cinema-grade 1,000-inch colossal screen and immerse yourself in captivating audio-visual effects. Tailor the
+        screen size and distance to match your personal preferences.
       </div>
       <div class="mrJmYy_3 wow fadeInUp">
         <div class="mrJmYy_3Mk"><img class="img100" src="../assets/images/mr/img11.png" alt="" /></div>
         <div class="mrJmYy_3Mk"><img class="img100" src="../assets/images/mr/img12.png" alt="" /></div>
       </div>
-      <div class="f110 bolder mrJmYy_4 wow fadeInUp">DTS影院级<br>
-        空间环绕混响</div>
-      <div class="f60 mrJmYy_2 wow fadeInUp">还原影院级空间混响音效与环绕声, 8大自适应定制音效让你在观影、游戏或办公中都能更沉浸。</div>
+      <div class="f110 bolder mrJmYy_4 wow fadeInUp">DTS cinema level spatial surround sound</div>
+      <div class="f60 mrJmYy_2 wow fadeInUp">Recreating cinema level spatial reverb and surround sound, while offering 8
+        adaptive personalized sound settings for an immersive experience in movies, gaming, or work.</div>
       <div class="mrJmYy_5">
         <div class="mrJmYy_5Left">
           <ul class="mrJmYy_5LeftList wow fadeInUp">
             <li><span><img src="../assets/images/mr/ico1.png" alt="" /></span>
-              <div>DTS: X- Ultra定制音效</div>
+              <div>DTS tailored sound effects</div>
             </li>
             <li><span><img src="../assets/images/mr/ico2.png" alt="" /></span>
-              <div>模拟7.1声道</div>
+              <div>Simulated 7.1 Channels</div>
             </li>
             <li><span><img src="../assets/images/mr/ico3.png" alt="" /></span>
-              <div>8大定制音效 </div>
+              <div>8 Custom Sound Settings</div>
             </li>
             <li><span><img src="../assets/images/mr/ico4.png" alt="" /></span>
-              <div>全场景自适应</div>
+              <div>Scene-Adaptive Sound</div>
             </li>
           </ul>
         </div>
@@ -187,537 +187,554 @@
           <div><img class="img100" src="../assets/images/mr/img13.png" alt="" /></div>
         </div>
       </div>
-      <div class="f147 bolder mrjbs mrJmYy_6 wow fadeInUp">真8K视网膜级空间屏<br>
-        纤毫毕现 沉浸绚烂视界</div>
-      <div class="f60 mrJmYy_2 wow fadeInUp">Micro-OLED 显示屏带来的高分辨率画质, 清晰呈现大场面中的小细节, 还原绮丽色彩, 真正实现双目8K。
+      <div class="f147 bolder mrjbs mrJmYy_6 wow fadeInUp">True 8K Retina-Level Spatial Screen<br>
+        Every Detail Unveiled, Immerse in a Brilliant World</div>
+      <div class="f60 mrJmYy_2 wow fadeInUp">Experience high-resolution visuals with Micro-OLED displays, clearly
+        presenting small details in grand scenes and restoring vivid colors, truly achieving dual 8K.
       </div>
     </div>
     <div class="mrJmYy_7"><img class="img100" src="../assets/images/mr/img14.png" alt="" /></div>
     <div class="w1700 mrJmYy_8"><img class="img100" src="../assets/images/mr/img15.png" alt="" /></div>
     <div class="w1700">
-      <div class="f110 bolder mrJmYy_4 wow fadeInUp">Pancake光学方案<br>
-        超轻, 超清晰</div>
-      <div class="f60 mrJmYy_2 wow fadeInUp">轻薄镜头, 12mm 眼盒设计, 消除镜边暗角, 佩戴清晰。
+      <div class="f110 bolder mrJmYy_4 wow fadeInUp">Pancake Optical Solution<br>
+        Ultra-Light, Ultra-Clear</div>
+      <div class="f60 mrJmYy_2 wow fadeInUp">Thin and light lenses with a 12mm eye box design eliminate vignette,
+        ensuring clarity while worn.
       </div>
       <div class="f72 mrJmYy_9 wow fadeInUp">
-        <span>中心区域45 PPD<img src="../assets/images/mr/ico12.png" alt="" /></span>
-        <span>双眼FOV<img src="../assets/images/mr/ico13.png" alt="" /></span>
+        <span>45 Center PPD (↑156%)<img src="../assets/images/mr/ico12.png" alt="" /></span>
+        <span>Dual-Eye FOV 103°<img src="../assets/images/mr/ico13.png" alt="" /></span>
       </div>
     </div>
     <div class="mrJmYy_10"><img class="img100" src="../assets/images/mr/img16.png" alt="" /></div>
     <div class="w1700">
-      <div class="f110 bolder mrJmYy_4 wow fadeInUp">空间计算机显示显示校准</div>
-      <div class="f60 mrJmYy_2 wow fadeInUp">逐台使用双屏校色算法平衡左右屏幕亮度、色温, 进行颜色校准, 实现色准 dE<3 ；逐台进行几何标定, 去除畸变, 降低眩晕,
-          实现双目合像误差 <0.01°。<span class="jb">5</span></div>
-      </div>
-      <div class="mrJmYy_11"><img class="img100" src="../assets/images/mr/img17.png" alt="" /></div>
-      <div class="w1700">
-        <div class="f110 bolder mrJmYy_4 wow fadeInUp">防蓝光舒适护眼</div>
-        <div class="f60 mrJmYy_2 wow fadeInUp">与德国莱茵 TÜV 合作, 严格符合 TÜV 低蓝光护眼标准。
-        </div>
-      </div>
-      <div class="mrJmYy_12"><img class="img100" src="../assets/images/mr/img18.png" alt="" /></div>
-      <div class="mrJmYy_13">
-        <img class="img100" src="../assets/images/mr/img19.png" alt="" />
-        <div class="f192 bolder mrjbs mrJmYy_13Tit wow fadeInUp">
-          3D空间视频<br>
-          带来全新影像革命
-        </div>
-      </div>
-      <div class="w1700 mrJmYy_14">
-        <div class="f147 bolder mrjbs mrJmYy_1 wow fadeInUp">
-          超清3D相机<br>
-          自由记录 跨越时空边界
-        </div>
-        <div class="f60 mrJmYy_2 wow fadeInUp">以第一视角拍摄的3D照片或视频, 可呈现出如时间倒流般真实观感, 让记忆更鲜活。
-        </div>
-        <div class="mrJmYy_15">
-          <div class="mrJmYy_15Left wow fadeInUp">
-            <div class="f83 mrjbs bolder mrJmYy_15Left_1">双3200万像素</div>
-            <div class="f45 mrJmYy_15Left_2">超高清相机</div>
-            <div class="f83 mrjbs bolder mrJmYy_15Left_1 mt100">兼容主流3D相机</div>
-            <div class="f45 mrJmYy_15Left_2">拍摄内容</div>
-            <div class="mrJmYy_15LeftBot mt100">
-              <div class="mrJmYy_15LeftBotMk">
-                <div class="f83 mrjbs bolder mrJmYy_15Left_1">>80°</div>
-                <div class="f45 mrJmYy_15Left_2">超广录制视场角<span class="jb">6</span></div>
-              </div>
-              <div class="mrJmYy_15LeftBotMk">
-                <div class="f83 mrjbs bolder mrJmYy_15Left_1">1T</div>
-                <div class="f45 mrJmYy_15Left_2">超大内存</div>
-              </div>
-            </div>
-
-          </div>
-          <div class="mrJmYy_15Right"><img class="img100" src="../assets/images/mr/img20.png" alt="" /></div>
-        </div>
-        <div class="f110 bolder mrJmYy_4 wow fadeInUp">EIS立体防抖大显身手<br>
-          稳稳捕捉高光时刻</div>
-        <div class="f60 mrJmYy_2 wow fadeInUp">不惧颠簸模糊, 随时捕捉流畅高清瞬间。
-        </div>
-        <div class="mrJmYy_16 wow fadeInUp"><img class="img100" src="../assets/images/mr/img21.png" alt="" /></div>
-        <div class="f110 bolder mrJmYy_4 wow fadeInUp">3D智能美颜 <span class="jb">7</span> </div>
-        <div class="f60 mrJmYy_2 wow fadeInUp">智能磨皮+美白滤镜, 让时空和记忆更美好。
-        </div>
-        <div class="mrJmYy_16 wow fadeInUp"><img class="img100" src="../assets/images/mr/img22.png" alt="" /></div>
-        <div class="f110 bolder mrJmYy_4 wow fadeInUp">支持更多格式<br>
-          照见无限精彩</div>
-        <div class="mrJmYy_17 wow fadeInUp"><img class="img100" src="../assets/images/mr/img46.png" alt="" /></div>
-      </div>
-      <div class="mrJmYy_13">
-        <img class="img100" src="../assets/images/mr/img23.png" alt="" />
-        <div class="f174 bolder mrjbs mrJmYy_13Tit wow fadeInUp">
-          AI+空间计算强强组合<br>
-          未来近在眼前
-        </div>
-      </div>
-      <div class="w1700 mrJmYy_14">
-        <div class="f147 bolder mrjbs mrJmYy_1 wow fadeInUp">
-          有AI助手<br>
-          生活与创作轻松出彩
-        </div>
-        <div class="aiBqNr">
-          <div class="aiBqNrMk">
-            <img class="img100" src="../assets/images/mr/img24.png" alt="" />
-            <div class="aiBqNrMkPos wow fadeInUp">
-              <div class="f77 colorfff aiBqNrMkPos_1">AI 全景图片补全 <span class="jb">8</span></div>
-              <div class="f45 aiBqNrMkPos_2">智能分析图像内容, 自动扩展和填补拍摄时遗漏的视野部分, 为你呈现更具创意和趣味性的3D全景内容。</div>
-            </div>
-          </div>
-        </div>
-        <div class="aiBqNr_2">
-          <div class="aiBqNrMk">
-            <img class="img100" src="../assets/images/mr/img25.png" alt="" />
-            <div class="aiBqNrMkPos wow fadeInUp">
-              <div class="f77 colorfff aiBqNrMkPos_1">AI 智能生活管家</div>
-              <div class="f45 aiBqNrMkPos_2">全天随时待命, 无论是信息查询、翻译还是虚拟陪伴都能帮你搞定。</div>
-            </div>
-          </div>
-          <div class="aiBqNrMk">
-            <img class="img100" src="../assets/images/mr/img26.png" alt="" />
-            <div class="aiBqNrMkPos wow fadeInUp">
-              <div class="f77 colorfff aiBqNrMkPos_1">AI 全能角色大师 <span class="jb">9</span></div>
-              <div class="f45 aiBqNrMkPos_2">可创建作业辅导、教育、陪伴、物件存放等多角色垂类模型, 让工作生活更轻松。</div>
-            </div>
-          </div>
-        </div>
-        <div class="aiBqNr mt30">
-          <div class="aiBqNrMk">
-            <img class="img100" src="../assets/images/mr/img27.png" alt="" />
-            <div class="aiBqNrMkPos wow fadeInUp">
-              <div class="f77 colorfff aiBqNrMkPos_1">AI 效率高手</div>
-              <div class="f45 aiBqNrMkPos_2">3D 生成器 <span class="jb">10</span>,  2D 图片快速生成 3D
-                资源, 在空间中多角度查看三维模型。<br>空间物体识别, 自动为你实时提供空间物体的信息讲解, 无需费力搜索。</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="mrJmYy_13 mt30">
-        <img class="img100" src="../assets/images/mr/img28.png" alt="" />
-        <div class="f205 bolder mrjbs mrJmYy_13Tit mt30 wow fadeInUp">
-          多模态空间<br>
-          交互新方式
-        </div>
-      </div>
-      <div class="w1700 mrJmYy_14">
-        <div class="f147 bolder mrjbs mrJmYy_1 wow fadeInUp">
-          全场景自适应<br>
-          懂你所看 知你所指
-        </div>
-        <div class="f60 mrJmYy_2 wow fadeInUp">多模态空间交互输入, 无论在游戏、影视还是办公场景中, 都可以精准操作, 流畅体验。
-        </div>
-        <div class="mrJmYy_18"><img class="img100" src="../assets/images/mr/img29.png" alt="" /></div>
-      </div>
-      <div class="mrJmYy_13 mt30">
-        <img class="img100" src="../assets/images/mr/img30.png" alt="" />
-        <div class="f179 bolder mrjbs mrJmYy_13Tit mt30 wow fadeInUp">
-          MR数字生活新空间<br>
-          无感虚实穿越
-        </div>
-      </div>
-      <div class="w1700 mrJmYy_14">
-        <div class="f147 bolder mrjbs_2 mrJmYy_1 wow fadeInUp">
-          无限新奇<br>
-          无限空间屏
-        </div>
-        <div class="f60 mrJmYy_2 wow fadeInUp">环形视野无限空间屏幕, 随意缩放、滑动拖拽或点按, 兼容主流办公应用和多屏串流, 实现多屏办公, 为你带来虚实结合的沉浸体验。
-        </div>
-        <div class="mrJmYy_18 wow fadeInUp"><img class="img100" src="../assets/images/mr/img31.png" alt="" /></div>
-        <div class="f154 bolder mrjbs_2 mrJmYy_19 wow fadeInUp">3D空间组件</div>
-        <div class="mrJmYy_20">
-          <div class="mrJmYy_20Left wow fadeInUp">
-            <div class="f60 mrJmYy_20Left_1">在特定的空间位置摆放3D空间组件<span class="jb">11</span>, 包括时钟、天气、虚拟宠物等,
-              可以根据自己的喜好个性化定制空间。</div>
-          </div>
-          <div class="mrJmYy_20Right"><img class="img100" src="../assets/images/mr/img32.png" alt="" /></div>
-        </div>
-        <div class="f147 bolder mrjbs mrJmYy_19 wow fadeInUp">低延迟彩色透视<br>
-          1:1还原真实物理空间</div>
-        <div class="mrJmYy_20">
-          <div class="mrJmYy_20Left wow fadeInUp">
-            <div class="f60 mrJmYy_20Left_1">VST 延迟低至14ms, 让你在MR世界中也能看清现实中快速移动的物体, 虚拟与现实无缝融合, 无级MR旋钮, 让你无界穿越虚拟和现实。</div>
-          </div>
-          <div class="mrJmYy_20Right"><img class="img100" src="../assets/images/mr/img33.png" alt="" /></div>
-        </div>
-      </div>
-      <div class="mrJmYy_13 mt30">
-        <img class="img100" src="../assets/images/mr/img34.png" alt="" />
-        <div class="f179 bolder mrjbs mrJmYy_13Tit mt30 wow fadeInUp">
-          海量游戏大作<br>
-          不同体验, 同样乐趣
-        </div>
-      </div>
-      <div class="w1700 mrJmYy_14">
-        <div class="f147 bolder mrjbs mrJmYy_1 wow fadeInUp">
-          1台在手应有尽有<br>
-          畅快嗨 都精彩
-        </div>
-        <div class="f60 mrJmYy_2 wow fadeInUp">
-          几百款娱乐应用, 一台设备多重享受, 射箭、休闲、节奏音游、健身等, MR 与 VR 游戏无缝切换, 2D 游戏大屏畅玩, 一键串流steam 6000+ 游戏大作自由选, 享受身临其境的沉浸体验。
-        </div>
-        <div class="mrJmYy_21 wow fadeInUp"><img class="img100" src="../assets/images/mr/img35.png" alt="" /></div>
-        <div class="f140 bolder mrjbs mrJmYy_1 mrJmYy_22 wow fadeInUp">
-          全新第二代高通骁龙XR2+<br>
-          性能强劲 澎湃视听
-        </div>
-      </div>
-      <div class="mrJmYy_23">
-        <img class="img100" src="../assets/images/mr/img47.png" alt="" />
-        <div class="w1700 mrJmYy_23Pos">
-          <div class="f60 mrJmYy_2 wow fadeInUp">XR 2+Gen 2 芯片大幅提升数据和图形处理能力, 储存更及时, 无惧大内存运行。</div>
-        </div>
-      </div>
-      <div class="nzZgSb">
-        <img class="img100" src="../assets/images/mr/img37.png" alt="" />
-        <div class="nzZgSbPos">
-          <div class="w1700">
-            <div class="f140 bolder mrjbs mrJmYy_1 wow fadeInUp">
-              拟真振感手柄<br>
-              无惧环境挑战 出手即高手
-            </div>
-            <div class="f60 mrJmYy_2 wow fadeInUp">
-              全场景拟真反馈, 后坐力、重力或拉力都可还原真实振感, 高速移动、户外强光、盲区干扰统统不在话下, 科学的人体工学设计, 握感贴合, 久握不累。
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="nzZgSb">
-        <img class="img100" src="../assets/images/mr/img38.png" alt="" />
-        <div class="nzZgSbPos">
-          <div class="w1700">
-            <div class="f140 bolder mrjbs mrJmYy_1 wow fadeInUp">
-              续航 3~3.5 小时<br>
-              一路畅玩到底
-            </div>
-            <div class="f60 mrJmYy_2 wow fadeInUp">
-              内置超大容量电池和外接充电宝双重方案, 支撑 3~3.5 小时无忧畅玩 <span class="jb">14</span>, 搭配高速氮化镓 45w 适配器, 轻巧携带随时连接, 快速充满电。
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="w1700 rhJxNr wow fadeInUp">
-        <div class="f60 colorfff">荣获多个一体化设计专利和红点设计奖</div>
-        <div class="rhJxNr_1">
-          <div class="f147 bolder mrjbs rhJxNr_1_1">一体式曲面设计<br>
-            超纤薄 超好看</div>
-          <div class="rhJxNr_1_2"><img class="img100" src="../assets/images/mr/img39.png" alt="" /></div>
-        </div>
-      </div>
-      <div class="w1700 qbHkNr">
-        <div class="f60 mrJmYy_2 wow fadeInUp qbHkNr_1">
-          通过无边框一体成型的弧形大镜面, 将眼镜与人完美融合, 创造出一种穿越时空的沉浸体验, 将科技与人文完美结合, 更获得多项专利, 舒适度大幅提升。
-        </div>
-        <div class="qbHkNr_2"><img class="img100" src="../assets/images/mr/img40.png" alt="" /></div>
-        <div class="qbHkNr_3">
-          <div class="qbHkNr_3Left">
-            <div class="qbHkNr_3Mk">
-              <img class="img100" src="../assets/images/mr/img41.png" alt="" />
-              <div class="qbHkNr_3MkPos">
-                <div class="f45 qbHkNr_3MkPos_1 wow fadeInUp">一体化嵌入式传感器<br>
-                  设计, Pancake 光学材质, <br>
-                  匿影藏形</div>
-              </div>
-            </div>
-          </div>
-          <div class="qbHkNr_3Right">
-            <div class="qbHkNr_3Mk">
-              <img class="img100" src="../assets/images/mr/img42.png" alt="" />
-              <div class="qbHkNr_3MkPos">
-                <div class="f45 qbHkNr_3MkPos_1 wow fadeInUp">一体化大曲面光学面板, <br>
-                  16 道工序精心打造, 减少畸变, <br>
-                  视野更广阔</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="qbHkNr_4">
-          <img class="img100" src="../assets/images/mr/img43.png" alt="" />
-          <div class="qbHkNr_4Left">
-            <div class="f75 colorfff qbHkNr_4Left_1 wow fadeInUp">一体化轻薄曲面电池</div>
-            <div class="f45 qbHkNr_3MkPos_1 wow fadeInUp">相比于平面电池, <br>
-              空间利用率更高, <br>
-              电池仓更薄, 佩戴更舒适</div>
-          </div>
-        </div>
-        <div class="qbHkNr_5">
-          <img class="img100" src="../assets/images/mr/img44.png" alt="" />
-          <div class="qbHkNr_5Pos">
-            <div class="f75 colorfff qbHkNr_4Left_1 textCenter wow fadeInUp">人体工学佩戴设计, 轻盈不压面</div>
-            <div class="f45 qbHkNr_3MkPos_1 textCenter wow fadeInUp">3: 2 平衡配重, 航空级材质, 2000+ 真人模型主客观<br>
-              测试适配广泛人群, 面部少压迫, 佩戴更舒适。</div>
-          </div>
-        </div>
-        <div class="qbHkNr_5">
-          <img class="img100" src="../assets/images/mr/img45.png" alt="" />
-          <div class="qbHkNr_5Pos">
-            <div class="f75 colorfff qbHkNr_4Left_1 textCenter wow fadeInUp">自动调节瞳距, 适配一步到位</div>
-            <div class="f45 qbHkNr_3MkPos_1 textCenter wow fadeInUp">瞳距兼容更大范围 51mm-78mm , 自适应调节, <br>
-              一键即可自动调整, 戴上即可享受清晰视野。</div>
-          </div>
-        </div>
-        <div class="f110 bolder mrJmYy_4 wow fadeInUp">多终端空间互联, <br>
-          全面适配</div>
-        <div class="jrYYMk wow fadeInUp">
-          <div class="jrYYMkIco"><img src="../assets/images/mr/ico7.png" alt="" /></div>
-          <div class="jrYYMkRig">
-            <div class="f79 colorfff jrYYMkRig_1">兼容 2D 原生 Android 应用 </div>
-            <div class="f45 jrYYMkRig_2">兼容 Android 优质内容, 更大屏幕, <br>
-              带来不一样的畅爽体验。</div>
-          </div>
-        </div>
-        <div class="jrYYBot wow fadeInUp">
-          <div class="jrYYBotMk">
-            <div class="jrYYMkIco"><img src="../assets/images/mr/ico8.png" alt="" /></div>
-            <div class="f56 colorfff jrYYMkRig_1">兼容 DRM 保护</div>
-            <div class="f41 jrYYMkRig_2">支持海内外各种流媒体服务和应用, <br>
-              尽享高清视频与游戏。</div>
-          </div>
-          <div class="jrYYBotMk">
-            <div class="jrYYMkIco"><img src="../assets/images/mr/ico9.png" alt="" /></div>
-            <div class="f56 colorfff jrYYMkRig_1">支持解析 HDR 影片</div>
-            <div class="f41 jrYYMkRig_2">更高的动态范围, 更出色<br>
-              的色彩还原, 感受生动之美。</div>
-          </div>
-        </div>
-        <div class="jrYYBot wow fadeInUp">
-          <div class="jrYYBotMk">
-            <div class="jrYYMkIco"><img src="../assets/images/mr/ico10.png" alt="" /></div>
-            <div class="f56 colorfff jrYYMkRig_1">Steam VR 串流</div>
-            <div class="f41 jrYYMkRig_2">更多高品质游戏大作等你体验, <br>
-              感受极致的 VR 游戏魅力。</div>
-          </div>
-          <div class="jrYYBotMk">
-            <div class="jrYYMkIco"><img src="../assets/images/mr/ico11.png" alt="" /></div>
-            <div class="f56 colorfff jrYYMkRig_1">PC 桌面串流</div>
-            <div class="f41 jrYYMkRig_2">拥有更大、更多、更自由的屏幕<br>
-              释放空间超能力, 办公或游戏<br>
-              不再受屏幕大小与数量限制。</div>
-          </div>
-        </div>
-        <div class="f147 bolder mrjbs_1 mrJmYy_1 cpCsNr wow fadeInUp">
-          产品参数
-        </div>
-        <div class="cpCsNrMk wow fadeInUp">
-          <div class="cpCsNrMkLeft">
-            <div class="f64 cpCsNrMkLeft_1">外观尺寸<br>
-              及重量：</div>
-          </div>
-          <div class="cpCsNrMkRight">
-            <div class="f61 cpCsNrMkRight_1">
-              <p>整机重量 (含电池)：650g</p>
-              <p>长：284</p>
-              <p>宽：186</p>
-              <p>高：84</p>
-            </div>
-          </div>
-        </div>
-        <div class="cpCsNrMk wow fadeInUp">
-          <div class="cpCsNrMkLeft">
-            <div class="f64 cpCsNrMkLeft_1">显示：</div>
-          </div>
-          <div class="cpCsNrMkRight">
-            <div class="f61 cpCsNrMkRight_1">
-              <p>屏幕：Micro-OLED</p>
-              <p>单眼分辨率：3840x3552</p>
-              <p>像素密度：3882 PPI</p>
-              <p>刷新率：90Hz</p>
-            </div>
-          </div>
-        </div>
-        <div class="cpCsNrMk wow fadeInUp">
-          <div class="cpCsNrMkLeft">
-            <div class="f64 cpCsNrMkLeft_1">光学：</div>
-          </div>
-          <div class="cpCsNrMkRight">
-            <div class="f61 cpCsNrMkRight_1">
-              <p>透镜：Pancake</p>
-              <p>FOV：103°</p>
-              <p>瞳距范围：自动瞳距调节, 瞳距</p>
-              <p>兼容范围 51mm-78mm</p>
-              <p>近视：支持定制磁吸镜片</p>
-            </div>
-          </div>
-        </div>
-        <div class="cpCsNrMk wow fadeInUp">
-          <div class="cpCsNrMkLeft">
-            <div class="f64 cpCsNrMkLeft_1">摄像头/<br>
-              传感器：</div>
-          </div>
-          <div class="cpCsNrMkRight">
-            <div class="f61 cpCsNrMkRight_1">
-              <p>彩色透视摄像头</p>
-              <p>向外追踪摄像头</p>
-              <p>眼动摄像头</p>
-              <p>深度摄像头</p>
-              <p>重力传感器</p>
-              <p>陀螺仪</p>
-              <p>佩戴检测传感器</p>
-            </div>
-          </div>
-        </div>
-        <div class="cpCsNrMk wow fadeInUp">
-          <div class="cpCsNrMkLeft">
-            <div class="f64 cpCsNrMkLeft_1">音频：</div>
-          </div>
-          <div class="cpCsNrMkRight">
-            <div class="f61 cpCsNrMkRight_1">
-              <p>麦克风： 4个全指向麦克风</p>
-              <p>扬声器：2个立体声喇叭</p>
-              <p>音效：DTS: X Ultra定制音效</p>
-            </div>
-          </div>
-        </div>
-        <div class="cpCsNrMk wow fadeInUp">
-          <div class="cpCsNrMkLeft">
-            <div class="f64 cpCsNrMkLeft_1">充电续航：</div>
-          </div>
-          <div class="cpCsNrMkRight">
-            <div class="f61 cpCsNrMkRight_1">
-              <p>头带电池容量：5060mA<span class="jb">15</span></p>
-              <p>外接充电宝电池容量：10000mAh<span class="jb">16</span>；</p>
-              <p>支持 30W+ 快充</p>
-            </div>
-          </div>
-        </div>
-        <div class="cpCsNrMk wow fadeInUp">
-          <div class="cpCsNrMkLeft">
-            <div class="f64 cpCsNrMkLeft_1">接口：</div>
-          </div>
-          <div class="cpCsNrMkRight">
-            <div class="f61 cpCsNrMkRight_1">
-              <p>电源键</p>
-              <p>旋钮键</p>
-              <p>全功能 Type C 接口：支持充放电, </p>
-              <p>数据传输, 音频</p>
-            </div>
-          </div>
-        </div>
-        <div class="cpCsNrMk wow fadeInUp">
-          <div class="cpCsNrMkLeft">
-            <div class="f64 cpCsNrMkLeft_1">手柄：</div>
-          </div>
-          <div class="cpCsNrMkRight">
-            <div class="f61 cpCsNrMkRight_1">
-              <p>双 6DoF 红外光学手柄</p>
-              <p>追踪范围：270°×210°</p>
-              <p>6 轴传感器</p>
-              <p>续航时间：35小时</p>
-            </div>
-          </div>
-        </div>
-        <div class="cpCsNrMk wow fadeInUp">
-          <div class="cpCsNrMkLeft">
-            <div class="f64 cpCsNrMkLeft_1">连接支持：</div>
-          </div>
-          <div class="cpCsNrMkRight">
-            <div class="f61 cpCsNrMkRight_1">
-              <p>WiFi 7</p>
-              <p>蓝牙 BT5.3</p>
-            </div>
-          </div>
-        </div>
-        <div class="cpCsNrMk wow fadeInUp">
-          <div class="cpCsNrMkLeft">
-            <div class="f64 cpCsNrMkLeft_1">环境要求:</div>
-          </div>
-          <div class="cpCsNrMkRight">
-
-          </div>
-        </div>
-        <div class="wow fadeInUp">
-          <table class="f61 cpCsNrMkTable" border="" cellspacing="" cellpadding="">
-            <tr>
-              <td>环境</td>
-              <td>工作温度</td>
-              <td>0℃-40℃</td>
-            </tr>
-            <tr>
-              <td>&nbsp;</td>
-              <td>存储温度</td>
-              <td>-20℃-60℃</td>
-            </tr>
-            <tr>
-              <td>&nbsp;</td>
-              <td>湿度</td>
-              <td>5%~95%</td>
-            </tr>
-            <tr>
-              <td>&nbsp;</td>
-              <td>海拔</td>
-              <td>50-5000 米</td>
-            </tr>
-          </table>
-        </div>
-        <div class="f147 bolder mrjbs_1 mrJmYy_1 cpCsNr wow fadeInUp">
-          包装清单
-        </div>
-        <div class="f61 bzQdList wow fadeInUp">
-          <ul>
-            <li>MR眼镜×1</li>
-            <li>手柄×2</li>
-            <li>便携式充电宝 x 1</li>   <li>快充充电器×1</li>
-            <li>可替换磁吸泡棉（厚款） x 1</li>
-            <li>头显数据/充电线×1</li>
-            <li>双头手柄充电线×1</li>
-            <li>说明书×1</li>    <li>擦镜布×1</li>  <li>电线固定夹 x 1</li>
-          </ul>
-        </div>
-        <div class="f147 bolder mrjbs mrJmYy_1 cpCsNr wow fadeInUp">
-          10年技术沉淀<br>
-          26年集团品牌保障
-        </div>
-        <div class="jtPPBzVideo"><video style="width: 100%;height: auto;" id="" src="../assets/video/mr.mp4" loop
-            autoplay muted></video></div>
-        <div class="f64 colorfff bzNr_1 wow fadeInUp">备注：</div>
-        <div class="f38 bzNr_2 wow fadeInUp">
-          <p>1. 数据来自屏幕厂商规格</p>
-          <p>2. 数据来自屏幕厂商规格, 基于玩出梦想 MR 和 YVR 2 产品的对比</p>
-          <p>3. 数据来自玩出梦想实验室, 基于玩出梦想MR和 YVR 2 产品的对比</p>
-          <p>4. 数据来自玩出梦想实验室</p>
-          <p>5. 数据来自玩出梦想实验室</p>
-          <p>6. 数据来自玩出梦想实验室</p>
-          <p>7. 3D 智能美颜待后续 OTA 更新</p>
-          <p>8. AI360 全景图片补全待后续 OTA 更新</p>
-          <p>9. AI 角色大师待后续 OTA 更新</p>
-          <p>10. 3D 生成器待后续 OTA 更新</p>
-          <p>11. 3D 空间组件待 OTA 更新</p>
-          <p>12. 数据来自高通厂商</p>
-          <p>13. 存储容量为 512GB 版与 1TB 版, 请根据需要选择规格</p>
-          <p>14. 数据来自玩出梦想实验室, 基于内置电池+外接充电宝供电方案, 对沉浸式游戏场景进行测试的结果。</p>
-          <p>15. 产品采用双电池串联设计, 等效于 5060mAh（3.88V) , 19.6Wh 电池容量</p>
-          <p>16. 产品采用双电池串联设计, 等效于 10000mAh（3.7V) , 37Wh 电池容量</p>
-        </div>
-
-
-
-
-
-
-      </div>
-
-
-      <footerbottom></footerbottom>
+      <div class="f110 bolder mrJmYy_4 wow fadeInUp">Spatial Computer Display Calibration</div>
+      <div class="f60 mrJmYy_2 wow fadeInUp">Each unit uses dual-screen color calibration algorithms to balance
+        brightness and color temperature of the left and right screens, achieving color accuracy with a delta E of <3.
+          Each unit undergoes geometric calibration to remove distortion, reduce dizziness, and ensure binocular
+          alignment error of <0.01°.<span class="jb">5</span></div>
     </div>
+    <div class="mrJmYy_11"><img class="img100" src="../assets/images/mr/img17.png" alt="" /></div>
+    <div class="w1700">
+      <div class="f110 bolder mrJmYy_4 wow fadeInUp">Blue Light Protection for Comfortable Eyes</div>
+      <div class="f60 mrJmYy_2 wow fadeInUp">In collaboration with TÜV Rheinland from Germany, strictly adhering to TÜV
+        low blue light eye protection standards.
+      </div>
+    </div>
+    <div class="mrJmYy_12"><img class="img100" src="../assets/images/mr/img18.png" alt="" /></div>
+    <div class="mrJmYy_13">
+      <img class="img100" src="../assets/images/mr/img19.png" alt="" />
+      <div class="f192 bolder mrjbs mrJmYy_13Tit wow fadeInUp">
+        3D Spatial Video<br>
+        A New Revolution in Imaging
+      </div>
+    </div>
+    <div class="w1700 mrJmYy_14">
+      <div class="f147 bolder mrjbs mrJmYy_1 wow fadeInUp">
+        Ultra-clear 3D Camera<br>
+        Capture Freely, Transcend Time and Space
+      </div>
+      <div class="f60 mrJmYy_2 wow fadeInUp">First-person perspective 3D photos and videos provide an immersive
+        experience that feels like traveling back in time, making memories more vivid.
+      </div>
+      <div class="mrJmYy_15">
+        <div class="mrJmYy_15Left wow fadeInUp">
+          <div class="f83 mrjbs bolder mrJmYy_15Left_1">Dual 32MP Ultra</div>
+          <div class="f45 mrJmYy_15Left_2">HD Cameras</div>
+          <div class="f83 mrjbs bolder mrJmYy_15Left_1 mt100">Compatible with Mainstream 3D Camera</div>
+          <div class="f45 mrJmYy_15Left_2">Content</div>
+          <div class="mrJmYy_15LeftBot mt100">
+            <div class="mrJmYy_15LeftBotMk">
+              <div class="f83 mrjbs bolder mrJmYy_15Left_1">>80°</div>
+              <div class="f45 mrJmYy_15Left_2">Ultra-Wide Recording Field of View<span class="jb">6</span></div>
+            </div>
+            <div class="mrJmYy_15LeftBotMk">
+              <div class="f83 mrjbs bolder mrJmYy_15Left_1">1TB</div>
+              <div class="f45 mrJmYy_15Left_2">Large Storage</div>
+            </div>
+          </div>
+        </div>
+        <div class="mrJmYy_15Right"><img class="img100" src="../assets/images/mr/img20.png" alt="" /></div>
+      </div>
+      <div class="f110 bolder mrJmYy_4 wow fadeInUp">EIS Stereo Stabilization Shines,<br>
+        Steadily Capturing Highlight Moments</div>
+      <div class="f60 mrJmYy_2 wow fadeInUp">Fearlessly capture smooth and clear moments without blur, even in shaky
+        conditions
+      </div>
+      <div class="mrJmYy_16 wow fadeInUp"><img class="img100" src="../assets/images/mr/img21.png" alt="" /></div>
+      <div class="f110 bolder mrJmYy_4 wow fadeInUp">3D Intelligent Beautification <span class="jb">7</span> </div>
+      <div class="f60 mrJmYy_2 wow fadeInUp">Smart skin smoothing + whitening filter, making time and memories even more
+        beautiful
+      </div>
+      <div class="mrJmYy_16 wow fadeInUp"><img class="img100" src="../assets/images/mr/img22.png" alt="" /></div>
+      <div class="f110 bolder mrJmYy_4 wow fadeInUp">Support More Formats to Capture Unlimited Wonderful Moments</div>
+      <div class="mrJmYy_17 wow fadeInUp"><img class="img100" src="../assets/images/mr/img46.png" alt="" /></div>
+    </div>
+    <div class="mrJmYy_13">
+      <img class="img100" src="../assets/images/mr/img23.png" alt="" />
+      <div class="f174 bolder mrjbs mrJmYy_13Tit wow fadeInUp">
+        AI + Spatial Computing: A Powerful Combination<br>
+        The Future is Within Reach
+      </div>
+    </div>
+    <div class="w1700 mrJmYy_14">
+      <div class="f147 bolder mrjbs mrJmYy_1 wow fadeInUp">
+        With AI Assistant<br>
+        Life and Creation Made Effortless
+      </div>
+      <div class="aiBqNr">
+        <div class="aiBqNrMk">
+          <img class="img100" src="../assets/images/mr/img24.png" alt="" />
+          <div class="aiBqNrMkPos wow fadeInUp">
+            <div class="f77 colorfff aiBqNrMkPos_1">AI Panoramic Image Completion <span class="jb">8</span></div>
+            <div class="f45 aiBqNrMkPos_2">Intelligently analyzes image content, automatically expanding and filling in
+              missing parts of the scene during shooting, presenting you with more creative and interesting 3D panoramic
+              content.</div>
+          </div>
+        </div>
+      </div>
+      <div class="aiBqNr_2">
+        <div class="aiBqNrMk">
+          <img class="img100" src="../assets/images/mr/img25.png" alt="" />
+          <div class="aiBqNrMkPos wow fadeInUp">
+            <div class="f77 colorfff aiBqNrMkPos_1">AI Intelligent Life Assistant</div>
+            <div class="f45 aiBqNrMkPos_2">On standby 24/7, ready to assist with information queries, translations, or
+              virtual companionship.</div>
+          </div>
+        </div>
+        <div class="aiBqNrMk">
+          <img class="img100" src="../assets/images/mr/img26.png" alt="" />
+          <div class="aiBqNrMkPos wow fadeInUp">
+            <div class="f77 colorfff aiBqNrMkPos_1">AI Multi-role Master <span class="jb">9</span></div>
+            <div class="f45 aiBqNrMkPos_2">Create specialized models for homework tutoring, education, companionship,
+              and item storage, making work and life easier.</div>
+          </div>
+        </div>
+      </div>
+      <div class="aiBqNr mt30">
+        <div class="aiBqNrMk">
+          <img class="img100" src="../assets/images/mr/img27.png" alt="" />
+          <div class="aiBqNrMkPos wow fadeInUp">
+            <div class="f77 colorfff aiBqNrMkPos_1">AI Productivity Powerhouse</div>
+            <div class="f45 aiBqNrMkPos_2">3D Generator: Quickly convert 2D images into 3D resources, allowing you to
+              view 3D models from multiple angles in space. Spatial object recognition provides real-time information on
+              objects in your environment, eliminating the need for tedious searches.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mrJmYy_13 mt30">
+      <img class="img100" src="../assets/images/mr/img28.png" alt="" />
+      <div class="f205 bolder mrjbs mrJmYy_13Tit mt30 wow fadeInUp">
+        New Multimodal Spatial Interaction Method<br>
+        Full-Scene Adaptation
+      </div>
+    </div>
+    <div class="w1700 mrJmYy_14">
+      <div class="f147 bolder mrjbs mrJmYy_1 wow fadeInUp">
+        Understands What You See, <br>Knows What You Point At
+      </div>
+      <div class="f60 mrJmYy_2 wow fadeInUp">Multimodal spatial interaction input ensures precise operation and smooth
+        experience across gaming, entertainment, and work scenarios.
+      </div>
+      <div class="mrJmYy_18"><img class="img100" src="../assets/images/mr/img29.png" alt="" /></div>
+    </div>
+    <div class="mrJmYy_13 mt30">
+      <img class="img100" src="../assets/images/mr/img30.png" alt="" />
+      <div class="f179 bolder mrjbs mrJmYy_13Tit mt30 wow fadeInUp">
+        New Space of MR Digital Life<br>
+        Seamless Virtual-Real Transition
+      </div>
+    </div>
+    <div class="w1700 mrJmYy_14">
+      <div class="f147 bolder mrjbs_2 mrJmYy_1 wow fadeInUp">
+        Endless Novelty,<br>
+        Infinite Space Screens
+      </div>
+      <div class="f60 mrJmYy_2 wow fadeInUp">Enjoy an infinite space screen with an immersive ring view that allows for
+        easy zooming, sliding, dragging, or tapping. Compatible with mainstream office applications and multi-screen
+        streaming, it enables multi-screen work for a blended virtual and real immersive experience.
+      </div>
+      <div class="mrJmYy_18 wow fadeInUp"><img class="img100" src="../assets/images/mr/img31.png" alt="" /></div>
+      <div class="f154 bolder mrjbs_2 mrJmYy_19 wow fadeInUp">3D Spatial Components</div>
+      <div class="mrJmYy_20">
+        <div class="mrJmYy_20Left wow fadeInUp">
+          <div class="f60 mrJmYy_20Left_1">Place 3D spatial components at specific locations, including clocks, weather
+            updates, virtual pets, and more. Customize your space to suit your preferences.</div>
+        </div>
+        <div class="mrJmYy_20Right"><img class="img100" src="../assets/images/mr/img32.png" alt="" /></div>
+      </div>
+      <div class="f147 bolder mrjbs mrJmYy_19 wow fadeInUp">Low Latency Color Passthrough<br>
+        1:1 Realistic Physical Space Reproduction</div>
+      <div class="mrJmYy_20">
+        <div class="mrJmYy_20Left wow fadeInUp">
+          <div class="f60 mrJmYy_20Left_1">With VST latency as low as 14ms, you can clearly see fast-moving objects in
+            the real world while in the MR environment, achieving seamless integration of virtual and reality.<br>
+            The stepless MR dial allows you to effortlessly transition between virtual and real worlds.</div>
+        </div>
+        <div class="mrJmYy_20Right"><img class="img100" src="../assets/images/mr/img33.png" alt="" /></div>
+      </div>
+    </div>
+    <div class="mrJmYy_13 mt30">
+      <img class="img100" src="../assets/images/mr/img34.png" alt="" />
+      <div class="f179 bolder mrjbs mrJmYy_13Tit mt30 wow fadeInUp">
+        Vast Library of Games<br>
+        Different Experiences, Same Fun
+      </div>
+    </div>
+    <div class="w1700 mrJmYy_14">
+      <div class="f147 bolder mrjbs mrJmYy_1 wow fadeInUp">
+        One Device, Endless Entertainment<br>
+        Enjoy it All, Every Moment is Exciting
+      </div>
+      <div class="f60 mrJmYy_2 wow fadeInUp">
+        With hundreds of entertainment applications, one device offers multiple forms of enjoyment, including archery,
+        casual games,rhythm games, fitness, and more. Seamlessly switch between MR and VR games, play 2D games on a
+        large screen, and stream over 6000 Steam AAA games with a single click, immersing yourself in a truly
+        captivating experience.
+      </div>
+      <div class="mrJmYy_21 wow fadeInUp"><img class="img100" src="../assets/images/mr/img35.png" alt="" /></div>
+      <div class="f140 bolder mrjbs mrJmYy_1 mrJmYy_22 wow fadeInUp">
+        All-New Second-Generation Qualcomm Snapdragon XR2+<br>
+        Powerful Performance, Immersive Audio-Visual Experience
+      </div>
+    </div>
+    <div class="mrJmYy_23">
+      <img class="img100" src="../assets/images/mr/img47.png" alt="" />
+      <div class="w1700 mrJmYy_23Pos">
+        <div class="f60 mrJmYy_2 wow fadeInUp">The XR2+ Gen 2 chip significantly enhances data and graphics processing
+          capabilities, ensuring timely storage and smooth operation even with large memory demands.</div>
+      </div>
+    </div>
+    <div class="nzZgSb">
+      <img class="img100" src="../assets/images/mr/img37.png" alt="" />
+      <div class="nzZgSbPos">
+        <div class="w1700">
+          <div class="f140 bolder mrjbs mrJmYy_1 wow fadeInUp">
+            Realistic Vibration Controller<br>
+            Unfazed by Environmental Challenges, Mastery at Your Hands
+          </div>
+          <div class="f60 mrJmYy_2 wow fadeInUp">
+            All-scenario realistic feedback simulates recoil, gravity, and tension, providing true-to-life vibrations.
+            Perform effortlessly in high-speed movements, strong outdoor light, and blind spot interference.
+            Ergonomically designed for a comfortable grip that feels natural and fatigue-free even during extended use.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nzZgSb">
+      <img class="img100" src="../assets/images/mr/img38.png" alt="" />
+      <div class="nzZgSbPos">
+        <div class="w1700">
+          <div class="f140 bolder mrjbs mrJmYy_1 wow fadeInUp">
+            3 to 3.5 Hours Battery Life<br>
+            Unstop Play All the Way
+          </div>
+          <div class="f60 mrJmYy_2 wow fadeInUp">
+            Built-in high-capacity battery and external power bank provide dual solutions, supporting 3 to 3.5 hours of
+            worry-free play. Paired with a fast-charging 45W GaN adapter, enjoy lightweight, easy to carry, and quickly
+            recharges anytime.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w1700 rhJxNr wow fadeInUp">
+      <div class="f60 colorfff">Winner of Multiple Integrated Design Patents and Red Dot Design Award</div>
+      <div class="rhJxNr_1">
+        <div class="f147 bolder mrjbs rhJxNr_1_1">Seamless Curved Design<br>
+          Ultra-Thin, Ultra-Beauty</div>
+        <div class="rhJxNr_1_2"><img class="img100" src="../assets/images/mr/img39.png" alt="" /></div>
+      </div>
+    </div>
+    <div class="w1700 qbHkNr">
+      <div class="f60 mrJmYy_2 wow fadeInUp qbHkNr_1">
+        The frameless, integrated curved mirror design perfectly fuses the device with the wearer, creating an immersive
+        experience that transcends time and space. This design, which beautifully combines technology and humanity, has
+        earned multiple patents and significantly enhances comfort.
+      </div>
+      <div class="qbHkNr_2"><img class="img100" src="../assets/images/mr/img40.png" alt="" /></div>
+      <div class="qbHkNr_3">
+        <div class="qbHkNr_3Left">
+          <div class="qbHkNr_3Mk">
+            <img class="img100" src="../assets/images/mr/img41.png" alt="" />
+            <div class="qbHkNr_3MkPos">
+              <div class="f45 qbHkNr_3MkPos_1 wow fadeInUp">Integrated embedded sensor design, Pancake optical material,
+                make sensors invisible from outside</div>
+            </div>
+          </div>
+        </div>
+        <div class="qbHkNr_3Right">
+          <div class="qbHkNr_3Mk">
+            <img class="img100" src="../assets/images/mr/img42.png" alt="" />
+            <div class="qbHkNr_3MkPos">
+              <div class="f45 qbHkNr_3MkPos_1 wow fadeInUp">Integrated large curved optical panel, meticulously crafted
+                with 16 processes, reduces distortion, offers a wider field of view</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="qbHkNr_4">
+        <img class="img100" src="../assets/images/mr/img43.png" alt="" />
+        <div class="qbHkNr_4Left">
+          <div class="f75 colorfff qbHkNr_4Left_1 wow fadeInUp">Integrated light-weight curved battery, </div>
+          <div class="f45 qbHkNr_3MkPos_1 wow fadeInUp">compared to flat batteries, offers higher space utilization, a
+            thinner battery compartment, and more comfortable wear.</div>
+        </div>
+      </div>
+      <div class="qbHkNr_5">
+        <img class="img100" src="../assets/images/mr/img44.png" alt="" />
+        <div class="qbHkNr_5Pos">
+          <div class="f75 colorfff qbHkNr_4Left_1 textCenter wow fadeInUp">Ergonomic wear design, weightless feel,
+            minimize pressure on the face</div>
+          <div class="f45 qbHkNr_3MkPos_1 textCenter wow fadeInUp">3:2 balanced weight distribution, aerospace-grade
+            material, 2000+ real human models tested for broad compatibility, minimize pressure on the face, more
+            comfortable to wear.</div>
+        </div>
+      </div>
+      <div class="qbHkNr_5">
+        <img class="img100" src="../assets/images/mr/img45.png" alt="" />
+        <div class="qbHkNr_5Pos">
+          <div class="f75 colorfff qbHkNr_4Left_1 textCenter wow fadeInUp">Automatic Interpupillary Distance (IPD)
+            adjustment for a perfect fit in one click</div>
+          <div class="f45 qbHkNr_3MkPos_1 textCenter wow fadeInUp">Compatible with a wider range of IPD (51mm-78mm),
+            adaptive adjustment, one-click auto-adjustment for clear vision instantly</div>
+        </div>
+      </div>
+      <div class="f110 bolder mrJmYy_4 wow fadeInUp">Multi-terminal spatial connectivity,<br>
+        fully compatible with various devices</div>
+      <div class="jrYYMk wow fadeInUp">
+        <div class="jrYYMkIco"><img src="../assets/images/mr/ico7.png" alt="" /></div>
+        <div class="jrYYMkRig">
+          <div class="f79 colorfff jrYYMkRig_1">Compatible with native 2D Android Apps</div>
+          <div class="f45 jrYYMkRig_2">Compatible with premium Android content, offering a larger screen for an enhanced
+            and refreshing experience</div>
+        </div>
+      </div>
+      <div class="jrYYBot wow fadeInUp">
+        <div class="jrYYBotMk">
+          <div class="jrYYMkIco"><img src="../assets/images/mr/ico8.png" alt="" /></div>
+          <div class="f56 colorfff jrYYMkRig_1">Compatible with DRM protection</div>
+          <div class="f41 jrYYMkRig_2">Supports various streaming services and applications worldwide, allowing users to
+            enjoy high-definition videos and games.</div>
+        </div>
+        <div class="jrYYBotMk">
+          <div class="jrYYMkIco"><img src="../assets/images/mr/ico9.png" alt="" /></div>
+          <div class="f56 colorfff jrYYMkRig_1">Supports HDR video decoding</div>
+          <div class="f41 jrYYMkRig_2">Higher dynamic range and superior color reproduction for a vivid and stunning
+            visual experience.</div>
+        </div>
+      </div>
+      <div class="jrYYBot wow fadeInUp">
+        <div class="jrYYBotMk">
+          <div class="jrYYMkIco"><img src="../assets/images/mr/ico10.png" alt="" /></div>
+          <div class="f56 colorfff jrYYMkRig_1">Steam VR streaming</div>
+          <div class="f41 jrYYMkRig_2">Enjoy a vast selection of high-quality AAA games, immersing in the ultimate VR
+            gaming experience.</div>
+        </div>
+        <div class="jrYYBotMk">
+          <div class="jrYYMkIco"><img src="../assets/images/mr/ico11.png" alt="" /></div>
+          <div class="f56 colorfff jrYYMkRig_1">PC desktop streaming</div>
+          <div class="f41 jrYYMkRig_2">Experience larger, more numerous, and more flexible screens, unleashing spatial
+            powers for working and gaming without the limitations of screen size and quantity.</div>
+        </div>
+      </div>
+      <div class="f147 bolder mrjbs_1 mrJmYy_1 cpCsNr wow fadeInUp">
+        Product Specifications
+      </div>
+      <div class="cpCsNrMk wow fadeInUp">
+        <div class="cpCsNrMkLeft">
+          <div class="f64 cpCsNrMkLeft_1">Dimensions<br>
+            and Weight:</div>
+        </div>
+        <div class="cpCsNrMkRight">
+          <div class="f61 cpCsNrMkRight_1">
+            <p>Total weight (including battery): 650g</p>
+            <p>Length: 284mm</p>
+            <p>Width: 186mm</p>
+            <p>Height: 84mm</p>
+          </div>
+        </div>
+      </div>
+      <div class="cpCsNrMk wow fadeInUp">
+        <div class="cpCsNrMkLeft">
+          <div class="f64 cpCsNrMkLeft_1">Display:</div>
+        </div>
+        <div class="cpCsNrMkRight">
+          <div class="f61 cpCsNrMkRight_1">
+            <p>Screen: Micro-OLED</p>
+            <p>Single Eye Resolution: 3840x3552</p>
+            <p>Pixel Density: 3882 PPI</p>
+            <p>Refresh Rate: 90Hz</p>
+          </div>
+        </div>
+      </div>
+      <div class="cpCsNrMk wow fadeInUp">
+        <div class="cpCsNrMkLeft">
+          <div class="f64 cpCsNrMkLeft_1">Optics:</div>
+        </div>
+        <div class="cpCsNrMkRight">
+          <div class="f61 cpCsNrMkRight_1">
+            <p>Lens: Pancake</p>
+            <p>FOV: 103°</p>
+            <p>Interpupillary Distance (IPD) Range: Automatic IPD adjustment, compatible range 51mm-78mm</p>
+            <p>Myopia: Supports custom magnetic lenses</p>
+          </div>
+        </div>
+      </div>
+      <div class="cpCsNrMk wow fadeInUp">
+        <div class="cpCsNrMkLeft">
+          <div class="f64 cpCsNrMkLeft_1">Cameras<br>
+            Sensors:</div>
+        </div>
+        <div class="cpCsNrMkRight">
+          <div class="f61 cpCsNrMkRight_1">
+            <p>Color Passthrough Camera</p>
+            <p>Outward Tracking Cameras</p>
+            <p>Eye-Tracking Cameras</p>
+            <p>Depth Camera</p>
+            <p>Accelerometer</p>
+            <p>Gyroscope</p>
+            <p>Wear Detection Sensor</p>
+          </div>
+        </div>
+      </div>
+      <div class="cpCsNrMk wow fadeInUp">
+        <div class="cpCsNrMkLeft">
+          <div class="f64 cpCsNrMkLeft_1">Audio:</div>
+        </div>
+        <div class="cpCsNrMkRight">
+          <div class="f61 cpCsNrMkRight_1">
+            <p>Microphones: 4 Omnidirectional Microphones</p>
+            <p>Speakers: 2 Stereo Speakers</p>
+            <p>Sound Effects: DTS X Ultra Customized Spatial Sound Effects</p>
+          </div>
+        </div>
+      </div>
+      <div class="cpCsNrMk wow fadeInUp">
+        <div class="cpCsNrMkLeft">
+          <div class="f64 cpCsNrMkLeft_1">Battery Life:</div>
+        </div>
+        <div class="cpCsNrMkRight">
+          <div class="f61 cpCsNrMkRight_1">
+            <p>Headband Battery Capacity: 5060mAh</p>
+            <p>External Power Bank Battery Capacity: 10000mAh</p>
+            <p>Supports 30W+ Fast Charging</p>
+          </div>
+        </div>
+      </div>
+      <div class="cpCsNrMk wow fadeInUp">
+        <div class="cpCsNrMkLeft">
+          <div class="f64 cpCsNrMkLeft_1">Interfaces:</div>
+        </div>
+        <div class="cpCsNrMkRight">
+          <div class="f61 cpCsNrMkRight_1">
+            <p>Power Button</p>
+            <p>Dial Button</p>
+            <p>Multi-functional Type-C Port: Supports Charging, Data Transfer, and Audio</p>
+          </div>
+        </div>
+      </div>
+      <div class="cpCsNrMk wow fadeInUp">
+        <div class="cpCsNrMkLeft">
+          <div class="f64 cpCsNrMkLeft_1">Controllers:</div>
+        </div>
+        <div class="cpCsNrMkRight">
+          <div class="f61 cpCsNrMkRight_1">
+            <p>Dual 6DoF Infrared Optical Controllers</p>
+            <p>racking Range: 270° × 210°</p>
+            <p>6-Axis Sensor</p>
+            <p>Battery Life: 35 Hours</p>
+          </div>
+        </div>
+      </div>
+      <div class="cpCsNrMk wow fadeInUp">
+        <div class="cpCsNrMkLeft">
+          <div class="f64 cpCsNrMkLeft_1">Connection Support:</div>
+        </div>
+        <div class="cpCsNrMkRight">
+          <div class="f61 cpCsNrMkRight_1">
+            <p>WiFi 7</p>
+            <p>Bluetooth BT5.3</p>
+          </div>
+        </div>
+      </div>
+      <div class="cpCsNrMk wow fadeInUp">
+        <div class="cpCsNrMkLeft">
+          <div class="f64 cpCsNrMkLeft_1" style="white-space: nowrap;">Environmental Requirements</div>
+        </div>
+        <div class="cpCsNrMkRight">
+
+        </div>
+      </div>
+      <div class="wow fadeInUp">
+        <table class="f41 cpCsNrMkTable" border="" cellspacing="" cellpadding="">
+          <tr>
+            <td>Environmen</td>
+            <td>Environment Operating Temperature</td>
+            <td>0°C – 40°C</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>Storage Temperature</td>
+            <td>-20°C - 60°C</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>Humidity</td>
+            <td>5% - 95%</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>Altitude</td>
+            <td>50 - 5000 meters</td>
+          </tr>
+        </table>
+      </div>
+      <div class="f147 bolder mrjbs_1 mrJmYy_1 cpCsNr wow fadeInUp">
+        Package Contents:
+      </div>
+      <div class="f61 bzQdList wow fadeInUp">
+        <ul>
+          <li>MR Headset × 1</li>
+          <li>Controllers × 2</li>
+          <li>Portable Power Bank × 1</li>
+          <li>Fast Charging Adapter × 1</li>
+          <li>Replaceable Magnetic Foam Padding (Thick) × 1</li>
+          <li>Headset Data/Charging Cable × 1</li>
+          <li>Dual-Head Controller Charging Cable × 1</li>
+          <li>User Manual × 1</li>
+          <li>Lens Cleaning Cloth × 1</li>
+          <li>Cable Clip × 1</li>
+        </ul>
+      </div>
+      <div class="f147 bolder mrjbs mrJmYy_1 cpCsNr wow fadeInUp">
+        10 Years of Technological Expertise<br>
+        26 Years of Brand Assurance from Play For Dream Group
+      </div>
+      <div class="jtPPBzVideo"><video style="width: 100%;height: auto;" id="" src="../assets/video/mr.mp4" loop autoplay
+          muted></video></div>
+      <div class="f64 colorfff bzNr_1 wow fadeInUp">Notes:</div>
+      <div class="f38 bzNr_2 wow fadeInUp">
+        <p>1.Data provided by the screen manufacturer specifications</p>
+        <p>2.Data provided by the screen manufacturer specifications, based on a comparison between Play For Dream MR and YVR2</p>
+        <p>3.Data provided by Play For Dream Technology Labs, based on a comparison between Play For Dream MR and YVR2</p>
+        <p>4.Data provided by Play For Dream Technology Labs</p>
+        <p>5.Data provided by Play For Dream Technology Labs</p>
+        <p>6.Data provided by Play For Dream Technology Labs</p>
+        <p>7.3D Smart Beautification will be available in a future OTA update</p>
+        <p>8.AI Character Master will be available in a future OTA update</p>
+        <p>9.AI 360 Panorama Image Completion will be available in a future OTA update</p>
+        <p>10.3D Generator will be available in a future OTA update</p>
+        <p>11.3D Spatial Components will be available in a future OTA update</p>
+        <p>12.Data provided by Qualcomm official labs, based on comparisons with Qualcomm Snapdragon XR2+ Gen1</p>
+        <p>13.Storage capacity available in 512GB and 1TB versions; please choose according to your needs</p>
+        <p>14.Data provided by Play For Dream Technology Labs, based on immersive gaming scenarios tested with internal battery + external power bank setup.</p>
+        <p>15.The product uses a dual battery series design, equivalent to 5060mAh (3.88V), 19.6Wh battery capacity</p>
+        <p>16.The product uses a dual battery series design, equivalent to 10000mAh (3.7V), 37Wh battery capacity</p>
+      </div>
+    </div>
+    <footerbottom></footerbottom>
+  </div>
 </template>
 
 <script>
