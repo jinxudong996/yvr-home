@@ -47,10 +47,10 @@
           </ul>
         </div>
         <div class="allTopConRig">
-          <div class="allTopConRigSea">
+          <!-- <div class="allTopConRigSea">
             <input type="search" placeholder="Search Play For Dream" v-model="inputValue" />
             <div class="allTopConRigSeaBut" @click="toSearch(inputValue)"><a href="javascript:void(0);"></a></div>
-          </div>
+          </div> -->
           <div class="allTopConRig_3"><a href="#"><img src="../assets/images/center.png" alt="" /> </a></div>
           <div class="allTopConRig_2"><a href="http://pfdm.ucantech.net:10030/en" target="_blank"><img src="../assets/images/en.png" alt="" /> </a></div>
           <div class="allTopConRig_4 allTopMenu"><img src="../assets/images/ico.png" alt="" /></div>
@@ -220,20 +220,21 @@ export default {
     }
   },
   mounted() {
-    $('.allTopConMenu ul li').hover(function () {
-      event.stopPropagation();
+    var hoverTimer;
+    $('.allTopConMenu ul li').hover(function() {
+      clearTimeout(hoverTimer);
       $("#header").addClass("bjHeise")
-      $(".allTopConMenuPos").slideUp();
-      $(this).find(".allTopConMenuPos").slideDown();
+      $(".allTopConMenuPos").stop(false, true).hide();
+      $(this).stop(false, true).find(".allTopConMenuPos").slideDown().siblings("li").find(".allTopConMenuPos").hide();
       // if ($(this).find(".allTopConMenuPos").is(':hidden')) {
 
       // } else {
       // 	// $(this).find(".allTopConMenuPos").slideUp();
       // }
 
-    }, function () {
-      event.stopPropagation();
-      $(".allTopConMenuPos").slideUp();
+    }, function() {
+      $(".allTopConMenuPos").stop(false, true).hide();
+
     })
 
     $('#openMenu').on('click', function () {
@@ -270,7 +271,7 @@ export default {
       if (this.inputValue == "") {
         alert("The input cannot be empty")
       } else {
-        
+
         this.$router.push({
           path: '/search',
           query: {

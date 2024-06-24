@@ -25,7 +25,7 @@
           <div class="swiper-slide" v-for="(item, index) in headlineList" :key="item.id">
             <div class="newsZySwiperNr">
               <div class="newsZySwiperNrLeft colorfff" @click="jumpDetail(item, index)">
-                <div class="newsZySwiperNrLeftCon ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s">
+                <div class="newsZySwiperNrLeftCon">
                   <div class="newsZySwiperNrLeft_1"><span class="f60 bolder">{{ item.createTime | createTimefilter2 }} </span><span class="f16">日</span></div>
                   <div class="f20 newsZySwiperNrLeft_2">{{ item.createTime | createTimefilter1 }}</div>
                   <div class="f46 bolder threeLine newsZySwiperNrLeft_3">
@@ -178,16 +178,16 @@ export default {
         nextEl: '.jsKlJbSwiper-button-next',
         prevEl: '.jsKlJbSwiper-button-prev',
       },
-      on: {
-        init: function () {
-          swiperAnimateCache(this); //隐藏动画元素
-          swiperAnimate(this); //初始化完成开始动画
-        },
-        slideChangeTransitionEnd: function () {
-          swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
-          //this.slides.eq(this.activeIndex).find('.ani').removeClass('ani'); 动画只展现一次，去除ani类名
-        }
-      }
+      // on: {
+      //   init: function () {
+      //     swiperAnimateCache(this); //隐藏动画元素
+      //     swiperAnimate(this); //初始化完成开始动画
+      //   },
+      //   slideChangeTransitionEnd: function () {
+      //     swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
+      //     //this.slides.eq(this.activeIndex).find('.ani').removeClass('ani'); 动画只展现一次，去除ani类名
+      //   }
+      // }
     })
 
 

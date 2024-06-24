@@ -81,7 +81,7 @@
         <div class="zpJobListMkTop f18">
           <div class="zpJobListMkTopMk zpJobListMkTop_1">{{ item.city }}</div>
           <div class="zpJobListMkTopMk zpJobListMkTop_2">{{ item.position }}</div>
-          <div class="zpJobListMkTopMk zpJobListMkTop_3">{{ item.yearsRequired }}Years or more</div>
+          <div class="zpJobListMkTopMk zpJobListMkTop_3">{{ item.yearsRequired }}Years</div>
           <!-- <div class="zpJobListMkTopMk zpJobListMkTop_4">本科及以上</div> -->
           <div class="zpJobListMkRow"></div>
         </div>

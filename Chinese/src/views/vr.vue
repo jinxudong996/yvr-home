@@ -12,13 +12,13 @@
           YVR 2
         </div>
         <div class="allWzNyDwRight">
-          概览
+          <!-- 概览
           <span class="allWzNyDwRightIco">&nbsp;</span>
           参数
           <span class="allWzNyDwRightIco">&nbsp;</span>
           包装清单
           <span class="allWzNyDwRightIco">&nbsp;</span>
-          常见问题
+          常见问题 -->
           <div class="allBtn active w118"><a href="https://mall.jd.com/index-1000425743.html"
               target="_blank">购买产品<span>&nbsp;</span></a></div>
         </div>

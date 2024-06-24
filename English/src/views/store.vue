@@ -27,7 +27,7 @@
         <div class="f60 bolder colorfff textCenter malltSCon_1">Join <span class="counter">50,000</span>+ Players<br>in Exploring Endless Possibilities</div>
         <div class="f30 colorfff textCenter bolder malltSCon_2">Find a Store Nearby</div>
         <div class="malltSConSea">
-          <input type="search" placeholder="Search by city" v-model="inputValue" />
+          <input id="myInput" type="search" placeholder="Search by city" v-model="inputValue" @keyup.enter="storeList" />
           <div class="malltSConSeaBut" @click="storeList"><img src="../assets/images/store/sea.png" alt="" />Search</div>
         </div>
       </div>
@@ -41,9 +41,9 @@
           <div class="MdTjConMkBot">
             <div class="f20 MdTjConMkBot_1">{{ item.storeName }}</div>
             <div class="f20 MdTjConMkBot_2">{{ item.address }}</div>
-            <div class="f17 MdTjConMkBot_3">[Learn More]
-						<!-- <img src="../assets/images/store/row1.png" alt="" /> -->
-						</div>
+            <!-- <div class="f17 MdTjConMkBot_3">[Learn More]
+
+						</div> -->
           </div>
         </div>
       </div>
@@ -215,6 +215,7 @@ export default {
       $('.counter').countUp({
         time: 1500
       });
+
 
       var mdFwSwiper = new Swiper('.mdFwSwiper', {
         initialSlide: 0,

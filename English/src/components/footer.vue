@@ -68,8 +68,10 @@
     		<div class="nyFooterBot_1">Copyright Play For Dream (Shanghai)Technology Co.,Ltd.All rights reserved.
     		</div>
     		<div class="nyFooterBot_2">
-    			<router-link to="/page?index=1">Legal clause</router-link>
-    			<router-link to="/page?index=2">Privacy protection</router-link>
+          <a href="https://developer.pfdm.cn/yvrdoc/vrce/Publish/Legal/PrivacyPolicy.html" target="_blank">Legal clause</a>
+          <a href="https://developer.pfdm.cn/yvrdoc/vrce/Publish/Legal/PrivacyPolicy.html" target="_blank">Privacy protection</a>
+    			<!-- <router-link to="/page?index=1">Legal clause</router-link>
+    			<router-link to="/page?index=2">Privacy protection</router-link> -->
     		</div>
     	</div>
     </div>
@@ -89,7 +91,7 @@ export default {
         let res = await friendList({})
         let data = res.data
         this.dataList = data
-       
+
       }
   },
   async mounted() {

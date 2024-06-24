@@ -7,7 +7,7 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide swiper-no-swiping">
             <!-- <img class="img100" src="../assets/images/bj1.jpg"> -->
-            <video style="" id="" src="../assets/video/home.mp4" loop autoplay muted></video>
+            <video style="" id="" src="static/video/home.mp4" loop autoplay muted></video>
             <div class="sjxxFsDypMc">
               <div class="sjxxFsDypCon">
                 <div class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s">
@@ -64,7 +64,7 @@
     <div class="swiper wcmxDep">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img class="img100" src="../assets/images/bannerkv1.png" alt="" />
+          <img class="img100" src="../assets/images/bannerkv1.jpg" alt="" />
           <div class="w_1760 wcmxDepCon">
             <div class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s">
               <!-- <div class="f88 colorfff bolder wcmxDepCon_1">YVR 2</div>
@@ -130,6 +130,7 @@
 
       </div>
     </div>
+    <div style="background: #000;position: relative;z-index: 2;">
     <!-- 第四屏 -->
     <div class="syNewsBj" :style="syNewsBg">
       <div class="swper syNewsSwiper">
@@ -177,22 +178,24 @@
       </div>
     </div>
     <footerbottom></footerbottom>
+    </div>
     <div class="homeFormMc" v-show="isShow">
+      <div class="closeTc" @click="closeTc"></div>
       <div class="homeForm">
         <div class="homeFormMk">
-          <label for="">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名 ：</label>
-          <div class="homeFormMkInp"><input type="text" name="" id="" placeholder="请输入姓名" v-model="useName"></div>
+          <label for="">Name:</label>
+          <div class="homeFormMkInp"><input type="text" name="" id="" placeholder="Please enter the name" v-model="useName"></div>
         </div>
         <div class="homeFormMk">
-          <label for="">联系方式 ：</label>
-          <div class="homeFormMkInp"><input type="text" name="" id="" placeholder="请输入联系方式" v-model="phone"></div>
+          <label for="">Contact:</label>
+          <div class="homeFormMkInp"><input type="text" name="" id="" placeholder="Please enter the contact information" v-model="phone"></div>
         </div>
         <div class="homeFormMk">
-          <label for="">所&ensp;在&ensp;地 ：</label>
-          <div class="homeFormMkInp"><input type="text" name="" id="" placeholder="请输入所在地" v-model="location"></div>
+          <label for="">Location:</label>
+          <div class="homeFormMkInp"><input type="text" name="" id="" placeholder="Please enter the location" v-model="location"></div>
         </div>
         <div class="homeFormBut">
-          <div class="allBtn active"><a href="javascript:void(0);" @click="toSubmmit">提交<span>&nbsp;</span></a></div>
+          <div class="allBtn active"><a href="javascript:void(0);" @click="toSubmmit">Submit<span>&nbsp;</span></a></div>
         </div>
       </div>
     </div>
@@ -261,17 +264,20 @@
       showMc() {
         this.isShow = true
       },
+      closeTc() {
+        this.isShow = false
+      },
       toSubmmit() {
         if (this.useName == '') {
-          alert('请输入姓名')
+          alert('Please enter the name')
           return
         }
         if (!isvalidMobile(this.phone)) {
-          alert('请输入正确的手机号')
+          alert('Please enter the contact information')
           return
         }
         if (this.location == '') {
-          alert('请输入所在地')
+          alert('Please enter the location')
           return
         }
         feedback({
@@ -279,7 +285,7 @@
           name: this.useName,
           phone: this.phone
         }).then(res => {
-          alert('提交成功')
+          alert('Submit successfully')
           this.isShow = false
         })
 

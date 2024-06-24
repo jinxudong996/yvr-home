@@ -48,10 +48,10 @@
         </div>
         <div class="allTopConRig">
 
-          <div class="allTopConRigSea">
+          <!-- <div class="allTopConRigSea">
             <input type="search" placeholder="搜索玩出梦想" v-model="inputValue" />
             <div class="allTopConRigSeaBut" @click="toSearch(inputValue)"><a href="javascript:void(0);"></a></div>
-          </div>
+          </div> -->
           <div class="allTopConRig_3"><a href="#"><img src="../assets/images/center.png" alt="" /> </a></div>
           <div class="allTopConRig_2"><a href="http://pfdm.ucantech.net:10030/en/#/index" target="_blank"><img
                 src="../assets/images/en.png" alt="" /> </a></div>
@@ -215,79 +215,80 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      inputValue: '', // 绑定的值
-    }
-  },
-  mounted() {
-    $('.allTopConMenu ul li').hover(function () {
-      event.stopPropagation();
-      $("#header").addClass("bjHeise")
-      $(".allTopConMenuPos").slideUp();
-      $(this).find(".allTopConMenuPos").slideDown();
-      // if ($(this).find(".allTopConMenuPos").is(':hidden')) {
-
-      // } else {
-      // 	// $(this).find(".allTopConMenuPos").slideUp();
-      // }
-
-    }, function () {
-      event.stopPropagation();
-      $(".allTopConMenuPos").slideUp();
-    })
-
-    $('#openMenu').on('click', function () {
-      $(this).toggleClass('changeFigure');
-      $(".wapTopBj").toggleClass('on');
-    })
-    $('.topWapNrConLb a').on('click', function () {
-      $('#openMenu').removeClass('changeFigure');
-      $(".wapTopBj").removeClass('on');
-    })
-    $('.topWapNrConLb .DjEjRow').on('click', function () {
-      event.stopPropagation();
-      if ($(this).parent().next().is(':hidden')) {
-        $(this).parent().next().slideDown();
-      } else {
-        $(this).parent().next().slideUp();
+  export default {
+    data() {
+      return {
+        inputValue: '', // 绑定的值
       }
-    })
+    },
+    mounted() {
+      var hoverTimer;
+      $('.allTopConMenu ul li').hover(function() {
+        clearTimeout(hoverTimer);
+        $("#header").addClass("bjHeise")
+        $(".allTopConMenuPos").stop(false, true).hide();
+        $(this).stop(false, true).find(".allTopConMenuPos").slideDown().siblings("li").find(".allTopConMenuPos").hide();
+        // if ($(this).find(".allTopConMenuPos").is(':hidden')) {
 
-    $('.allTopMenu').click(function () {
-      $('.menuBox').addClass('on');
-      $('.menuBg').addClass('on');
-    });
-    $('.navClick').click(function () {
-      $('.menuBox').removeClass('on');
-      $('.menuBg').removeClass('on');
-    })
+        // } else {
+        // 	// $(this).find(".allTopConMenuPos").slideUp();
+        // }
+
+      }, function() {
+        $(".allTopConMenuPos").stop(false, true).hide();
+
+      })
+
+      $('#openMenu').on('click', function() {
+        $(this).toggleClass('changeFigure');
+        $(".wapTopBj").toggleClass('on');
+      })
+      $('.topWapNrConLb a').on('click', function() {
+        $('#openMenu').removeClass('changeFigure');
+        $(".wapTopBj").removeClass('on');
+      })
+      $('.topWapNrConLb .DjEjRow').on('click', function() {
+        event.stopPropagation();
+        if ($(this).parent().next().is(':hidden')) {
+          $(this).parent().next().slideDown();
+        } else {
+          $(this).parent().next().slideUp();
+        }
+      })
+
+      $('.allTopMenu').click(function() {
+        $('.menuBox').addClass('on');
+        $('.menuBg').addClass('on');
+      });
+      $('.navClick').click(function() {
+        $('.menuBox').removeClass('on');
+        $('.menuBg').removeClass('on');
+      })
 
 
 
-  },
-  methods: {
-    async toSearch() {
-      if (this.inputValue == "") {
-        alert("输入不能为空")
-      } else {
+    },
+    methods: {
+      async toSearch() {
+        if (this.inputValue == "") {
+          alert("输入不能为空")
+        } else {
 
-        this.$router.push({
-          path: '/search',
-          query: {
-            value: this.inputValue
-          }
-        })
+          this.$router.push({
+            path: '/search',
+            query: {
+              value: this.inputValue
+            }
+          })
+        }
+
       }
-
     }
   }
-}
 </script>
 
 <style scoped>
-.active .allTop {
-  background: #000000 !important;
-}
+  .active .allTop {
+    background: #000000 !important;
+  }
 </style>

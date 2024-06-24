@@ -7,7 +7,7 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide swiper-no-swiping">
             <!-- <img class="img100" src="../assets/images/bj1.jpg"> -->
-            <video style="" id="" src="../assets/video/home.mp4" loop autoplay muted></video>
+            <video style="" id="" src="/static/video/home1.mp4" loop autoplay muted></video>
             <div class="sjxxFsDypMc">
               <div class="sjxxFsDypCon">
                 <div class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s">
@@ -66,7 +66,7 @@
     <div class="swiper wcmxDep">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img class="img100" src="../assets/images/bannerkv1.png" alt="" />
+          <img class="img100" src="../assets/images/bannerkv1.jpg" alt="" />
           <div class="w_1760 wcmxDepCon">
             <div class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s">
               <!-- <div class="f88 colorfff bolder wcmxDepCon_1">YVR 2</div>
@@ -76,7 +76,7 @@
                 <span>MR</span>真8K
               </div> -->
               <div class="wcmxDepConXzImg">
-                <img src="../assets/images/bannerkv1wz.png" alt="">
+                <img src="../assets/images/mr/bannerkv1wz.png" alt="">
               </div>
               <div class="wcmxDepCon_3">
                 <div class="allBtn active"><a href="javascript:void(0);" @click="showMc">立即预约<span>&nbsp;</span></a>
@@ -132,6 +132,7 @@
 
       </div>
     </div>
+    <div style="background: #000;position: relative;z-index: 2;">
     <!-- 第四屏 -->
     <div class="syNewsBj" :style="syNewsBg">
       <div class="swper syNewsSwiper">
@@ -179,6 +180,7 @@
       </div>
     </div>
     <footerbottom></footerbottom>
+    </div>
     <!-- <div style="position: fixed;top: 0;left: 0;right: 0;bottom: 0;background: rgba(0, 0, 0, 0.8);z-index: 999999999999;">
       <div style="position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);">
         <div class="allBtn active"><a href="https://live.bilibili.com/25397624" target="_blank">观看直播<span>&nbsp;</span></a></div>
@@ -186,6 +188,7 @@
 
     </div> -->
     <div class="homeFormMc" v-show="isShow">
+      <div class="closeTc" @click="closeTc"></div>
       <div class="homeForm">
         <div class="homeFormMk">
           <label for="">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名 ：</label>
@@ -268,6 +271,9 @@
       },
       showMc() {
         this.isShow = true
+      },
+      closeTc() {
+        this.isShow = false
       },
       toSubmmit() {
         if (this.useName == '') {

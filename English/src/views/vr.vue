@@ -12,15 +12,15 @@
           YVR 2
         </div>
         <div class="allWzNyDwRight">
-          Overview
+          <!-- Overview
           <span class="allWzNyDwRightIco">&nbsp;</span>
           Tech Specs
           <span class="allWzNyDwRightIco">&nbsp;</span>
           What’s in the Box
           <span class="allWzNyDwRightIco">&nbsp;</span>
-          Frequently Asked Questions (FAQ)
-          <div class="allBtn active w118"><a href="https://mall.jd.com/index-1000425743.html"
-              target="_blank">Watch now/Buy<span>&nbsp;</span></a></div>
+          Frequently Asked Questions (FAQ) -->
+          <div class="allBtn active w118"><a href="https://mall.jd.com/index-1000425743.html" target="_blank">Watch
+              now/Buy<span>&nbsp;</span></a></div>
         </div>
       </div>
     </div>
@@ -39,15 +39,17 @@
             <div id="animate1"><img src="../assets/images/yvr2img.png" alt="" /></div>
           </div>
           <div class="yvrSwiperCon_3" id="vrDxNgS1WcBut">
-            <div class="allBtn addBk videoOpen" source="/static/video/video.mp4"><a href="javascript:void(0);">Watch a film<span>&nbsp;</span></a></div>
-            <div class="allBtn addBk"><a href="https://mall.jd.com/index-1000425743.html"
-                target="_blank">Shop the Latest<span>&nbsp;</span></a></div>
+            <div class="allBtn addBk videoOpen" source="/static/video/video.mp4"><a href="javascript:void(0);">Watch a
+                film<span>&nbsp;</span></a></div>
+            <div class="allBtn addBk"><a href="https://mall.jd.com/index-1000425743.html" target="_blank">Shop the
+                Latest<span>&nbsp;</span></a></div>
           </div>
 
           <div class="colorfff yvrSwiperCon_4" id="vrTx_3">
             <div class="f72 bolder yvrSwiperCon_4_1">10 Years of Expertise</div>
-            <div class="f30 yvrSwiperCon_4_2">Our core R&D team hails from Silicon Valley's leading AI algorithm experts.<br>
-Bringing a decade of pioneer experience in the XR industry.</div>
+            <div class="f30 yvrSwiperCon_4_2">Our core R&D team hails from Silicon Valley's leading AI algorithm
+              experts.<br>
+              Bringing a decade of pioneer experience in the XR industry.</div>
           </div>
           <div class="yvrSwiperCon_5" id="vrTx_4">
             <img class="img100" src="../assets/images/img4.png" alt="" />
@@ -57,8 +59,9 @@ Bringing a decade of pioneer experience in the XR industry.</div>
             <div class="f30 yvrSwiperCon_6_2">Mass-Produced Pancake Optics All-in-One XR Headset</div>
           </div>
           <div class="colorfff yvrSwiperCon_8" id="vrTx_7">
-            <div class="f72 bolder yvrSwiperCon_6_1">Integrated  Design</div>
-            <div class="f30 yvrSwiperCon_6_2">Winner of Multiple Domestic and International Industrial Design Awards</div>
+            <div class="f72 bolder yvrSwiperCon_6_1">Integrated Design</div>
+            <div class="f30 yvrSwiperCon_6_2">Winner of Multiple Domestic and International Industrial Design Awards
+            </div>
             <div class="yvrSwiperCon_8_3"><img src="../assets/images/img6.png" alt="" /></div>
           </div>
         </div>
@@ -83,9 +86,10 @@ Bringing a decade of pioneer experience in the XR industry.</div>
             <div class="yvrSwiperCon_3">
               <div class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
                 swiper-animate-delay="0.4s">
-                <div class="allBtn addBk videoOpen" source="/static/video/video.mp4"><a href="javascript:void(0);">Watch a film<span>&nbsp;</span></a></div>
-                <div class="allBtn addBk"><a href="https://mall.jd.com/index-1000425743.html"
-                    target="_blank">Shop the Latest<span>&nbsp;</span></a></div>
+                <div class="allBtn addBk videoOpen" source="/static/video/video.mp4"><a href="javascript:void(0);">Watch
+                    a film<span>&nbsp;</span></a></div>
+                <div class="allBtn addBk"><a href="https://mall.jd.com/index-1000425743.html" target="_blank">Shop the
+                    Latest<span>&nbsp;</span></a></div>
               </div>
             </div>
           </div>
@@ -94,8 +98,9 @@ Bringing a decade of pioneer experience in the XR industry.</div>
               <div class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
                 swiper-animate-delay="0s">
                 <div class="f72 bolder yvrSwiperCon_4_1">10 Years of Expertise</div>
-                <div class="f30 yvrSwiperCon_4_2">Our core R&D team hails from Silicon Valley's leading AI algorithm experts.<br>
-Bringing a decade of pioneer experience in the XR industry.</div>
+                <div class="f30 yvrSwiperCon_4_2">Our core R&D team hails from Silicon Valley's leading AI algorithm
+                  experts.<br>
+                  Bringing a decade of pioneer experience in the XR industry.</div>
               </div>
             </div>
             <div class="yvrSwiperCon_5">
@@ -118,8 +123,9 @@ Bringing a decade of pioneer experience in the XR industry.</div>
             <div class="colorfff yvrSwiperCon_8">
               <div class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
                 swiper-animate-delay="0s">
-                <div class="f72 bolder yvrSwiperCon_6_1">Integrated  Design</div>
-                <div class="f30 yvrSwiperCon_6_2">Winner of Multiple Domestic and International Industrial Design Awards</div>
+                <div class="f72 bolder yvrSwiperCon_6_1">Integrated Design</div>
+                <div class="f30 yvrSwiperCon_6_2">Winner of Multiple Domestic and International Industrial Design Awards
+                </div>
                 <div class="yvrSwiperCon_8_3"><img src="../assets/images/img6.png" alt="" /></div>
               </div>
             </div>
@@ -133,7 +139,8 @@ Bringing a decade of pioneer experience in the XR industry.</div>
               <img class="img100" src="../assets/images/img9.png" alt="" />
               <div class="dlgRzNrImgMkWz">
                 <div class="f36 dlgRzNrImgMkWz_1">SGS Certified Low Blue Light Protection</div>
-                <div class="f20 dlgRzNrImgMkWz_2">No distortion, no blurred edges, and no dizziness even after prolonged use</div>
+                <div class="f20 dlgRzNrImgMkWz_2">No distortion, no blurred edges, and no dizziness even after prolonged
+                  use</div>
               </div>
             </div>
           </div>
@@ -143,7 +150,8 @@ Bringing a decade of pioneer experience in the XR industry.</div>
                 <img class="img100" src="../assets/images/img10.png" alt="" />
                 <div class="dlgRzNrImgMkWz">
                   <div class="f36 dlgRzNrImgMkWz_1">Two-Piece Pancake Lenses</div>
-                  <div class="f20 dlgRzNrImgMkWz_2">No distortion, no blurred edges, and no dizziness even after prolonged use</div>
+                  <div class="f20 dlgRzNrImgMkWz_2">No distortion, no blurred edges, and no dizziness even after
+                    prolonged use</div>
                 </div>
               </div>
               <div class="dlgRzNrImgMk dlgRzNrRigTop_2 wow fadeInUp">
@@ -170,7 +178,8 @@ Bringing a decade of pioneer experience in the XR industry.</div>
             <img class="img100" src="../assets/images/img13.png" alt="" />
             <div class="dlgRzNrImgMkWz posLeftCen">
               <div class="f36 dlgRzNrImgMkWz_1">6DoF</div>
-              <div class="f20 dlgRzNrImgMkWz_2">Accurate tracking for running and jumping, seamlessly blending reality and virtual environments</div>
+              <div class="f20 dlgRzNrImgMkWz_2">Accurate tracking for running and jumping,<br> seamlessly blending
+                reality and virtual environments</div>
             </div>
           </div>
           <div class="dlgRzNrImgMk wow fadeInUp">
@@ -203,7 +212,8 @@ Bringing a decade of pioneer experience in the XR industry.</div>
               <img class="img100" src="../assets/images/img17.png" alt="" />
               <div class="dlgRzNrImgMkWz posRigCen">
                 <div class="f36 dlgRzNrImgMkWz_1">Adjustable Damping Headband</div>
-                <div class="f20 dlgRzNrImgMkWz_2">Designed for Asian facial shapes, offering superior comfort and fit</div>
+                <div class="f20 dlgRzNrImgMkWz_2">Designed for Asian facial shapes,<br>offering superior comfort and fit
+                </div>
               </div>
             </div>
           </div>
@@ -213,14 +223,15 @@ Bringing a decade of pioneer experience in the XR industry.</div>
             <img class="img100" src="../assets/images/img18.png" alt="" />
             <div class="dlgRzNrImgMkWz posLeftCen">
               <div class="f36 dlgRzNrImgMkWz_1">Curved Design</div>
-              <div class="f20 dlgRzNrImgMkWz_2">Complex dual-curve front shell decoration with a depth of up to 73 mm</div>
+              <div class="f20 dlgRzNrImgMkWz_2">Complex dual-curve front shell<br>decoration with a depth of up to 73 mm
+              </div>
             </div>
           </div>
           <div class="dlgRzNrImgMk wow fadeInUp">
             <img class="img100" src="../assets/images/img19.png" alt="" />
             <div class="dlgRzNrImgMkWz posRigCen">
               <div class="f36 dlgRzNrImgMkWz_1">Magnetic Face Cushion</div>
-              <div class="f20 dlgRzNrImgMkWz_2">Effortless attachment with a simple touch.</div>
+              <div class="f20 dlgRzNrImgMkWz_2">Effortless attachment with a simple touch</div>
             </div>
           </div>
         </div>
@@ -229,7 +240,8 @@ Bringing a decade of pioneer experience in the XR industry.</div>
         <div class="lcdNrPPi">
           <div class="lcdNrPPiLeft wow fadeInUp">
             <div class="f72 bolder lcdNrBjBt">Dual Fast-LCD Displays</div>
-            <div class="f26 lcdNrBjJs">Dual screens align better with the human visual system, offering more immersive and realistic images.</div>
+            <div class="f26 lcdNrBjJs">Dual screens align better with the human visual system, offering more immersive
+              and realistic images.</div>
             <div class="f26 textCenter lcdNrPPiLeftCon">
               1058 Pixels Per Inch<br>
               Every detail is rendered with stunning clarity and precision.<br>
@@ -242,30 +254,52 @@ Bringing a decade of pioneer experience in the XR industry.</div>
         </div>
         <div class="lcdNrGq wow fadeInUp">
           <div class="f72 bolder textCenter lcdNrBjBt">High Definition</div>
-          <div class="f26 textCenter lcdNrBjJs">High Definition Multi-lens folded optical path design eliminates the traditional lens edge blur, effectively reducing edge glare and delivering a crystal-clear visual experience across the entire field of view.<br>Crystal-Clear Pancake Lenses Compared to traditional Fresnel lenses, which suffer from edge blur, our Pancake lenses ensure sharpness across the entire view.</div>
+          <div class="f26 textCenter lcdNrBjJs">High Definition Multi-lens folded optical path design eliminates the
+            traditional lens edge blur, effectively reducing edge glare and delivering a crystal-clear visual experience
+            across the entire field of view.<br>Crystal-Clear Pancake Lenses Compared to traditional Fresnel lenses,
+            which suffer from edge blur, our Pancake lenses ensure sharpness across the entire view.</div>
           <div class="lcdNrGqCon"><img class="img100" src="../assets/images/img2211.png" alt="" /></div>
+          <div class="lcdNrGqConTit f24">
+            <div>Crystal-Clear Pancake Lenses</div>
+            <div>Compared to traditional Fresnel lenses, which suffer from edge blur, our Pancake lenses ensure
+              sharpness across the entire view.</div>
+          </div>
         </div>
         <div class="lcdNrFbl wow fadeInUp">
           <div class="f72 bolder textCenter lcdNrBjBt">Ultra-High Definition Rendering</div>
-          <div class="f26 textCenter lcdNrBjJs">Enjoy smoother and more fluid visuals with a 90Hz refresh rate, designed to provide a seamless and immersive experience free from motion blur and dizziness.</div>
+          <div class="f26 textCenter lcdNrBjJs">Enjoy smoother and more fluid visuals with a 90Hz refresh rate, designed
+            to provide a seamless and immersive experience free from motion blur and dizziness.</div>
           <div class="lcdNrFblCon"><img class="img100" src="../assets/images/img23.png" alt="" /></div>
         </div>
       </div>
       <div class="gxnSmlMd colorfff">
         <div class="gxnSmlMdCon">
           <div class="gxnSmlMdConLeft wow fadeInUp">
-            <div class="f72 bolder lcdNrBjBt">High-Performance Linear Motor<br>
-              Feel a live feedback with vibration</div>
-            <div class="f26 lcdNrBjJs">With a super wide range of vibration frequency from 50Hz to 500Hz.<br>Experienc the incredible real feeling of shooting recoil, swinging resistance, and fishing pull.</div>
-            <div class="gxnSmlMdCon_1"><img class="img100" src="../assets/images/img26.png" alt="" /></div>
+            <div class="f72 bolder lcdNrBjBt">High-Performance<br>Linear Motor Feel a live<br> feedback with vibration</div>
+            <div class="f26 lcdNrBjJs">With a super wide range of vibration frequency from 50Hz to 500Hz.<br>Experienc
+              the incredible real feeling of shooting recoil,<br> swinging resistance, and fishing pull.</div>
+            <!-- <div class="gxnSmlMdCon_1"><img class="img100" src="../assets/images/img26.png" alt="" /></div> -->
+            <div class="gxnSmlMdCon_1Xz">
+              <ul class="gxnSmlMdCon_1XzList">
+                <li>
+                  <div class="f48 bolder gxnSmlMdCon_1XzList_1">108g <span class="f36">Only</span></div>
+                  <div class="f18 gxnSmlMdCon_1XzList_2">Easy to hold.</div>
+                </li>
+                <li>
+                  <div class="f48 bolder gxnSmlMdCon_1XzList_1">TPU <span class="f36">Material</span></div>
+                  <div class="f18 gxnSmlMdCon_1XzList_2">Non-slip grip with diamond pattern texture.</div>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
       <div class="gnHxXl colorfff">
         <div class="gxnSmlMdCon">
           <div class="gxnSmlMdConLeft wow fadeInUp">
-            <div class="f72 bolder lcdNrBjBt">High Enery 'Core' Snapdragon® XR2</div>
-            <div class="f26 lcdNrBjJs">Upgraded with LPDDR5 low-power memory and UFS3.1 high-speed flash memory technologies for smoother transitions.</div>
+            <div class="f72 bolder lcdNrBjBt">High Enery 'Core'<br>Snapdragon® XR2</div>
+            <div class="f26 lcdNrBjJs">Upgraded with LPDDR5 low-power memory and<br>UFS3.1 high-speed flash memory
+              technologies for smoother transitions.</div>
             <!-- <div class="gnHxXlCon_1"><img class="img100" src="images/img27.png" alt="" /></div> -->
             <div class="mrXzGdLc">
               <ul>
@@ -336,7 +370,8 @@ Bringing a decade of pioneer experience in the XR industry.</div>
                 <img class="img100" src="../assets/images/vrxz4.png" alt="" />
                 <div class="dlgRzNrImgMkWz posLeftCen">
                   <div class="f52 dlgRzNrImgMkWz_1">Parent-child entertainment opens the VR fantasy journey</div>
-                  <div class="f26 dlgRzNrImgMkWz_2">Experience the shock brought by VR technology and grow up happily</div>
+                  <div class="f26 dlgRzNrImgMkWz_2">Experience the shock brought by VR technology and grow up happily
+                  </div>
                 </div>
               </div>
             </div>
@@ -752,29 +787,29 @@ Bringing a decade of pioneer experience in the XR industry.</div>
       // })
 
       $(".videoOpen").on("click", function() {
-      	var src = $(this).attr("source");
-      	if (src == '' || src == undefined) {
-      		alert('No video');
-      		return;
-      	}
-      	var htmls =
-      		'<div class="fixedVideo"><div class="videoDDD"><div class="clearfix shipingTit"><a class="closeVideo" href="javascript:;"></a></div><div class="openVd"></div></div></div>';
-      	$('body').append(htmls);
-      	var html = '';
-      	if (src.indexOf('http') > -1) {
-      		html =
-      			'<embed allowtransparency="true" allowfullscreen="true" allowfullscreenInteractive="true" scrolling="no" border="0" frameborder="0"  src="' +
-      			src + '" allowfullscreen></embed>';
-      	} else {
-      		html = '<video controls autoplay  src="' + src + '">不支持</video>';
-      	}
+        var src = $(this).attr("source");
+        if (src == '' || src == undefined) {
+          alert('No video');
+          return;
+        }
+        var htmls =
+          '<div class="fixedVideo"><div class="videoDDD"><div class="clearfix shipingTit"><a class="closeVideo" href="javascript:;"></a></div><div class="openVd"></div></div></div>';
+        $('body').append(htmls);
+        var html = '';
+        if (src.indexOf('http') > -1) {
+          html =
+            '<embed allowtransparency="true" allowfullscreen="true" allowfullscreenInteractive="true" scrolling="no" border="0" frameborder="0"  src="' +
+            src + '" allowfullscreen></embed>';
+        } else {
+          html = '<video controls autoplay  src="' + src + '">不支持</video>';
+        }
 
-      	$(".fixedVideo .videoDDD .openVd").append(html);
+        $(".fixedVideo .videoDDD .openVd").append(html);
 
-      	$(".fixedVideo").fadeIn();
-      	$(".closeVideo").click(function() {
-      		$(".fixedVideo").remove();
-      	});
+        $(".fixedVideo").fadeIn();
+        $(".closeVideo").click(function() {
+          $(".fixedVideo").remove();
+        });
       });
 
 
@@ -837,16 +872,16 @@ Bringing a decade of pioneer experience in the XR industry.</div>
       // };
 
       window.onscroll = function() {
-      	var scrollPosition = window.scrollY;
-      	var dypHeight = window.innerHeight * 0.5;
-      	console.log(scrollPosition, dypHeight)
-      	if (scrollPosition >= dypHeight) {
-      		$(".vrDxNgS1WcBj").css("background-image", "url(/static/img/black.jpg)")
-      		$("#vrDxNgS1WcBut").css("opacity", "0")
-      	} else {
-      		$(".vrDxNgS1WcBj").css("background-image", "url(/static/img/bj8.jpg)")
-      		$("#vrDxNgS1WcBut").css("opacity", "1")
-      	}
+        var scrollPosition = window.scrollY;
+        var dypHeight = window.innerHeight * 0.5;
+        console.log(scrollPosition, dypHeight)
+        if (scrollPosition >= dypHeight) {
+          $(".vrDxNgS1WcBj").css("background-image", "url(/static/img/black.jpg)")
+          $("#vrDxNgS1WcBut").css("opacity", "0")
+        } else {
+          $(".vrDxNgS1WcBj").css("background-image", "url(/static/img/bj8.jpg)")
+          $("#vrDxNgS1WcBut").css("opacity", "1")
+        }
       };
 
 

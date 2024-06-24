@@ -28,7 +28,7 @@
           一起探索无尽可能</div>
         <div class="f30 colorfff textCenter bolder malltSCon_2">寻找您附近的门店</div>
         <div class="malltSConSea">
-          <input type="search" placeholder="请输入您想查找的城市" v-model="inputValue" />
+          <input type="search" placeholder="请输入您想查找的城市" v-model="inputValue" @keyup.enter="storeList" />
           <div class="malltSConSeaBut" @click="storeList"><img src="../assets/images/store/sea.png" alt="" />搜索</div>
         </div>
       </div>
@@ -42,7 +42,7 @@
           <div class="MdTjConMkBot">
             <div class="f20 MdTjConMkBot_1">{{ item.storeName }}</div>
             <div class="f20 MdTjConMkBot_2">{{ item.address }}</div>
-            <div class="f17 MdTjConMkBot_3">了解<img src="../assets/images/store/row1.png" alt="" /></div>
+            <!-- <div class="f17 MdTjConMkBot_3">了解<img src="../assets/images/store/row1.png" alt="" /></div> -->
           </div>
         </div>
       </div>

@@ -70,8 +70,10 @@
         <div class="nyFooterBot_1">玩出梦想(上海)科技有限公司 <span>沪公网安备31011702009037号</span> <span>沪ICP备2020035905号</span>
         </div>
         <div class="nyFooterBot_2">
-          <router-link to="/page?index=1">法律条款</router-link>
-          <router-link to="/page?index=2">隐私保护</router-link>
+          <a href="https://developer.pfdm.cn/yvrdoc/vrcc/Publish/Legal/PrivacyPolicy.html" target="_blank">法律条款</a>
+          <a href="https://developer.pfdm.cn/yvrdoc/vrcc/Publish/Legal/PrivacyPolicy.html" target="_blank">隐私保护</a>
+          <!-- <router-link to="/page?index=1">法律条款</router-link>
+          <router-link to="/page?index=2">隐私保护</router-link> -->
         </div>
       </div>
     </div>

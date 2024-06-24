@@ -27,7 +27,7 @@
             <img class="img100" :src="imgUrl +  serviceVoList0.image" alt="" />
           </div>
         </div>
-        
+
       </div>
 
       <!-- serNyConMk -->
@@ -48,6 +48,9 @@
         <div class="w1335 serNyConMkNrXq">
           <div class="serNyConMkNrXqCon">
             <div class="f20 serNyConMkNrXqConTit">Stream configuration requirements</div>
+            <div class="f16 xzFwBot">
+              <div class="xzFwBot_1 f20"><a download="/static/doc/YVR串流助手使用指南.docx" href="/static/doc/YVR串流助手使用指南.docx" target="_blank">Download the YVR Streaming Assistant user guide ⬇️</a></div>
+            </div>
             <div class="serNyConMkNrXqConBot" v-html="serviceVoList1.streamingRequirements">
               <!--  -->
             </div>
@@ -71,10 +74,20 @@
         </div>
         <div class="w1335 serNyConMkNrXq">
           <div class="serNyConMkNrXqCon">
-            <div class="f20 serNyConMkNrXqConTit">Stream configuration requirements</div>
+            <!-- <div class="f20 serNyConMkNrXqConTit">Stream configuration requirements</div>
             <div class="serNyConMkNrXqConBot" v-html="serviceVoList2.streamingRequirements">
-             
+
+            </div> -->
+
+            <div class="f16 xzFwBot">
+              <div class="xzFwBot_1 f20"><a download="/static/doc/YVR飞屏助手使用指南.docx" href="/static/doc/YVR飞屏助手使用指南.docx" target="_blank">Download the YVR Wireless Display Assistant user guide ⬇️</a></div>
+              <div class="xzFwBot_2">
+                <p>1. Download and install YVR Wireless Display Assistant. Then, open the app and add videos.</p>
+                <p>2. Ensure that your VR headset and PC are connected to the same WLAN. Then, click Searchfor Device by using the VR headset and select your PC.</p>
+                <p>Note: Currently only Windows systems are supported</p>
+              </div>
             </div>
+
           </div>
         </div>
       </div>
