@@ -3696,12 +3696,12 @@ body,
 .serNyConMkNrXqList li {
 	position: relative;
 	box-sizing: border-box;
-	padding: 0 0 0 92px;
+	padding: 0 0 0 152px;
 	line-height: 2.2;
 }
 
 .serNyConMkNrXqListIco {
-	width: 92px;
+	width: 112px; white-space: nowrap;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -4467,6 +4467,7 @@ background: -webkit-linear-gradient(45deg, #F9ECD8, #966C4D, #966C4D);
 .gxnSmlMdCon_1XzList_2{margin-top: 10px;}
 .mrSbXzLb.w3 .f72{font-size: 48px;white-space: nowrap;}
 .nyFooterTopLeft_1{max-width: 85%;}
+
 
 }
 
@@ -5472,7 +5473,10 @@ background: -webkit-linear-gradient(45deg, #F9ECD8, #966C4D, #966C4D);
 		width: auto;
 		height: 23px;
 	}
-
+.serNyConMkNrXqList li {
+	padding: 0 0 0 132px;
+}
+.serNyConMkNrXqConBotLeft{margin-right: 50px;}
 
 }
 
@@ -5898,7 +5902,7 @@ background: -webkit-linear-gradient(45deg, #F9ECD8, #966C4D, #966C4D);
 
 	/* .newsListNr_1{min-height: 43px;} */
 	.serNyConMkNrXq {
-		margin-top: 3px;
+		margin-top: 30px;
 	}
 
 	.serNyConMkNrRight {
@@ -5980,7 +5984,7 @@ background: -webkit-linear-gradient(45deg, #F9ECD8, #966C4D, #966C4D);
 	}
 
 	.serNyConMkNrXqList li {
-		padding-left: 55px;
+		padding-left: 105px;
 	}
 
 	.storeAreaRig {

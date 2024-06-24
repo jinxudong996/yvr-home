@@ -272,10 +272,14 @@
           alert('Please enter the name')
           return
         }
-        if (!isvalidMobile(this.phone)) {
+        if (this.phone == '') {
           alert('Please enter the contact information')
           return
         }
+        // if (!isvalidMobile(this.phone)) {
+        //   alert('Please enter the contact information')
+        //   return
+        // }
         if (this.location == '') {
           alert('Please enter the location')
           return

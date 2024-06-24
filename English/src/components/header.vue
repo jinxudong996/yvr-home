@@ -262,7 +262,10 @@ export default {
       $('.menuBox').removeClass('on');
       $('.menuBg').removeClass('on');
     })
-
+  $(".menuBox a").click(function() {
+        $('.menuBox').removeClass('on');
+        $('.menuBg').removeClass('on');
+      })
 
 
   },

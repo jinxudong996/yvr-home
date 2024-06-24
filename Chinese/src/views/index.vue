@@ -7,7 +7,7 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide swiper-no-swiping">
             <!-- <img class="img100" src="../assets/images/bj1.jpg"> -->
-            <video style="" id="" src="/static/video/home1.mp4" loop autoplay muted></video>
+            <video style="" id="" src="static/video/home1.mp4" loop autoplay muted></video>
             <div class="sjxxFsDypMc">
               <div class="sjxxFsDypCon">
                 <div class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s">
@@ -280,10 +280,14 @@
           alert('请输入姓名')
           return
         }
-        if (!isvalidMobile(this.phone)) {
-          alert('请输入正确的手机号')
+        if (this.phone == '') {
+          alert('请输入联系方式')
           return
         }
+        // if (!isvalidMobile(this.phone)) {
+        //   alert('请输入正确的手机号')
+        //   return
+        // }
         if (this.location == '') {
           alert('请输入所在地')
           return
