@@ -68,7 +68,7 @@
       			</select>
       		</div> -->
         <div class="zpJobSxMk">
-          <input class="zpJobInp" type="search" placeholder="Find your interest" v-model="inputValue" />
+          <input class="zpJobInp" type="search" placeholder="Find your interest" v-model="inputValue" @keyup.enter="seaarchFun" />
           <div class="zpJobSxMkPos"  @click="seaarchFun">
             Search<img src="../assets/images/xz/ss.png" alt="" />
           </div>
