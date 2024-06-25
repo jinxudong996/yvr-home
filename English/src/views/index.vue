@@ -7,7 +7,7 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide swiper-no-swiping">
             <!-- <img class="img100" src="../assets/images/bj1.jpg"> -->
-            <video style="" id="" src="static/video/home.mp4" loop autoplay muted></video>
+            <video style="" id="videoHome" src="static/video/home.mp4" loop autoplay muted></video>
             <div class="sjxxFsDypMc">
               <div class="sjxxFsDypCon">
                 <div class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s">
@@ -438,7 +438,27 @@
           // videoTX()
         });
 
+        if(isWeiXin()){
+          // console.log(" 是来自微信内置浏览器")
+          document.getElementById('video').controls = true;
+          document.getElementById('video').play();
+
+          document.getElementById('videoHome').controls = true;
+          document.getElementById('videoHome').play();
+        }
+
       })
+
+      //判断是否微信登陆
+      function isWeiXin() {
+        var ua = window.navigator.userAgent.toLowerCase();
+        console.log(ua);//mozilla/5.0 (iphone; cpu iphone os 9_1 like mac os x) applewebkit/601.1.46 (khtml, like gecko)version/9.0 mobile/13b143 safari/601.1
+        if (ua.match(/MicroMessenger/i) == 'micromessenger') {
+          return true;
+        } else {
+          return false;
+        }
+      }
 
       function videoTX() {
 

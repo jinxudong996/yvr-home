@@ -4,9 +4,9 @@
     <div class="mrBanner"><img class="img100" src="../assets/images/mr/banner1en.jpg" alt="" /></div>
     <div class="textCenter mrDBt1 wow fadeInUp">8 Reasons to Choose<br> Play For Dream MR</div>
     <div class="w1700">
-      <div class="mrXzLyTop">
+      <div class="mrXzLyTop mrXzLyTopxzXg">
         <div class="mrXzLyMk">
-          <img class="img100" src="../assets/images/mr/img1.png" alt="" />
+
           <div class="mrXzLyMkPos  wow fadeInUp">
             <div class="f79 mrXzLyMkPos_2 bolder mrjbs">True 8K<br> IMAX-Level<br>Theater Experience</div>
             <div class="f41 mrXzLyMkPos_1">1:1 Representation of the IMAX-Level<br>theater auditory and visual feast</div>
@@ -22,6 +22,7 @@
               </ul>
             </div>
           </div>
+          <img class="img100" src="../assets/images/mr/img1.png" alt="" />
         </div>
       </div>
       <div class="mrXzLyTop_2">
@@ -512,7 +513,7 @@
         </div>
       </div>
     </div>
-    <div class="nzZgSb">
+    <div class="nzZgSb nzZgSbXzXg11">
       <img class="img100" src="../assets/images/mr/img38.png" alt="" />
       <div class="nzZgSbPos">
         <div class="w1700">
@@ -797,7 +798,7 @@
         10 Years of Technological Expertise<br>
         Brand Assurance from Play For Dream Group
       </div>
-      <div class="jtPPBzVideo"><video style="width: 100%;height: auto;" id="" src="static/video/mr.mp4" loop autoplay
+      <div class="jtPPBzVideo"><video style="width: 100%;height: auto;" id="videoMr" src="static/video/mr.mp4" loop autoplay
           muted></video></div>
       <div class="f64 colorfff bzNr_1 wow fadeInUp">Notes:</div>
       <div class="f38 bzNr_2 wow fadeInUp">
@@ -881,10 +882,23 @@
         // $('.counter').countUp({
         //   time: 1500
         // });
-
+        if(isWeiXin()){
+          // console.log(" 是来自微信内置浏览器")
+          document.getElementById('videoMr').controls = true;
+          document.getElementById('videoMr').play();
+        }
 
       })
-
+      //判断是否微信登陆
+      function isWeiXin() {
+        var ua = window.navigator.userAgent.toLowerCase();
+        console.log(ua);//mozilla/5.0 (iphone; cpu iphone os 9_1 like mac os x) applewebkit/601.1.46 (khtml, like gecko)version/9.0 mobile/13b143 safari/601.1
+        if (ua.match(/MicroMessenger/i) == 'micromessenger') {
+          return true;
+        } else {
+          return false;
+        }
+      }
     }
   }
 </script>

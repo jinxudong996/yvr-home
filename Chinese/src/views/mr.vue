@@ -6,7 +6,7 @@
     <div class="w1700">
       <div class="mrXzLyTop">
         <div class="mrXzLyMk">
-          <img class="img100" src="../assets/images/mr/img1.png" alt="" />
+
           <div class="mrXzLyMkPos wow fadeInUp">
             <div class="f79 mrXzLyMkPos_2 bolder mrjbs">真 8K<br>
               IMAX 级空间计算机</div>
@@ -22,6 +22,7 @@
               </ul>
             </div>
           </div>
+          <img class="img100" src="../assets/images/mr/img1.png" alt="" />
         </div>
       </div>
       <div class="mrXzLyTop_2">
@@ -767,7 +768,7 @@
         10年技术沉淀<br>
         集团品牌保障
       </div>
-      <div class="jtPPBzVideo"><video style="width: 100%;height: auto;" id="" src="static/video/mr.mp4" loop autoplay
+      <div class="jtPPBzVideo"><video style="width: 100%;height: auto;" id="videoMr" src="static/video/mr.mp4" loop autoplay
           muted></video></div>
       <div class="f64 colorfff bzNr_1 wow fadeInUp">备注：</div>
       <div class="f38 bzNr_2 wow fadeInUp">
@@ -851,8 +852,26 @@
         //   time: 1500
         // });
 
+        if(isWeiXin()){
+          // console.log(" 是来自微信内置浏览器")
+          document.getElementById('videoMr').controls = true;
+          document.getElementById('videoMr').play();
+        }
+
 
       })
+
+      //判断是否微信登陆
+      function isWeiXin() {
+        var ua = window.navigator.userAgent.toLowerCase();
+        console.log(ua);//mozilla/5.0 (iphone; cpu iphone os 9_1 like mac os x) applewebkit/601.1.46 (khtml, like gecko)version/9.0 mobile/13b143 safari/601.1
+        if (ua.match(/MicroMessenger/i) == 'micromessenger') {
+          return true;
+        } else {
+          return false;
+        }
+      }
+
 
     }
   }
