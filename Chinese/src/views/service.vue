@@ -57,7 +57,7 @@
               <div class="xzFwBot_1 f20"><a download="/static/doc/YVR串流助手使用指南.docx" href="/static/doc/YVR串流助手使用指南.docx" target="_blank">串流助手使用指南 ⬇️</a></div>
             </div>
             <div class="serNyConMkNrXqConBot" v-html="serviceVoList1.streamingRequirements">
-              <!--  -->
+
             </div>
           </div>
         </div>
@@ -103,74 +103,100 @@
 </template>
 
 <script>
-  import headertop from '@/components/header.vue'
-  import footerbottom from '@/components/footer.vue'
-  import banner3 from '@/assets/images/xz/banner3.jpg'
-  import bj6 from '@/assets/images/xz/bj6.jpg'
-  import bj7 from '@/assets/images/xz/bj7.jpg'
-  import bj8 from '@/assets/images/xz/bj8.jpg'
-  import {
-    serviceIndex
-  } from '@/api/index.js'
-
-  export default {
-    components: {
-      headertop,
-      footerbottom
+import headertop from '@/components/header.vue'
+import footerbottom from '@/components/footer.vue'
+import banner3 from '@/assets/images/xz/banner3.jpg'
+import bj6 from '@/assets/images/xz/bj6.jpg'
+import bj7 from '@/assets/images/xz/bj7.jpg'
+import bj8 from '@/assets/images/xz/bj8.jpg'
+import { serviceIndex } from '@/api/index.js'
+let serviceIndexData = [
+    {
+        "id": 3,
+        "title": "玩出梦想助手",
+        "subtitle": "购买应用更便捷，设备互动更流畅",
+        "downloadUrl": "https://www.pfdm.cn/server/app/share?id=123123&linkType=6",
+        "image": "/profile/2024/06/14/fw3-3b5e313.png",
+        "streamingRequirements": "<div class=\"serNyConMkNrXqConBotLeft\">                <ul class=\"serNyConMkNrXqList f16\">                  <li><span class=\"serNyConMkNrXqListIco\">操作系统</span>Windows10 64位</li>                  <li><span class=\"serNyConMkNrXqListIco\">CPU</span>Intel core i5-6600/AMD锐龙3 1300X同等性能及以上</li>                  <li><span class=\"serNyConMkNrXqListIco\">GPU</span>NVDIA GeFore GTX 970/AMD RX 480 同等性能及以上</li>                  <li><span class=\"serNyConMkNrXqListIco\">内存</span>8GB RAM或以上</li>                </ul>              </div>              <div class=\"serNyConMkNrXqConBotRight\">                <ul class=\"serNyConMkNrXqList f16\">                  <li><span class=\"serNyConMkNrXqListIco\">网卡</span>具有1000Mbps RJ45网络接口</li>                  <li><span class=\"serNyConMkNrXqListIco\">路由器</span>双频千兆路由器；六类标准及以上的网线<br>                    千兆路由器推荐：华为WS7206；小米路由器Pro；D-link DIR 878；华硕RTAC5300</li>                  <li><span class=\"serNyConMkNrXqListIco\">说明</span>如果不符合以上条件，可能会影响你的体验</li>                  <li><span class=\"serNyConMkNrXqListIco\">备注</span>在开始之前，你需要保证YVR 2及手柄电量充足</li>                </ul>              </div>"
     },
-    watch: {
-      "$route.query.index": {
-        handler(e) {
-          console.log(e)
-          var distanceToTop_1 = $('.serNyConMk_1').offset().top;
-          var distanceToTop_2 = $('.serNyConMk_2').offset().top;
-          var distanceToTop_3 = $('.serNyConMk_3').offset().top;
-          if (e == 1) {
-            $('html,body').animate({
-              scrollTop: distanceToTop_1
-            }, 'slow');
-          }
-          if (e == 2) {
-            $('html,body').animate({
-              scrollTop: distanceToTop_2
-            }, 'slow');
-          }
-          if (e == 3) {
-            $('html,body').animate({
-              scrollTop: distanceToTop_3
-            }, 'slow');
-          }
-        },
+    {
+        "id": 1,
+        "title": "玩出梦想串流助手\n畅玩海量游戏大作",
+        "subtitle": "通过无线网络，就能简单完成与电脑的链接\n全新 PCVR 助手，功能一应俱全",
+        "downloadUrl": "https://www.pfdm.cn/yvrresource/YVR串流助手.exe",
+        "image": "/profile/2024/06/14/fw1-3f382a1.png",
+        "streamingRequirements": "<div class=\"serNyConMkNrXqConBotLeft\">                <ul class=\"serNyConMkNrXqList f16\">                  <li><span class=\"serNyConMkNrXqListIco\">操作系统</span>Windows10 64位</li>                  <li><span class=\"serNyConMkNrXqListIco\">CPU</span>Intel core i5-6600/AMD锐龙3 1300X同等性能及以上</li>                  <li><span class=\"serNyConMkNrXqListIco\">GPU</span>NVDIA GeFore GTX 970/AMD RX 480 同等性能及以上</li>                  <li><span class=\"serNyConMkNrXqListIco\">内存</span>8GB RAM或以上</li>                </ul>              </div>              <div class=\"serNyConMkNrXqConBotRight\">                <ul class=\"serNyConMkNrXqList f16\">                  <li><span class=\"serNyConMkNrXqListIco\">网卡</span>具有1000Mbps RJ45网络接口</li>                  <li><span class=\"serNyConMkNrXqListIco\">路由器</span>双频千兆路由器；六类标准及以上的网线<br>                    千兆路由器推荐：华为WS7206；小米路由器Pro；D-link DIR 878；华硕RTAC5300</li>                  <li><span class=\"serNyConMkNrXqListIco\">说明</span>如果不符合以上条件，可能会影响你的体验</li>                  <li><span class=\"serNyConMkNrXqListIco\">备注</span>在开始之前，你需要保证YVR 2及手柄电量充足</li>                </ul>              </div>"
+    },
+    {
+        "id": 2,
+        "title": "飞屏助手",
+        "subtitle": "同网快传、流畅观看、快速浏览PC端视频资源",
+        "downloadUrl": "https://www.pfdm.cn/yvrresource/YVR飞屏助手.exe",
+        "image": "/profile/2024/06/14/fw2-aef42b4.png",
+        "streamingRequirements": "<div class=\"serNyConMkNrXqConBotLeft\">                <ul class=\"serNyConMkNrXqList f16\">                  <li><span class=\"serNyConMkNrXqListIco\">操作系统</span>Windows10 64位</li>                  <li><span class=\"serNyConMkNrXqListIco\">CPU</span>Intel core i5-6600/AMD锐龙3 1300X同等性能及以上</li>                  <li><span class=\"serNyConMkNrXqListIco\">GPU</span>NVDIA GeFore GTX 970/AMD RX 480 同等性能及以上</li>                  <li><span class=\"serNyConMkNrXqListIco\">内存</span>8GB RAM或以上</li>                </ul>              </div>              <div class=\"serNyConMkNrXqConBotRight\">                <ul class=\"serNyConMkNrXqList f16\">                  <li><span class=\"serNyConMkNrXqListIco\">网卡</span>具有1000Mbps RJ45网络接口</li>                  <li><span class=\"serNyConMkNrXqListIco\">路由器</span>双频千兆路由器；六类标准及以上的网线<br>                    千兆路由器推荐：华为WS7206；小米路由器Pro；D-link DIR 878；华硕RTAC5300</li>                  <li><span class=\"serNyConMkNrXqListIco\">说明</span>如果不符合以上条件，可能会影响你的体验</li>                  <li><span class=\"serNyConMkNrXqListIco\">备注</span>在开始之前，你需要保证YVR 2及手柄电量充足</li>                </ul>              </div>"
+    }
+]
+export default {
+  components: {
+    headertop,
+    footerbottom
+  },
+  watch: {
+    "$route.query.index": {
+      handler(e) {
+        console.log(e)
+        var distanceToTop_1 = $('.serNyConMk_1').offset().top;
+        var distanceToTop_2 = $('.serNyConMk_2').offset().top;
+        var distanceToTop_3 = $('.serNyConMk_3').offset().top;
+        if (e == 1) {
+          $('html,body').animate({
+            scrollTop: distanceToTop_1
+          }, 'slow');
+        }
+        if (e == 2) {
+          $('html,body').animate({
+            scrollTop: distanceToTop_2
+          }, 'slow');
+        }
+        if (e == 3) {
+          $('html,body').animate({
+            scrollTop: distanceToTop_3
+          }, 'slow');
+        }
       },
     },
-    data() {
-      var that = this
-      return {
-        allNyBanBg: {
-          backgroundImage: `url(${banner3})`
-        },
-        serNyConMkBg1: {
-          backgroundImage: `url(${bj6})`
-        },
-        serNyConMkBg2: {
-          backgroundImage: `url(${bj7})`
-        },
-        serNyConMkBg3: {
-          backgroundImage: `url(${bj8})`
-        },
-        imgUrl: that.BASE_API,
-        serviceVoList0: {},
-        serviceVoList1: {},
-        serviceVoList2: {}
-      }
-    },
-    methods: {
-      async serviceIndex() {
-        let res = await serviceIndex({})
-        let data = res.data
-        this.serviceVoList0 = data.serviceVoList[0];
-        this.serviceVoList1 = data.serviceVoList[1];
-        this.serviceVoList2 = data.serviceVoList[2];
+  },
+  data() {
+    var that = this
+    return {
+      allNyBanBg: {
+        backgroundImage: `url(${banner3})`
+      },
+      serNyConMkBg1: {
+        backgroundImage: `url(${bj6})`
+      },
+      serNyConMkBg2: {
+        backgroundImage: `url(${bj7})`
+      },
+      serNyConMkBg3: {
+        backgroundImage: `url(${bj8})`
+      },
+      imgUrl:that.BASE_API,
+      serviceVoList0: {},
+      serviceVoList1: {},
+      serviceVoList2: {}
+    }
+  },
+  methods: {
+    async serviceIndex() {
+      // let res = await serviceIndex({})
+      // let data = res.data
+      // this.serviceVoList0 = data.serviceVoList[0];
+      // this.serviceVoList1 = data.serviceVoList[1];
+      // this.serviceVoList2 = data.serviceVoList[2];
+      this.serviceVoList0 = serviceIndexData[0];
+      this.serviceVoList1 = serviceIndexData[1];
+      this.serviceVoList2 = serviceIndexData[2];
 
       }
     },

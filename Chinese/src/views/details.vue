@@ -37,7 +37,7 @@
 		<div class="w1455 glNews">
 			<div class="f52 bolder glNewsTit wow fadeInUp">相关新闻</div>
 			<ul class="glNewsList">
-				<li class="wow fadeInUp" v-for="(item, index) in relatedList" :key="relatedList.id"
+				<li class="wow fadeInUp" v-for="(item, index) in relatedList" :key="item.id"
 					@click="jumpDetail(item, index)">
 					<a href="javascript:void(0);">
 						<img class="img100" :src="imgUrl + item.image" alt="" />
@@ -58,6 +58,10 @@ import headertop from '@/components/header.vue'
 import footerbottom from '@/components/footer.vue'
 import bj6 from '@/assets/images/xz/bj4.jpg'
 import { getNewsDetail, getNewsRelated } from '@/api/index.js'
+
+import mockNewsData from '../../mock/news.js';
+import relatedListData from '../../mock/related.js';
+
 export default {
 	components: {
 		headertop,
@@ -151,9 +155,11 @@ export default {
 		async getNewsDetail() {
 			let query = this.$route.query
 			this.index = query.index
-			let res = await getNewsDetail(query.id);
+			// let res = await getNewsDetail(query.id);
+			let res = mockNewsData[query.id]
 			this.ids = JSON.parse(localStorage.getItem('cymx_news'))
-			let data = res.data;
+			let data = res;
+			// let data = res.data;
 			this.dataXq = data;
 			let createTime = data.createTime;
 			const date = new Date(createTime);
@@ -164,9 +170,10 @@ export default {
 		async getNewsRelated() {
 			let query = this.$route.query
 			this.index = query.index
-			let res = await getNewsRelated(query.id);
+			// let res = await getNewsRelated(query.id);
 			this.ids = JSON.parse(localStorage.getItem('cymx_news'))
-			let data = res.data;
+			let data = relatedListData;
+			// let data = res.data;
 			console.log(data)
 			if (data.nextNews === null) {
 				data.nextNews = { title: "没有了" }

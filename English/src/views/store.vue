@@ -136,6 +136,37 @@ import headertop from '@/components/header.vue'
 import footerbottom from '@/components/footer.vue'
 import bj6 from '@/assets/images/store/bj6_1.jpg'
 import { recommend, getstoreList } from '@/api/index.js'
+
+let recommendData = [
+    {
+        "createBy": null,
+        "createTime": "2024-06-14 18:23:01",
+        "updateBy": null,
+        "updateTime": "2024-06-23 09:28:13",
+        "remark": null,
+        "id": 5,
+        "lang": "en",
+        "storeName": "Play For Dreams Experience Store (Wujiaochang Wanda)",
+        "address": "Shop 1120, Level B1, Wujiaochang Wanda, Yangpu District, Shanghai",
+        "image": "/profile/2024/06/14/img2-b819526.png",
+        "isRecommend": "Y"
+    },
+    {
+        "createBy": null,
+        "createTime": "2024-06-14 18:23:32",
+        "updateBy": null,
+        "updateTime": "2024-06-23 09:28:33",
+        "remark": null,
+        "id": 6,
+        "lang": "en",
+        "storeName": "Global Harbor Store",
+        "address": "Shop 4083, Level 4, Global Harbor, Putuo District, Shanghai",
+        "image": "/profile/2024/06/14/img3-406f532.png",
+        "isRecommend": "Y"
+    }
+]
+
+
 export default {
   components: {
     headertop,
@@ -170,21 +201,25 @@ export default {
   },
   methods: {
     async recommend() {
-      let res = await recommend({})
-      let data = res.data
-      this.dataList = data
+      // let res = await recommend({})
+      // let data = res.data
+      this.dataList = recommendData
     },
     async storeList() {
       if (this.inputValue == "") {
         alert("The input cannot be empty")
       } else {
-        let res = await getstoreList({
-          keyword: this.inputValue,
-          pageNum: this.pageNum,
-          pageSize: 100
+        // let res = await getstoreList({
+        //   keyword: this.inputValue,
+        //   pageNum: this.pageNum,
+        //   pageSize: 100
+        // })
+        // let data = res.data.records
+        let resultArr = []
+        recommendData.map(item => {
+          item.storeName.includes(this.inputValue) && resultArr.push(item)
         })
-        let data = res.data.records
-        this.dataList = data
+        this.dataList = resultArr
 
         var _topHeader11 = $("#header").outerHeight(true);
         var distanceToTop_11 = $('.label1').offset().top - _topHeader11;

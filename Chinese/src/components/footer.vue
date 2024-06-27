@@ -90,9 +90,29 @@ export default {
   },
   methods: {
     async friendList() {
-      let res = await friendList({})
-      let data = res.data
-      this.dataList = data
+      // let res = await friendList({})
+      // let data = res.data
+      // this.dataList = data
+      this.dataList = [
+        {
+            "id": 1,
+            "name": "百度",
+            "link": "https://www.baidu.com",
+            "logo": null
+        },
+        {
+            "id": 2,
+            "name": "UXDtime",
+            "link": "http://www.uxdtime.com",
+            "logo": ""
+        },
+        {
+            "id": 4,
+            "name": "飞信网",
+            "link": "https://www.fx99.cn",
+            "logo": ""
+        }
+      ]
 
     }
   },

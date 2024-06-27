@@ -211,62 +211,157 @@
 </template>
 
 <script>
-  import headertop from '@/components/header.vue'
-  import footerbottom from '@/components/footer.vue'
-  import bj3 from '@/assets/images/bj3.jpg'
-  import {
-    homeIndex,
-    feedback
-  } from '@/api/index.js'
-  import {
-    isvalidMobile
-  } from '@/utils/validate.js'
-  export default {
-    components: {
-      headertop,
-      footerbottom
-    },
-    data() {
-      var that = this
-      return {
-        syNewsBg: {
-          backgroundImage: `url(${bj3})`
-        },
-        imgUrl: that.BASE_API,
-        bannerVoList1: [],
-        bannerVoList2: [],
-        bannerVoList3: {},
-        bannerVoList4: [],
-        bannerVo5: {},
-        bannerVo6: {},
-        isShow: false,
-        useName: '',
-        phone: '',
-        location: ''
-      }
-    },
-    methods: {
-      async homeIndex() {
-        let res = await homeIndex({})
-        let data = res.data
-        this.bannerVoList1 = data.bannerVoList1;
-        this.bannerVoList2 = data.bannerVoList2;
-        this.bannerVoList3 = data.bannerVoList3[0];
-        this.bannerVoList4 = data.bannerVoList4;
-        this.bannerVo5 = data.bannerVo5;
-        this.bannerVo6 = data.bannerVo6;
-      },
-      jumpActive(url) {
-        if (url.indexOf('http') > -1) {
-          window.open(url, '_blank');
-        } else {
-          this.$router.push({
-            path: url,
-            query: {
-
-            }
-          })
+import headertop from '@/components/header.vue'
+import footerbottom from '@/components/footer.vue'
+import bj3 from '@/assets/images/bj3.jpg'
+import { homeIndex, feedback } from '@/api/index.js'
+import {isvalidMobile} from '@/utils/validate.js'
+let indexData = {
+    "bannerVoList1": [],
+    "bannerVoList2": [
+        {
+            "id": 4,
+            "bannerPosition": "home2",
+            "image": "/profile/2024/06/14/bj2-09a9775.jpg",
+            "title": "YVR 2",
+            "subtitle": "无限空间 玩出梦想",
+            "video": null,
+            "button1Text": "探索更多",
+            "button1Url": "/vr",
+            "button2Text": "购买产品",
+            "button2Url": "https://mall.jd.com/index-1000425743.html",
+            "sortOrder": 1
         }
+    ],
+    "bannerVoList3": [
+        {
+            "id": 5,
+            "bannerPosition": "home3",
+            "image": null,
+            "title": "改变世界获取信息的方式",
+            "subtitle": null,
+            "video": "/profile/2024/06/14/video.7f9fab1.mp4",
+            "button1Text": "探索更多",
+            "button1Url": "/about",
+            "button2Text": null,
+            "button2Url": null,
+            "sortOrder": 1
+        }
+    ],
+    "bannerVoList4": [
+        {
+            "id": 8,
+            "bannerPosition": "home4",
+            "image": "/profile/2024/06/14/img3-7ba8e8a.png",
+            "title": "玩出梦想助手",
+            "subtitle": "购买应用更便捷，设备互动更流畅",
+            "video": null,
+            "button1Text": "探索更多",
+            "button1Url": "/service?index=3",
+            "button2Text": null,
+            "button2Url": null,
+            "sortOrder": 1
+        },
+        {
+            "id": 6,
+            "bannerPosition": "home4",
+            "image": "/profile/2024/06/14/img1-e1ca88e.png",
+            "title": "串流助手",
+            "subtitle": "通过无线网络，就能简单完成与电脑的链接",
+            "video": null,
+            "button1Text": "探索更多",
+            "button1Url": "/service?index=1",
+            "button2Text": null,
+            "button2Url": null,
+            "sortOrder": 2
+        },
+        {
+            "id": 7,
+            "bannerPosition": "home4",
+            "image": "/profile/2024/06/14/img2-778cd57.png",
+            "title": "飞屏助手",
+            "subtitle": "同网快传、流畅观看、快速浏览PC端视频资源",
+            "video": null,
+            "button1Text": "探索更多",
+            "button1Url": "/service?index=2",
+            "button2Text": null,
+            "button2Url": null,
+            "sortOrder": 3
+        }
+    ],
+    "bannerVo5": {
+        "id": 9,
+        "bannerPosition": "home5",
+        "image": "/profile/2024/06/14/bj5-9200794.jpg",
+        "title": "全国布局<span class=\"counter\">300</span>+",
+        "subtitle": "线下渠道零售门店",
+        "video": null,
+        "button1Text": "了解详情",
+        "button1Url": "/store",
+        "button2Text": null,
+        "button2Url": null,
+        "sortOrder": 1
+    },
+    "bannerVo6": {
+        "id": 10,
+        "bannerPosition": "home6",
+        "image": "/profile/2024/06/14/bj6-0b9c00d.jpg",
+        "title": "与<span  class=\"counter\">50000</span>+玩家",
+        "subtitle": "携手开启冒险之旅",
+        "video": null,
+        "button1Text": "在线预订",
+        "button1Url": "https://mall.jd.com/index-1000425743.html",
+        "button2Text": null,
+        "button2Url": null,
+        "sortOrder": 1
+    }
+}
+export default {
+  components: {
+    headertop,
+    footerbottom
+  },
+  data() {
+    var that = this
+    return {
+      syNewsBg: {
+        backgroundImage: `url(${bj3})`
+      },
+      imgUrl: that.BASE_API,
+      bannerVoList1: [],
+      bannerVoList2: [],
+      bannerVoList3: {},
+      bannerVoList4: [],
+      bannerVo5: {},
+      bannerVo6: {},
+      isShow:false,
+      useName:'',
+      phone:'',
+      location:''
+    }
+  },
+  methods: {
+    async homeIndex() {
+      // let res = await homeIndex({})
+      let data = indexData
+      this.bannerVoList1 = data.bannerVoList1;
+      this.bannerVoList2 = data.bannerVoList2;
+      this.bannerVoList3 = data.bannerVoList3[0];
+      this.bannerVoList4 = data.bannerVoList4;
+      this.bannerVo5 = data.bannerVo5;
+      this.bannerVo6 = data.bannerVo6;
+    },
+    jumpActive(url) {
+      if (url.indexOf('http') > -1) {
+        window.open(url, '_blank');
+      } else {
+        this.$router.push({
+          path: url,
+          query: {
+
+          }
+        })
+      }
 
       },
       showMc() {
@@ -302,149 +397,74 @@
         })
 
 
-      }
-    },
-    async mounted() {
-      await this.homeIndex()
-      var that = this
-      $(function() {
+    }
+  },
+  async mounted() {
+    await this.homeIndex()
+    var that = this
+    $(function() {
 
 
-        $(".allTopConMenu ul li").eq(0).addClass("active");
-        if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
-          new WOW().init();
-        };
+      $(".allTopConMenu ul li").eq(0).addClass("active");
+      if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
+        new WOW().init();
+      };
 
-        var sjxxFsDypSwiper = new Swiper('.sjxxFsDyp', {
-          observer: true, //开启动态检查器，监测swiper和slide
-          observeParents: true, //监测Swiper 的祖/父元素
-          // autoplay: {
-          //   delay: 5000,
-          //   stopOnLastSlide: false,
-          //   disableOnInteraction: true,
-          // },
-          // noSwiping: true,
-          spaceBetween: 0,
-          effect: 'fade',
-          on: {
-            init: function() {
-              swiperAnimateCache(this); //隐藏动画元素
-              swiperAnimate(this); //初始化完成开始动画
-            },
-            slideChangeTransitionEnd: function() {
-              swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
-              //this.slides.eq(this.activeIndex).find('.ani').removeClass('ani'); 动画只展现一次，去除ani类名
-            },
-            slideChangeTransitionStart: function() {
-              $(".sjxxFsDyp-pagination .swiper-pagination-customs").removeClass(
-                'swiper-pagination-customs-active');
-              $(".sjxxFsDyp-pagination .swiper-pagination-customs").eq(this.activeIndex).addClass(
-                'swiper-pagination-customs-active');
-            },
-            slideChange: function() {
-              swiperAnimateCache(this); //隐藏动画元素
-              swiperAnimate(this); //初始化完成开始动画
-            },
+      var sjxxFsDypSwiper = new Swiper('.sjxxFsDyp', {
+        observer: true, //开启动态检查器，监测swiper和slide
+        observeParents: true, //监测Swiper 的祖/父元素
+        // autoplay: {
+        //   delay: 5000,
+        //   stopOnLastSlide: false,
+        //   disableOnInteraction: true,
+        // },
+        // noSwiping: true,
+        spaceBetween: 0,
+        effect: 'fade',
+        on: {
+          init: function() {
+            swiperAnimateCache(this); //隐藏动画元素
+            swiperAnimate(this); //初始化完成开始动画
           },
-          breakpoints: {
-            960: {
-              noSwiping: false
-            }
+          slideChangeTransitionEnd: function() {
+            swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
+            //this.slides.eq(this.activeIndex).find('.ani').removeClass('ani'); 动画只展现一次，去除ani类名
+          },
+          slideChangeTransitionStart: function() {
+            $(".sjxxFsDyp-pagination .swiper-pagination-customs").removeClass(
+              'swiper-pagination-customs-active');
+            $(".sjxxFsDyp-pagination .swiper-pagination-customs").eq(this.activeIndex).addClass(
+              'swiper-pagination-customs-active');
+          },
+          slideChange: function() {
+            swiperAnimateCache(this); //隐藏动画元素
+            swiperAnimate(this); //初始化完成开始动画
+          },
+        },
+        breakpoints: {
+          960: {
+            noSwiping: false
           }
-        })
-        $(".sjxxFsDyp-pagination .swiper-pagination-customs").eq(0).addClass('swiper-pagination-customs-active');
-        $(".sjxxFsDyp-pagination .swiper-pagination-customs").click(function() {
-          var index = $(this).index();
-          $(".sjxxFsDyp-pagination .swiper-pagination-customs").removeClass(
-            'swiper-pagination-customs-active');
-          $(this).addClass('swiper-pagination-customs-active');
-          sjxxFsDypSwiper.slideTo(index, 1000, false); //切换到第一个slide，速度为1秒
-          // sjxxFsDypSwiper.autoplay.start();
+        }
+      })
+      $(".sjxxFsDyp-pagination .swiper-pagination-customs").eq(0).addClass('swiper-pagination-customs-active');
+      $(".sjxxFsDyp-pagination .swiper-pagination-customs").click(function() {
+        var index = $(this).index();
+        $(".sjxxFsDyp-pagination .swiper-pagination-customs").removeClass(
+          'swiper-pagination-customs-active');
+        $(this).addClass('swiper-pagination-customs-active');
+        sjxxFsDypSwiper.slideTo(index, 1000, false); //切换到第一个slide，速度为1秒
+        // sjxxFsDypSwiper.autoplay.start();
 
-        })
+        if(isWeiXin()){
+          // console.log(" 是来自微信内置浏览器")
+          document.getElementById('video').controls = true;
+          document.getElementById('video').play();
 
+          document.getElementById('videoHome').controls = true;
+          document.getElementById('videoHome').play();
+        }
 
-        var wcmxDep = new Swiper('.wcmxDep', {
-          autoplay: {
-            delay: 5000,
-            disableOnInteraction: false,
-          },
-          speed: 500,
-          effect: 'fade',
-          // loop: true, //必须
-          navigation: {
-            nextEl: '.wcmxDep .swiper-button-next',
-            prevEl: '.wcmxDep .swiper-button-prev',
-          },
-          on: {
-            init: function() {
-              swiperAnimateCache(this); //隐藏动画元素
-              swiperAnimate(this); //初始化完成开始动画
-            },
-            slideChangeTransitionEnd: function() {
-              swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
-              //this.slides.eq(this.activeIndex).find('.ani').removeClass('ani'); 动画只展现一次，去除ani类名
-            }
-          },
-          breakpoints: {
-            960: {
-              noSwiping: false
-            }
-          }
-        });
-
-
-
-        var syNewsSwiper = new Swiper(".syNewsSwiper", {
-          slidesPerView: 2.6,
-          spaceBetween: 68,
-          breakpoints: {
-            320: {
-              slidesPerView: 1.1,
-              spaceBetween: 10
-            },
-            430: {
-              slidesPerView: 1.1,
-              spaceBetween: 10
-            },
-            768: {
-              slidesPerView: 1.4,
-              spaceBetween: 15
-            },
-            1280: {
-              slidesPerView: 2.6,
-              spaceBetween: 38
-            }
-          }
-        });
-        that.$nextTick(() => {
-          $('.counter').countUp({
-            time: 1500
-          });
-        })
-
-
-
-        $(".sjxxFsDyp .allBtn").hover(function() {
-          $(this).siblings().removeClass("active")
-          $(this).addClass("active")
-        })
-
-        $(".wcmxDep .allBtn").hover(function() {
-          $(this).siblings().removeClass("active")
-          $(this).addClass("active")
-        })
-
-        $(".syNewsSwiper .swiper-slide").hover(function() {
-          $(".syNewsSwiper .swiper-slide .allBtn").removeClass("active")
-          $(this).find(".allBtn").addClass("active")
-        })
-
-
-        videoTX()
-        window.addEventListener("resize", () => {
-          // videoTX()
-        });
 
         if(isWeiXin()){
           // console.log(" 是来自微信内置浏览器")
@@ -499,26 +519,141 @@
         if (window.innerWidth > 960) {
 
         } else {
-          // 添加控件
-          // document.getElementById('video').controls = true;
-          // document.getElementById('video').play();
+          return false;
         }
       }
 
-      // window.onscroll = function() {
-      // 	var scrollPosition = window.scrollY;
-      // 	var aaHeight = window.innerHeight * 2;
-      // 	var bbHeight = window.innerHeight * 4.3;
-      // 	console.log(scrollPosition, aaHeight)
-      // 	if (scrollPosition >= aaHeight && scrollPosition < bbHeight) {
-      // 		document.getElementById('video').play();
-      // 	} else {
-      // 		document.getElementById('video').pause();
-      // 	}
-      // };
+      var wcmxDep = new Swiper('.wcmxDep', {
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        speed: 500,
+        effect: 'fade',
+        // loop: true, //必须
+        navigation: {
+          nextEl: '.wcmxDep .swiper-button-next',
+          prevEl: '.wcmxDep .swiper-button-prev',
+        },
+        on: {
+          init: function() {
+            swiperAnimateCache(this); //隐藏动画元素
+            swiperAnimate(this); //初始化完成开始动画
+          },
+          slideChangeTransitionEnd: function() {
+            swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
+            //this.slides.eq(this.activeIndex).find('.ani').removeClass('ani'); 动画只展现一次，去除ani类名
+          }
+        },
+        breakpoints: {
+          960: {
+            noSwiping: false
+          }
+        }
+      });
 
+
+
+      var syNewsSwiper = new Swiper(".syNewsSwiper", {
+        slidesPerView: 2.6,
+        spaceBetween: 68,
+        breakpoints: {
+          320: {
+            slidesPerView: 1.1,
+            spaceBetween: 10
+          },
+          430: {
+            slidesPerView: 1.1,
+            spaceBetween: 10
+          },
+          768: {
+            slidesPerView: 1.4,
+            spaceBetween: 15
+          },
+          1280: {
+            slidesPerView: 2.6,
+            spaceBetween: 38
+          }
+        }
+      });
+      that.$nextTick(() => {
+        $('.counter').countUp({
+          time: 1500
+        });
+      })
+
+
+
+      $(".sjxxFsDyp .allBtn").hover(function() {
+        $(this).siblings().removeClass("active")
+        $(this).addClass("active")
+      })
+
+      $(".wcmxDep .allBtn").hover(function() {
+        $(this).siblings().removeClass("active")
+        $(this).addClass("active")
+      })
+
+      $(".syNewsSwiper .swiper-slide").hover(function() {
+        $(".syNewsSwiper .swiper-slide .allBtn").removeClass("active")
+        $(this).find(".allBtn").addClass("active")
+      })
+
+
+      videoTX()
+      window.addEventListener("resize", () => {
+        // videoTX()
+      });
+
+    })
+
+    function videoTX() {
+
+      var controller = new ScrollMagic.Controller();
+      var durationHeight = "150%";
+      //console.log(durationHeight)
+      var wipeAnimation = new TimelineMax()
+        .fromTo("#yhxqFsBj", 1, {
+          scale: '1'
+        }, {
+          scale: '5',
+          ease: Linear.easeNone
+        }, "+=0.4") // in from right
+      // create scene to pin and link animation
+      new ScrollMagic.Scene({
+          triggerElement: "#yhxqFs",
+          triggerHook: "onLeave",
+          duration: durationHeight,
+          pinSpacing: false
+        })
+        .setPin("#yhxqFs")
+        .setTween(wipeAnimation)
+        // .addIndicators() // add indicators (requires plugin)
+        .addTo(controller);
+
+      if (window.innerWidth > 960) {
+
+      } else {
+        // 添加控件
+        // document.getElementById('video').controls = true;
+        // document.getElementById('video').play();
+      }
     }
+
+    // window.onscroll = function() {
+    // 	var scrollPosition = window.scrollY;
+    // 	var aaHeight = window.innerHeight * 2;
+    // 	var bbHeight = window.innerHeight * 4.3;
+    // 	console.log(scrollPosition, aaHeight)
+    // 	if (scrollPosition >= aaHeight && scrollPosition < bbHeight) {
+    // 		document.getElementById('video').play();
+    // 	} else {
+    // 		document.getElementById('video').pause();
+    // 	}
+    // };
+
   }
+}
 </script>
 
 <style scoped></style>

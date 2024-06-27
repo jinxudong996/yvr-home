@@ -4,12 +4,12 @@
     <div class="allWzNyDw">
       <div class="w_1760 allWzNyDwCon">
         <div class="allWzNyDwLeft">
-          <img src="../assets/images/home.png" alt="" />
+          <!-- <img src="../assets/images/home.png" alt="" />
           Home
           <span class="allWzNyDwConIco">&nbsp;</span>
           VR
           <span class="allWzNyDwConIco">&nbsp;</span>
-          YVR 2
+          YVR 2 -->
         </div>
         <div class="allWzNyDwRight">
           <!-- Overview

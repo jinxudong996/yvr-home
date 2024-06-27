@@ -1,3 +1,11 @@
+/*
+ * @Author: jinxudong 1766551722@qq.com
+ * @Date: 2024-06-23 11:17:38
+ * @LastEditors: jinxudong 1766551722@qq.com
+ * @LastEditTime: 2024-06-25 15:05:17
+ * @FilePath: \yvr-home\Chinese\src\utils\fetch.js
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 import axios from 'axios';
 import qs from 'qs';
 import Vue from "vue";
@@ -5,7 +13,8 @@ import store from '../store'
 
 // 创建axios实例
 
-let BASE_API = 'http://pfdm.ucantech.net:10031/api'
+// let BASE_API = 'http://pfdm.ucantech.net:10031/api'
+let BASE_API = 'https://api.yvrdream.com/api'
 
 
 Vue.prototype.BASE_API=BASE_API

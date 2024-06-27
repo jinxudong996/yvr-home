@@ -58,7 +58,6 @@
                   target="_blank">Download the PCVR Assistant User Guide ⬇️</a></div>
             </div>
             <div class="serNyConMkNrXqConBot" v-html="serviceVoList1.streamingRequirements">
-              <!--  -->
             </div>
           </div>
         </div>
@@ -117,64 +116,94 @@
     serviceIndex
   } from '@/api/index.js'
 
-  export default {
-    components: {
-      headertop,
-      footerbottom
+let serviceIndexData = [
+    {
+        "id": 6,
+        "title": "Play For Dream Mobile Assistant ",
+        "subtitle": "Easier App Purchases, Smoother Device Interaction.",
+        "downloadUrl": "https://www.pfdm.cn/server/app/share?id=123123&linkType=6",
+        "image": "/profile/2024/06/14/fw3-3b5e313.png",
+        "streamingRequirements": "<div class=\"serNyConMkNrXqConBotLeft\">                <ul class=\"serNyConMkNrXqList f16\">                  <li><span class=\"serNyConMkNrXqListIco\">Operating system</span>Windows10 64位</li>                  <li><span class=\"serNyConMkNrXqListIco\">CPU</span>Intel Core l5-6600 /AMD Ryzen3 1300X and above</li>                  <li><span class=\"serNyConMkNrXqListIco\">GPU</span>NVIDIA GeForce GTX 970 /AMD RX 480 and above</li>                  <li><span class=\"serNyConMkNrXqListIco\">Memory</span>8GB RAM or above                </ul>              </div>              <div class=\"serNyConMkNrXqConBotRight\">                <ul class=\"serNyConMkNrXqList f16\">                  <li><span class=\"serNyConMkNrXqListIco\">Network adapter</span>with 1000Mbps RJ45 network interface</li>                  <li><span class=\"serNyConMkNrXqListIco\">Router</span>Dual-band gigabit router, Network cables of six or higher standards<br>                    Recommended Gigabit router: Huawei WS7206; Xiaomi Router Pro; D-link DIR 878: ASUS RT AC5300.</li>                  <li><span class=\"serNyConMkNrXqListIco\">Note</span>lf the above conditions are not met, it may affect your experience</li>                  <li><span class=\"serNyConMkNrXqListIco\">Note</span>before starting, you need to ensure that YVR 2 and gamepad are fully charged</li>                </ul>              </div>"
     },
-    watch: {
-      "$route.query.index": {
-        handler(e) {
-          console.log(e)
-          var distanceToTop_1 = $('.serNyConMk_1').offset().top;
-          var distanceToTop_2 = $('.serNyConMk_2').offset().top;
-          var distanceToTop_3 = $('.serNyConMk_3').offset().top;
-          if (e == 1) {
-            $('html,body').animate({
-              scrollTop: distanceToTop_1
-            }, 'slow');
-          }
-          if (e == 2) {
-            $('html,body').animate({
-              scrollTop: distanceToTop_2
-            }, 'slow');
-          }
-          if (e == 3) {
-            $('html,body').animate({
-              scrollTop: distanceToTop_3
-            }, 'slow');
-          }
-        },
+    {
+        "id": 4,
+        "title": "PCVR Assistant\nEnjoy a Vast Library of Masterpiece Games",
+        "subtitle": "Effortlessly connect to your PC via wireless network. \nThe all-new PCVR Assistant comes fully equipped with all the features you need.",
+        "downloadUrl": "https://www.pfdm.cn/yvrresource/YVR串流助手.exe",
+        "image": "/profile/2024/06/14/fw1-3f382a1.png",
+        "streamingRequirements": "<div class=\"serNyConMkNrXqConBotLeft\">                <ul class=\"serNyConMkNrXqList f16\">                  <li><span class=\"serNyConMkNrXqListIco\">Operating system</span>Windows10 64位</li>                  <li><span class=\"serNyConMkNrXqListIco\">CPU</span>Intel Core l5-6600 /AMD Ryzen3 1300X and above</li>                  <li><span class=\"serNyConMkNrXqListIco\">GPU</span>NVIDIA GeForce GTX 970 /AMD RX 480 and above</li>                  <li><span class=\"serNyConMkNrXqListIco\">Memory</span>8GB RAM or above                </ul>              </div>              <div class=\"serNyConMkNrXqConBotRight\">                <ul class=\"serNyConMkNrXqList f16\">                  <li><span class=\"serNyConMkNrXqListIco\">Network adapter</span>with 1000Mbps RJ45 network interface</li>                  <li><span class=\"serNyConMkNrXqListIco\">Router</span>Dual-band gigabit router, Network cables of six or higher standards<br>                    Recommended Gigabit router: Huawei WS7206; Xiaomi Router Pro; D-link DIR 878: ASUS RT AC5300.</li>                  <li><span class=\"serNyConMkNrXqListIco\">Note</span>lf the above conditions are not met, it may affect your experience</li>                  <li><span class=\"serNyConMkNrXqListIco\">Note</span>before starting, you need to ensure that YVR 2 and gamepad are fully charged</li>                </ul>              </div>"
+    },
+    {
+        "id": 5,
+        "title": "Film Stream Assistant",
+        "subtitle": "Fast Wifi Transfer, Smooth Viewing, Quick Access to PC Video Resource.",
+        "downloadUrl": "https://www.pfdm.cn/yvrresource/YVR飞屏助手.exe",
+        "image": "/profile/2024/06/14/fw2-aef42b4.png",
+        "streamingRequirements": "<div class=\"serNyConMkNrXqConBotLeft\">                <ul class=\"serNyConMkNrXqList f16\">                  <li><span class=\"serNyConMkNrXqListIco\">Operating system</span>Windows10 64-bit</li>                  <li><span class=\"serNyConMkNrXqListIco\">CPU</span>Intel Core l5-6600 /AMD Ryzen3 1300X and above</li>                  <li><span class=\"serNyConMkNrXqListIco\">GPU</span>NVIDIA GeForce GTX 970 /AMD RX 480 and above</li>                  <li><span class=\"serNyConMkNrXqListIco\">Memory</span>8GB RAM or above</li>                </ul>              </div>              <div class=\"serNyConMkNrXqConBotRight\">                <ul class=\"serNyConMkNrXqList f16\">                  <li><span class=\"serNyConMkNrXqListIco\">Network adapter</span>with 1000Mbps RJ45 network interface</li>                  <li><span class=\"serNyConMkNrXqListIco\">Router</span>Dual-band gigabit router, Network cables of six or higher standards<br>                    Recommended Gigabit router: Huawei WS7206; Xiaomi Router Pro; D-link DIR 878: ASUS RT AC5300.</li>                  <li><span class=\"serNyConMkNrXqListIco\">Note</span>lf the above conditions are not met, it may affect your experience</li>                  <li><span class=\"serNyConMkNrXqListIco\">Note</span>before starting, you need to ensure that YVR 2 and gamepad are fully charged</li>                </ul>              </div>"
+    }
+]
+
+export default {
+  components: {
+    headertop,
+    footerbottom
+  },
+  watch: {
+    "$route.query.index": {
+      handler(e) {
+        console.log(e)
+        var distanceToTop_1 = $('.serNyConMk_1').offset().top;
+        var distanceToTop_2 = $('.serNyConMk_2').offset().top;
+        var distanceToTop_3 = $('.serNyConMk_3').offset().top;
+        if (e == 1) {
+          $('html,body').animate({
+            scrollTop: distanceToTop_1
+          }, 'slow');
+        }
+        if (e == 2) {
+          $('html,body').animate({
+            scrollTop: distanceToTop_2
+          }, 'slow');
+        }
+        if (e == 3) {
+          $('html,body').animate({
+            scrollTop: distanceToTop_3
+          }, 'slow');
+        }
       },
     },
-    data() {
-      var that = this
-      return {
-        allNyBanBg: {
-          backgroundImage: `url(${banner3})`
-        },
-        serNyConMkBg1: {
-          backgroundImage: `url(${bj6})`
-        },
-        serNyConMkBg2: {
-          backgroundImage: `url(${bj7})`
-        },
-        serNyConMkBg3: {
-          backgroundImage: `url(${bj8})`
-        },
-        imgUrl: that.BASE_API,
-        serviceVoList0: {},
-        serviceVoList1: {},
-        serviceVoList2: {}
-      }
-    },
-    methods: {
-      async serviceIndex() {
-        let res = await serviceIndex({})
-        let data = res.data
-        this.serviceVoList0 = data.serviceVoList[0];
-        this.serviceVoList1 = data.serviceVoList[1];
-        this.serviceVoList2 = data.serviceVoList[2];
+  },
+  data() {
+    var that = this
+    return {
+      allNyBanBg: {
+        backgroundImage: `url(${banner3})`
+      },
+      serNyConMkBg1: {
+        backgroundImage: `url(${bj6})`
+      },
+      serNyConMkBg2: {
+        backgroundImage: `url(${bj7})`
+      },
+      serNyConMkBg3: {
+        backgroundImage: `url(${bj8})`
+      },
+      imgUrl:that.BASE_API,
+      serviceVoList0: {},
+      serviceVoList1: {},
+      serviceVoList2: {}
+    }
+  },
+  methods: {
+    async serviceIndex() {
+      // let res = await serviceIndex({})
+      // let data = res.data
+      // this.serviceVoList0 = data.serviceVoList[0];
+      // this.serviceVoList1 = data.serviceVoList[1];
+      // this.serviceVoList2 = data.serviceVoList[2];
+      this.serviceVoList0 = serviceIndexData[0];
+      this.serviceVoList1 = serviceIndexData[1];
+      this.serviceVoList2 = serviceIndexData[2];
 
       }
     },

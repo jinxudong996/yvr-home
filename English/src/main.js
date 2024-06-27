@@ -11,6 +11,10 @@ import './assets/css/style.css';
 import GeminiScrollbar from 'vue-gemini-scrollbar' //滚动条优化
 import service from '@/utils/fetch'
 
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+
+Vue.use(ElementUI);
 
 Vue.use(GeminiScrollbar)
 

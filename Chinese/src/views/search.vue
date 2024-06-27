@@ -92,6 +92,36 @@
 import headertop from '@/components/header.vue'
 import footerbottom from '@/components/footer.vue'
 import { getstoreList, getNewsList } from '@/api/index.js'
+
+let recommendData = [
+    {
+        "createBy": null,
+        "createTime": "2024-06-14 18:23:01",
+        "updateBy": null,
+        "updateTime": "2024-06-17 17:50:55",
+        "remark": null,
+        "id": 2,
+        "lang": "cn",
+        "storeName": "玩出梦想零售体验店（五角场万达店）",
+        "address": "上海市杨浦区五角场万达B1层1120号商铺",
+        "image": "/profile/2024/06/14/img2-b819526.png",
+        "isRecommend": "Y"
+    },
+    {
+        "createBy": null,
+        "createTime": "2024-06-14 18:23:32",
+        "updateBy": null,
+        "updateTime": "2024-06-17 17:50:55",
+        "remark": null,
+        "id": 3,
+        "lang": "cn",
+        "storeName": "玩出梦想零售体验店（环球港店）",
+        "address": "上海市普陀区月星环球港4层4083号商铺",
+        "image": "/profile/2024/06/14/img3-406f532.png",
+        "isRecommend": "Y"
+    }
+]
+
 export default {
   components: {
     headertop,
@@ -165,26 +195,31 @@ export default {
           pageNum: this.pageNum,
           pageSize: 100
         })
-        let data = res.data.records
-        this.dataList = data
+        // let data = res.data.records
+        let resultArr = []
+        let arr = []
+        recommendData.map(item => {
+          item.storeName.includes(this.inputValue) && resultArr.push(item)
+        })
+        this.dataList = resultArr
         if (this.dataList.length == 0) {
           this.isShowStore = true
         } else {
           this.isShowStore = false
         }
-
-        let resp = await getNewsList({
-          keyword: this.inputValue,
-          pageNum: 1,
-          pageSize: 1000
-        })
-        this.newsList = resp.data.records
-        console.log(resp)
-        if (this.newsList.length == 0) {
-          this.isShowNews = true
-        } else {
-          this.isShowNews = false
-        }
+        this.isShowNews = false
+        // let resp = await getNewsList({
+        //   keyword: this.inputValue,
+        //   pageNum: 1,
+        //   pageSize: 1000
+        // })
+        // this.newsList = resp.data.records
+        // console.log(resp)
+        // if (this.newsList.length == 0) {
+        //   this.isShowNews = true
+        // } else {
+        //   this.isShowNews = false
+        // }
 
       }
 

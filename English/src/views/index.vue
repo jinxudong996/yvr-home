@@ -203,44 +203,141 @@
 </template>
 
 <script>
-  import headertop from '@/components/header.vue'
-  import footerbottom from '@/components/footer.vue'
-  import bj3 from '@/assets/images/bj3.jpg'
-  import {
-    homeIndex,
-    feedback
-  } from '@/api/index.js'
-  import {
-    isvalidMobile
-  } from '@/utils/validate.js'
-  export default {
-    components: {
-      headertop,
-      footerbottom
-    },
-    data() {
-      var that = this
-      return {
-        syNewsBg: {
-          backgroundImage: `url(${bj3})`
+import headertop from '@/components/header.vue'
+import footerbottom from '@/components/footer.vue'
+import bj3 from '@/assets/images/bj3.jpg'
+import { homeIndex, feedback } from '@/api/index.js'
+import {isvalidMobile} from '@/utils/validate.js'
+
+let indexData = {
+    "bannerVoList1": [],
+    "bannerVoList2": [
+        {
+            "id": 11,
+            "bannerPosition": "home2",
+            "image": "/profile/2024/06/14/bj2-09a9775.jpg",
+            "title": "YVR 2",
+            "subtitle": "Space of Infinity, Play for Dream",
+            "video": null,
+            "button1Text": "Explore More",
+            "button1Url": "/vr",
+            "button2Text": "Shop the Latest",
+            "button2Url": "https://mall.jd.com/index-1000425743.html",
+            "sortOrder": 1
+        }
+    ],
+    "bannerVoList3": [
+        {
+            "id": 12,
+            "bannerPosition": "home3",
+            "image": null,
+            "title": "Reform how everyone acquires information",
+            "subtitle": null,
+            "video": "/profile/2024/06/14/video.7f9fab1.mp4",
+            "button1Text": "Explore More",
+            "button1Url": "/about",
+            "button2Text": null,
+            "button2Url": null,
+            "sortOrder": 1
+        }
+    ],
+    "bannerVoList4": [
+        {
+            "id": 15,
+            "bannerPosition": "home4",
+            "image": "/profile/2024/06/14/img3-7ba8e8a.png",
+            "title": "Play For Dream Mobile Assistant ",
+            "subtitle": "Easier App Purchases, Smoother Device Interaction.",
+            "video": null,
+            "button1Text": "Explore More",
+            "button1Url": "/service?index=3",
+            "button2Text": null,
+            "button2Url": null,
+            "sortOrder": 1
         },
-        imgUrl: that.BASE_API,
-        bannerVoList1: [],
-        bannerVoList2: [],
-        bannerVoList3: {},
-        bannerVoList4: [],
-        bannerVo5: {},
-        bannerVo6: {},
-        isShow: false,
-        useName: '',
-        phone: '',
-        location: ''
-      }
+        {
+            "id": 13,
+            "bannerPosition": "home4",
+            "image": "/profile/2024/06/14/img1-e1ca88e.png",
+            "title": "PCVR Assistant",
+            "subtitle": "Effortlessly connect to your PC via wireless network. ",
+            "video": null,
+            "button1Text": "Explore More",
+            "button1Url": "/service?index=1",
+            "button2Text": null,
+            "button2Url": null,
+            "sortOrder": 2
+        },
+        {
+            "id": 14,
+            "bannerPosition": "home4",
+            "image": "/profile/2024/06/14/img2-778cd57.png",
+            "title": "Film Stream Assistant",
+            "subtitle": "Fast Wifi Transfer, Smooth Viewing, Quick Access to PC Video Resource.",
+            "video": null,
+            "button1Text": "Explore More",
+            "button1Url": "/service?index=2",
+            "button2Text": null,
+            "button2Url": null,
+            "sortOrder": 3
+        }
+    ],
+    "bannerVo5": {
+        "id": 16,
+        "bannerPosition": "home5",
+        "image": "/profile/2024/06/14/bj5-9200794.jpg",
+        "title": "<span class=\"counter\">300</span>+",
+        "subtitle": "Stores in China",
+        "video": null,
+        "button1Text": "Learn More",
+        "button1Url": "/store",
+        "button2Text": null,
+        "button2Url": null,
+        "sortOrder": 1
     },
+    "bannerVo6": {
+        "id": 17,
+        "bannerPosition": "home6",
+        "image": "/profile/2024/06/14/bj6-0b9c00d.jpg",
+        "title": "Join Over <span  class=\"counter\">50000</span>+ Players ",
+        "subtitle": "Starting a Spatial Adventure",
+        "video": null,
+        "button1Text": "Order Online",
+        "button1Url": "https://mall.jd.com/index-1000425743.html",
+        "button2Text": null,
+        "button2Url": null,
+        "sortOrder": 1
+    }
+}
+
+export default {
+  components: {
+    headertop,
+    footerbottom
+  },
+  data() {
+    var that = this
+    return {
+      syNewsBg: {
+        backgroundImage: `url(${bj3})`
+      },
+      imgUrl: that.BASE_API,
+      bannerVoList1: [],
+      bannerVoList2: [],
+      bannerVoList3: {},
+      bannerVoList4: [],
+      bannerVo5: {},
+      bannerVo6: {},
+      isShow:false,
+      useName:'',
+      phone:'',
+      location:''
+    }
+  },
     methods: {
       async homeIndex() {
-        let res = await homeIndex({})
-        let data = res.data
+        // let res = await homeIndex({})
+        let data = indexData
         this.bannerVoList1 = data.bannerVoList1;
         this.bannerVoList2 = data.bannerVoList2;
         this.bannerVoList3 = data.bannerVoList3[0];

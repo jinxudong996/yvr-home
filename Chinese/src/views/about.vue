@@ -158,6 +158,220 @@ import headertop from '@/components/header.vue'
 import footerbottom from '@/components/footer.vue'
 import bj1 from '@/assets/images/xz/bj1.jpg'
 import { aboutusIndex } from '@/api/index.js'
+let aboutusIndexData = {
+    "aboutUs": "<p>我们创立于2020年，是一家专注于空间计算设备的高科技公司，致力于为用户带来数字娱乐新体验。改变世界获取信息的方式，推动三维信息技术革命，助力人类科技进化。</p><p>我们专注于VR MR的自主研发和销售，致力于探索前沿空间计算相关技术是国内少有的拥有全栈式研发能力的空间计算设备研发企业。至今已发布两款自研划时代XR产品，目前正全力推进第三代空间计算设备研发。</p>",
+    "sloganVoList": [
+        {
+            "title": "品牌使命",
+            "subTitle": "让更多人玩出梦想",
+            "image": "/profile/2024/06/17/img1-2efa471.png",
+            "sortOrder": 1
+        },
+        {
+            "title": "品牌愿景",
+            "subTitle": "改变世界获取\n信息的方式",
+            "image": "/profile/2024/06/21/img2-8950f00.png",
+            "sortOrder": 2
+        },
+        {
+            "title": "品牌价值观",
+            "subTitle": "聚焦用户需求，\n以科技之力打造未来\n娱乐新方式",
+            "image": "/profile/2024/06/17/img3-38b11e4.png",
+            "sortOrder": 3
+        },
+        {
+            "title": "品牌主张",
+            "subTitle": "无限空间\n玩出梦想",
+            "image": "/profile/2024/06/21/061502.85874c4.png",
+            "sortOrder": 4
+        },
+        {
+            "title": "品牌定位",
+            "subTitle": "娱乐空间\n计算设备",
+            "image": "/profile/2024/06/17/061501-b5ba5c6.png",
+            "sortOrder": 5
+        }
+    ],
+    "founderVo": {
+        "founderName": "黄锋",
+        "founderPosition": "创始人 / CEO",
+        "founderHistory": "中欧商学院 EMBA\n上海市松江区工商联(总商会)副主席",
+        "founderBio": "连续成功创业者，具有深刻的商业洞察力和优秀的产品打造能力。\n于 2018 年开始探索空间计算科技领域。\n并于 2020 年正式启动玩出梦想科技第一代产品研发项目并成立独立公司，\n涉足空间计算平台的自主研发和销售。",
+        "image": "/profile/2024/06/17/boss-ea95c71.png"
+    },
+    "growthStoryVoList": [
+        {
+            "title": "2020.10",
+            "content": "玩出梦想科技正式成立",
+            "image": "/profile/2024/06/21/1玩出梦想科技正式成立_20240621190230A019.png",
+            "sortOrder": 1
+        },
+        {
+            "title": "2020.11",
+            "content": "YUI Launcher Beta版本开发完成",
+            "image": "/profile/2024/06/21/2YUI Launcher Beta版本开发完成_20240621190956A020.png",
+            "sortOrder": 2
+        },
+        {
+            "title": "2021.07",
+            "content": "开发者平台上线",
+            "image": "/profile/2024/06/21/3开发者平台上线_20240621193326A021.png",
+            "sortOrder": 3
+        },
+        {
+            "title": "2021.12",
+            "content": "发布第一代XR产品 YVR 1 眼镜",
+            "image": "/profile/2024/06/21/4发布第一代XR产品 YVR 1 眼镜_20240621193359A022.jpg",
+            "sortOrder": 4
+        },
+        {
+            "title": "2022.07",
+            "content": "发布第二代XR产品YVR 2 眼镜",
+            "image": "/profile/2024/06/21/5发布第二代XR产品YVR 2 眼镜_20240621193423A023.jpg",
+            "sortOrder": 5
+        },
+        {
+            "title": "2022.08",
+            "content": "首家线下旗舰店在上海开业",
+            "image": "/profile/2024/06/21/6首家线下旗舰店在上海开业_20240621193443A024.jpeg",
+            "sortOrder": 6
+        },
+        {
+            "title": "2022.11",
+            "content": "7双十一京东XR品类销量TOP2",
+            "image": "/profile/2024/06/21/7双十一京东XR品类销量TOP2_20240621193505A025.jpg",
+            "sortOrder": 7
+        },
+        {
+            "title": "2023.06",
+            "content": "手势识别算法上线",
+            "image": "/profile/2024/06/21/8手势识别算法上线_20240621193524A026.png",
+            "sortOrder": 8
+        },
+        {
+            "title": "2023.08",
+            "content": "专精特新获奖照片",
+            "image": "/profile/2024/06/21/9专精特新获奖照片_20240621193543A027.jpg",
+            "sortOrder": 9
+        },
+        {
+            "title": "2023.09",
+            "content": "玩出梦想科技宣布全新品牌升级",
+            "image": "/profile/2024/06/21/10玩出梦想科技宣布全新品牌升级_20240621193603A028.jpg",
+            "sortOrder": 10
+        },
+        {
+            "title": "2023.11",
+            "content": "入驻顺电，涵盖京津冀、浙沪苏皖、粤闵等16+主要城市",
+            "image": "/profile/2024/06/21/11入驻顺电，涵盖京津冀、浙沪苏皖、粤闵等16+主要城市_20240621193622A029.jpg",
+            "sortOrder": 11
+        },
+        {
+            "title": "2024.02",
+            "content": "玩出梦想科技亮相2024MWC",
+            "image": "/profile/2024/06/21/12玩出梦想科技亮相2024MWC_20240621193640A030.png",
+            "sortOrder": 12
+        }
+    ],
+    "companyHonorsVoList": [
+        {
+            "title": "2022年度 经济贡献奖",
+            "image": "/profile/2024/06/21/2022年度 经济贡献奖_20240621185406A014.jpg",
+            "sortOrder": 1
+        },
+        {
+            "title": "2023年度 领军企业奖",
+            "image": "/profile/2024/06/21/2023年度 领军企业奖_20240621185416A015.jpg",
+            "sortOrder": 2
+        },
+        {
+            "title": "上海数字化转型体验馆 明星展项",
+            "image": "/profile/2024/06/21/上海数字化转型体验馆 明星展项_20240621185423A016.jpg",
+            "sortOrder": 3
+        },
+        {
+            "title": "上海元宇宙产业联盟 会员单位",
+            "image": "/profile/2024/06/21/上海元宇宙产业联盟 会员单位_20240621185455A017.jpg",
+            "sortOrder": 4
+        },
+        {
+            "title": "中国元宇宙与数字人才培养产教融合实训基地",
+            "image": "/profile/2024/06/21/中国元宇宙与数字人才培养产教融合实训基地_20240621185509A018.jpg",
+            "sortOrder": 5
+        },
+        {
+            "title": "2023-2025年度 专精特新企业",
+            "image": "/profile/2024/06/21/2023-2025年度 专精特新企业_20240621184718A001.jpg",
+            "sortOrder": 6
+        },
+        {
+            "title": "2021年度 中国区最佳雇主奖",
+            "image": "/profile/2024/06/21/2021年度 中国区最佳雇主奖_20240621184754A002.jpg",
+            "sortOrder": 7
+        },
+        {
+            "title": "2022-2023年度 最佳科创力企业",
+            "image": "/profile/2024/06/21/2022-2023年度 最佳科创力企业_20240621184823A003.jpg",
+            "sortOrder": 8
+        },
+        {
+            "title": "2022年度 最暖心企业奖",
+            "image": "/profile/2024/06/21/2022年度 最暖心企业奖_20240621184853A004.jpg",
+            "sortOrder": 9
+        },
+        {
+            "title": "IDEA-2023年度 入围奖",
+            "image": "/profile/2024/06/21/IDEA-2023年度 入围奖_20240621184944A005.jpg",
+            "sortOrder": 10
+        },
+        {
+            "title": "Tech G-2023年度 消费电子人气奖",
+            "image": "/profile/2024/06/21/Tech G-2023年度 消费电子人气奖_20240621185038A007.jpg",
+            "sortOrder": 11
+        },
+        {
+            "title": "2022年度 IF 奖",
+            "image": "/profile/2024/06/21/2022年度 IF 奖_20240621185011A006.jpg",
+            "sortOrder": 12
+        },
+        {
+            "title": "上海设计100+ 洞见未来单元大奖",
+            "image": "/profile/2024/06/21/上海设计100+ 洞见未来单元大奖_20240621185107A008.jpg",
+            "sortOrder": 13
+        },
+        {
+            "title": "2022年度 红点奖",
+            "image": "/profile/2024/06/21/2022年度 红点奖_20240621185127A009.jpg",
+            "sortOrder": 14
+        },
+        {
+            "title": "第八届金陀螺奖 年度优秀VR消费硬件",
+            "image": "/profile/2024/06/21/第八届金陀螺奖 年度优秀VR消费硬件_20240621185147A010.jpg",
+            "sortOrder": 15
+        },
+        {
+            "title": "金V奖-2023年度 年度最受欢迎硬件",
+            "image": "/profile/2024/06/21/金V奖-2023年度 年度最受欢迎硬件_20240621185221A011.jpg",
+            "sortOrder": 16
+        },
+        {
+            "title": "宙斯奖-2022年度 影响力XR硬件",
+            "image": "/profile/2024/06/21/宙斯奖-2022年度 影响力XR硬件_20240621185243A012.jpg",
+            "sortOrder": 17
+        },
+        {
+            "title": "2022-2023年度 最成功设计大奖",
+            "image": "/profile/2024/06/21/2022-2023年度 最成功设计大奖_20240621185302A013.jpg",
+            "sortOrder": 18
+        }
+    ],
+    "contactUsVo": {
+        "contactAddress": "上海市松江区新桥镇漕松路1号3幢玩出梦想",
+        "contactPhone": "021-57098200（周一至周五)",
+        "businessEmail": "bd@yvr.cn",
+        "developerEmail": "yvrdevelopers@yvr.cn"
+    }
+}
 export default {
   components: {
     headertop,
@@ -181,8 +395,9 @@ export default {
   },
   methods: {
     async aboutusIndex() {
-      let res = await aboutusIndex({})
-      let data = res.data
+      // let res = await aboutusIndex({})
+      // let data = res.data
+      let data = aboutusIndexData
       console.log(data)
       this.sloganVoList = data.sloganVoList
       this.aboutUs = data.aboutUs

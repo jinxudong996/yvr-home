@@ -135,6 +135,36 @@ import headertop from '@/components/header.vue'
 import footerbottom from '@/components/footer.vue'
 import bj6 from '@/assets/images/store/bj6_1.jpg'
 import { recommend, getstoreList } from '@/api/index.js'
+
+let recommendData = [
+    {
+        "createBy": null,
+        "createTime": "2024-06-14 18:23:01",
+        "updateBy": null,
+        "updateTime": "2024-06-17 17:50:55",
+        "remark": null,
+        "id": 2,
+        "lang": "cn",
+        "storeName": "玩出梦想零售体验店（五角场万达店）",
+        "address": "上海市杨浦区五角场万达B1层1120号商铺",
+        "image": "/profile/2024/06/14/img2-b819526.png",
+        "isRecommend": "Y"
+    },
+    {
+        "createBy": null,
+        "createTime": "2024-06-14 18:23:32",
+        "updateBy": null,
+        "updateTime": "2024-06-17 17:50:55",
+        "remark": null,
+        "id": 3,
+        "lang": "cn",
+        "storeName": "玩出梦想零售体验店（环球港店）",
+        "address": "上海市普陀区月星环球港4层4083号商铺",
+        "image": "/profile/2024/06/14/img3-406f532.png",
+        "isRecommend": "Y"
+    }
+]
+
 export default {
   components: {
     headertop,
@@ -169,21 +199,27 @@ export default {
   },
   methods: {
     async recommend() {
-      let res = await recommend({})
-      let data = res.data
-      this.dataList = data
+      // let res = await recommend({})
+      // let data = res.data
+      this.dataList = recommendData
     },
     async storeList() {
       if (this.inputValue == "") {
         alert("输入不能为空")
       } else {
-        let res = await getstoreList({
-          keyword: this.inputValue,
-          pageNum: this.pageNum,
-          pageSize: 100
+        // let res = await getstoreList({
+        //   keyword: this.inputValue,
+        //   pageNum: this.pageNum,
+        //   pageSize: 100
+        // })
+        // let data = res.data.records
+        
+
+        let resultArr = []
+        recommendData.map(item => {
+          item.storeName.includes(this.inputValue) && resultArr.push(item)
         })
-        let data = res.data.records
-        this.dataList = data
+        this.dataList = resultArr
 
         var _topHeader11 = $("#header").outerHeight(true);
         var distanceToTop_11 = $('.label1').offset().top - _topHeader11;

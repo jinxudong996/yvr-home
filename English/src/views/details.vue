@@ -38,7 +38,7 @@
 		<div class="w1455 glNews">
 			<div class="f52 bolder glNewsTit wow fadeInUp">Related news</div>
 			<ul class="glNewsList">
-				<li class="wow fadeInUp" v-for="(item, index) in relatedList" :key="relatedList.id"
+				<li class="wow fadeInUp" v-for="(item, index) in relatedList" :key="item.id"
 					@click="jumpDetail(item, index)">
 					<a href="javascript:void(0);">
 						<img class="img100" :src="imgUrl + item.image" alt="" />
@@ -62,6 +62,10 @@
 		getNewsDetail,
 		getNewsRelated
 	} from '@/api/index.js'
+
+	import mockNewsData from '../../mock/news.js';
+	import relatedListData from '../../mock/related.js';
+
 	export default {
 		components: {
 			headertop,
@@ -152,9 +156,11 @@
 			async getNewsDetail() {
 				let query = this.$route.query
 				this.index = query.index
-				let res = await getNewsDetail(query.id);
+				// let res = await getNewsDetail(query.id);
+				let res = mockNewsData[query.id]
 				this.ids = JSON.parse(localStorage.getItem('cymx_news'))
-				let data = res.data;
+				// let data = res.data;
+				let data = res;
 				this.dataXq = data;
 				let createTime = data.createTime;
 				const date = new Date(createTime);
@@ -165,9 +171,9 @@
 			async getNewsRelated() {
 				let query = this.$route.query
 				this.index = query.index
-				let res = await getNewsRelated(query.id);
+				// let res = await getNewsRelated(query.id);
 				this.ids = JSON.parse(localStorage.getItem('cymx_news'))
-				let data = res.data;
+				let data = relatedListData;
 				console.log(data)
 				if (data.nextNews === null) {
 					data.nextNews = {

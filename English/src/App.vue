@@ -15,4 +15,7 @@ export default {
     overflow-y: hidden;
     overflow-x: hidden;
   }
+  .el-dropdown-menu{
+    top: 75px !important;
+  }
 </style>

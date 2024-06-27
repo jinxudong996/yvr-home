@@ -166,6 +166,221 @@
   import footerbottom from '@/components/footer.vue'
   import bj1 from '@/assets/images/xz/bj1.jpg'
   import {aboutusIndex} from '@/api/index.js'
+
+  let aboutusIndexData = {
+    "aboutUs": "<p>Founded in 2020, we are a high-tech company specializing in spatial computing devices, dedicated to providing users with innovative entertainment experiences. Our mission is to Reform how everyone acquires information, drive the 3D information technology revolution, and advance human technological evolution.</p><p>We focus on the independent development and delivery of XR technologies, exploring cutting-edge spatial computing technologies. As one of the few companies in China with full-stack R&amp;D capabilities in this field, we have already released two groundbreaking XR products and are now fully engaged in developing our third-generation spatial computing device.</p>",
+    "sloganVoList": [
+        {
+            "title": "Our Mission",
+            "subTitle": "Encourage more people\nto play for dream",
+            "image": "/profile/2024/06/17/img1-2efa471.png",
+            "sortOrder": 1
+        },
+        {
+            "title": "Our Vision",
+            "subTitle": "Reform how everyone\nacquires information",
+            "image": "/profile/2024/06/21/img2-8950f00.png",
+            "sortOrder": 2
+        },
+        {
+            "title": "品牌价值观",
+            "subTitle": "聚焦用户需求，\n以科技之力打造未来\n娱乐新方式",
+            "image": "/profile/2024/06/17/img3-38b11e4.png",
+            "sortOrder": 3
+        },
+        {
+            "title": "品牌主张",
+            "subTitle": "无限空间\n玩出梦想",
+            "image": "/profile/2024/06/21/061502.85874c4.png",
+            "sortOrder": 4
+        },
+        {
+            "title": "品牌定位",
+            "subTitle": "娱乐空间\n计算设备",
+            "image": "/profile/2024/06/17/061501-b5ba5c6.png",
+            "sortOrder": 5
+        }
+    ],
+    "founderVo": {
+        "founderName": "Huang Feng",
+        "founderPosition": "The Founder,CEO",
+        "founderHistory": "CEIBS EMBA\nVice Chairman,Songjiang District \nFederation of Industry and Commerce",
+        "founderBio": "Mr.Huang is a serial entrepreneur with profound business insights and excellent product development capabilities,boasting a proven track record of success in Wanyoo Esports and Bixin app.\nHis exploration into spatial computing began in 2018.Mr.Huang kicked off the Play For Dream R&D project and founded a company under the same name in 2020,beginning a journey of the R&D and sale of spatial computing platforms.",
+        "image": "/profile/2024/06/17/boss-ea95c71.png"
+    },
+    "growthStoryVoList": [
+        {
+            "title": "2020.10",
+            "content": "Play For Dream Technology Officially established",
+            "image": "/profile/2024/06/21/1玩出梦想科技正式成立_20240621190230A019.png",
+            "sortOrder": 1
+        },
+        {
+            "title": "2020.11",
+            "content": "YUI Launcher Beta Version completed",
+            "image": "/profile/2024/06/21/2YUI Launcher Beta版本开发完成_20240621190956A020.png",
+            "sortOrder": 2
+        },
+        {
+            "title": "2021.07",
+            "content": "Developer platform launched",
+            "image": "/profile/2024/06/21/3开发者平台上线_20240621193326A021.png",
+            "sortOrder": 3
+        },
+        {
+            "title": "2021.12",
+            "content": "YVR 1 officially launched.The very first 6DoF VR glass designed and manufactured.",
+            "image": "/profile/2024/06/21/4发布第一代XR产品 YVR 1 眼镜_20240621193359A022.jpg",
+            "sortOrder": 4
+        },
+        {
+            "title": "2022.07",
+            "content": "YVR 2 Launched.The global first All-in-one VR headset with Pancake optical solution.",
+            "image": "/profile/2024/06/21/5发布第二代XR产品YVR 2 眼镜_20240621193423A023.jpg",
+            "sortOrder": 5
+        },
+        {
+            "title": "2022.08",
+            "content": "The first offline flagship store opened in Shanghai",
+            "image": "/profile/2024/06/21/6首家线下旗舰店在上海开业_20240621193443A024.jpeg",
+            "sortOrder": 6
+        },
+        {
+            "title": "2022.11",
+            "content": "YVR was sold on Double 11 for the first time, and achieve TOP 2 in JD XR  Sales Category.",
+            "image": "/profile/2024/06/21/7双十一京东XR品类销量TOP2_20240621193505A025.jpg",
+            "sortOrder": 7
+        },
+        {
+            "title": "2023.06",
+            "content": "Self-developed hand tracking algorithm V1.0 released",
+            "image": "/profile/2024/06/21/8手势识别算法上线_20240621193524A026.png",
+            "sortOrder": 8
+        },
+        {
+            "title": "2023.08",
+            "content": "专精特新获奖照片",
+            "image": "/profile/2024/06/21/9专精特新获奖照片_20240621193543A027.jpg",
+            "sortOrder": 9
+        },
+        {
+            "title": "2023.09",
+            "content": "Play For Dream Technology announced the new brand upgrade",
+            "image": "/profile/2024/06/21/10玩出梦想科技宣布全新品牌升级_20240621193603A028.jpg",
+            "sortOrder": 10
+        },
+        {
+            "title": "2023.11",
+            "content": "Settled in Sundan,covering more than 16 major cities including Beijing-Tianjin-Hebei, Zhejiang-Shanghai-Jiangsu-Anhui, and Guangdong-Fujian",
+            "image": "/profile/2024/06/21/11入驻顺电，涵盖京津冀、浙沪苏皖、粤闵等16+主要城市_20240621193622A029.jpg",
+            "sortOrder": 11
+        },
+        {
+            "title": "2024.02",
+            "content": "Play For Dream Technology  Presented at 2024MWC",
+            "image": "/profile/2024/06/21/12玩出梦想科技亮相2024MWC_20240621193640A030.png",
+            "sortOrder": 12
+        }
+    ],
+    "companyHonorsVoList": [
+        {
+            "title": "2022年度 经济贡献奖",
+            "image": "/profile/2024/06/21/2022年度 经济贡献奖_20240621185406A014.jpg",
+            "sortOrder": 1
+        },
+        {
+            "title": "2023年度 领军企业奖",
+            "image": "/profile/2024/06/21/2023年度 领军企业奖_20240621185416A015.jpg",
+            "sortOrder": 2
+        },
+        {
+            "title": "上海数字化转型体验馆 明星展项",
+            "image": "/profile/2024/06/21/上海数字化转型体验馆 明星展项_20240621185423A016.jpg",
+            "sortOrder": 3
+        },
+        {
+            "title": "上海元宇宙产业联盟 会员单位",
+            "image": "/profile/2024/06/21/上海元宇宙产业联盟 会员单位_20240621185455A017.jpg",
+            "sortOrder": 4
+        },
+        {
+            "title": "中国元宇宙与数字人才培养产教融合实训基地",
+            "image": "/profile/2024/06/21/中国元宇宙与数字人才培养产教融合实训基地_20240621185509A018.jpg",
+            "sortOrder": 5
+        },
+        {
+            "title": "2023-2025年度 专精特新企业",
+            "image": "/profile/2024/06/21/2023-2025年度 专精特新企业_20240621184718A001.jpg",
+            "sortOrder": 6
+        },
+        {
+            "title": "2021年度 中国区最佳雇主奖",
+            "image": "/profile/2024/06/21/2021年度 中国区最佳雇主奖_20240621184754A002.jpg",
+            "sortOrder": 7
+        },
+        {
+            "title": "2022-2023年度 最佳科创力企业",
+            "image": "/profile/2024/06/21/2022-2023年度 最佳科创力企业_20240621184823A003.jpg",
+            "sortOrder": 8
+        },
+        {
+            "title": "2022年度 最暖心企业奖",
+            "image": "/profile/2024/06/21/2022年度 最暖心企业奖_20240621184853A004.jpg",
+            "sortOrder": 9
+        },
+        {
+            "title": "IDEA-2023年度 入围奖",
+            "image": "/profile/2024/06/21/IDEA-2023年度 入围奖_20240621184944A005.jpg",
+            "sortOrder": 10
+        },
+        {
+            "title": "Tech G-2023年度 消费电子人气奖",
+            "image": "/profile/2024/06/21/Tech G-2023年度 消费电子人气奖_20240621185038A007.jpg",
+            "sortOrder": 11
+        },
+        {
+            "title": "2022年度 IF 奖",
+            "image": "/profile/2024/06/21/2022年度 IF 奖_20240621185011A006.jpg",
+            "sortOrder": 12
+        },
+        {
+            "title": "上海设计100+ 洞见未来单元大奖",
+            "image": "/profile/2024/06/21/上海设计100+ 洞见未来单元大奖_20240621185107A008.jpg",
+            "sortOrder": 13
+        },
+        {
+            "title": "2022年度 红点奖",
+            "image": "/profile/2024/06/21/2022年度 红点奖_20240621185127A009.jpg",
+            "sortOrder": 14
+        },
+        {
+            "title": "第八届金陀螺奖 年度优秀VR消费硬件",
+            "image": "/profile/2024/06/21/第八届金陀螺奖 年度优秀VR消费硬件_20240621185147A010.jpg",
+            "sortOrder": 15
+        },
+        {
+            "title": "金V奖-2023年度 年度最受欢迎硬件",
+            "image": "/profile/2024/06/21/金V奖-2023年度 年度最受欢迎硬件_20240621185221A011.jpg",
+            "sortOrder": 16
+        },
+        {
+            "title": "宙斯奖-2022年度 影响力XR硬件",
+            "image": "/profile/2024/06/21/宙斯奖-2022年度 影响力XR硬件_20240621185243A012.jpg",
+            "sortOrder": 17
+        },
+        {
+            "title": "2022-2023年度 最成功设计大奖",
+            "image": "/profile/2024/06/21/2022-2023年度 最成功设计大奖_20240621185302A013.jpg",
+            "sortOrder": 18
+        }
+    ],
+    "contactUsVo": {
+        "contactAddress": "Building 3, No.1 Caosong Road, Xinqiao Town, Songjiang District, Shanghai",
+        "contactPhone": "021-57098200（Monday to Friday)",
+        "businessEmail": "bd@yvr.cn",
+        "developerEmail": "yvrdevelopers@yvr.cn"
+    }
+}
   export default {
     components: {
       headertop,
@@ -189,8 +404,11 @@
     },
     methods:{
       async aboutusIndex(){
-        let res = await aboutusIndex({})
-        let data = res.data
+        // let res = await aboutusIndex({})
+        // let data = res.data
+        // let res = await aboutusIndex({})
+        // let data = res.data
+        let data = aboutusIndexData
         console.log(data)
         this.sloganVoList = data.sloganVoList
         this.aboutUs = data.aboutUs

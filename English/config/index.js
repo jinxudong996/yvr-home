@@ -1,3 +1,11 @@
+/*
+ * @Author: jinxudong 1766551722@qq.com
+ * @Date: 2024-06-23 11:17:38
+ * @LastEditors: jinxudong 1766551722@qq.com
+ * @LastEditTime: 2024-06-23 11:25:26
+ * @FilePath: \yvr-home\English\config\index.js
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 'use strict'
 // Template version: 1.3.1
 // see http://vuejs-templates.github.io/webpack for documentation.
@@ -48,9 +56,9 @@ module.exports = {
 
   build: {
     // Template for index.html
-    index: path.resolve(__dirname, '../dist/index.html'),
+    index: path.resolve(__dirname, '../homeDistEn/index.html'),
     // Paths
-    assetsRoot: path.resolve(__dirname, '../dist'),
+    assetsRoot: path.resolve(__dirname, '../homeDistEn'),
     assetsSubDirectory: 'static',
     assetsPublicPath: './',
     /**

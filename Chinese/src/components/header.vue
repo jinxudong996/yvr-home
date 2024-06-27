@@ -11,7 +11,7 @@
               <router-link to="/mr">MR 系列</router-link>
               <div class="allTopConMenuPos">
                 <router-link to="/mr">玩出梦想 MR</router-link>
-                <a href="https://mall.jd.com/index-1000425743.html" target="_blank">现在订购 </a>
+                <a @click="nowPre()">立即预约 </a>
               </div>
             </li>
             <li>
@@ -43,7 +43,7 @@
                 <router-link to="/about?index=3">联系我们 </router-link>
               </div>
             </li>
-            <li><a href="http://pfdm1.ucantech.net/" target="_blank">开发平台 </a></li>
+            <li @click="goDev()"><a>开发平台 </a></li>
           </ul>
         </div>
         <div class="allTopConRig">
@@ -51,9 +51,22 @@
           <!-- <div class="allTopConRigSea">
             <input type="search" placeholder="搜索玩出梦想" v-model="inputValue" />
             <div class="allTopConRigSeaBut" @click="toSearch(inputValue)"><a href="javascript:void(0);"></a></div>
-          </div> -->
-          <div class="allTopConRig_3"><a href="#"><img src="../assets/images/center.png" alt="" /> </a></div>
-          <div class="allTopConRig_2"><a href="http://pfdm.ucantech.net:10030/en/#/index" target="_blank"><img
+          </div>
+           <div class="allTopConRig_3"><a href="#"><img src="../assets/images/center.png" alt="" /> </a></div> -->
+          <div class="allTopConRig_3">
+            <el-dropdown  @command="handleCommand">
+              <span class="el-dropdown-link">
+                <a ><img src="../assets/images/center.png" alt="" /> </a>
+                <!-- 下拉菜单<i class="el-icon-arrow-down el-icon--right"></i> -->
+              </span>
+              <el-dropdown-menu slot="dropdown">
+                <el-dropdown-item command="login">{{this.loginFlag == 1 ? this.userPhone : '登录'}}</el-dropdown-item>
+                <el-dropdown-item command="register">{{this.loginFlag == 1 ? '登出' : '注册'}}</el-dropdown-item>
+              </el-dropdown-menu>
+            </el-dropdown>
+          </div>
+          
+          <div class="allTopConRig_2"><a @click="changeLanguage()"><img
                 src="../assets/images/en.png" alt="" /> </a></div>
           <div class="allTopConRig_4 allTopMenu"><img src="../assets/images/ico.png" alt="" /></div>
         </div>
@@ -69,7 +82,7 @@
               <dl>
                 <dt><router-link to="/mr">MR 系列</router-link></dt>
                 <dd><router-link to="/mr">玩出梦想 MR</router-link></dd>
-                <dd><a href="https://mall.jd.com/index-1000425743.html" target="_blank">现在订购 </a></dd>
+                <dd><a @click="nowPre()">立即预约 </a></dd>
               </dl>
               <dl>
                 <dt><router-link to="/vr">VR 系列 </router-link></dt>
@@ -96,7 +109,7 @@
                 <dd><router-link to="/about?index=3">联系我们 </router-link></dd>
               </dl>
               <dl>
-                <dt><a href="http://pfdm1.ucantech.net/" target="_blank">开发平台 </a></dt>
+                <dt @click="goDev()"><a>开发平台 </a></dt>
               </dl>
             </div>
             <div class="mxFooterConBot">
@@ -140,7 +153,7 @@
       <div class="allTopConRig">
 
         <div class="allTopConRig_3"><a href="#"><img src="../assets/images/center.png" alt="" /> </a></div>
-        <div class="allTopConRig_2"><a href="http://pfdm.ucantech.net:10030/en/#/index" target="_blank"><img
+        <div class="allTopConRig_2"><a @click="changeLanguage()"><img
               src="../assets/images/en.png" alt="" /> </a></div>
 
       </div>
@@ -160,7 +173,7 @@
           </div>
           <div class="topWapNrDjEjCon">
             <router-link to="/mr">玩出梦想 MR </router-link>
-            <a href="https://mall.jd.com/index-1000425743.html" target="_blank">现在订购 </a>
+            <a @click="nowPre()">立即预约 </a>
           </div>
         </li>
         <li>
@@ -207,18 +220,50 @@
             <router-link to="/about?index=3">联系我们 </router-link>
           </div>
         </li>
-        <li><a href="http://pfdm1.ucantech.net/" target="_blank">开发平台 </a></li>
+        <li><a @click="goDev()">开发平台 </a></li>
       </ul>
+    </div>
+
+    <div class="homeFormMc" v-show="isShow">
+      <div class="closeTc" @click="closeTc"></div>
+      <div class="homeForm">
+        <div class="homeFormMk">
+          <label for="">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名 ：</label>
+          <div class="homeFormMkInp"><input type="text" name="" id="" placeholder="请输入姓名" v-model="useName"></div>
+        </div>
+        <div class="homeFormMk">
+          <label for="">联系方式 ：</label>
+          <div class="homeFormMkInp"><input type="text" name="" id="" placeholder="请输入联系方式" v-model="phone"></div>
+        </div>
+        <div class="homeFormMk">
+          <label for="">所&ensp;在&ensp;地 ：</label>
+          <div class="homeFormMkInp"><input type="text" name="" id="" placeholder="请输入所在地" v-model="location"></div>
+        </div>
+        <div class="homeFormBut">
+          <div class="allBtn active"><a href="javascript:void(0);" @click="toSubmmit">提交<span>&nbsp;</span></a></div>
+        </div>
+      </div>
     </div>
   </div>
   <!-- 头部 stop -->
 </template>
 
 <script>
+
+  import { homeIndex, feedback } from '@/api/index.js'
+
   export default {
     data() {
       return {
         inputValue: '', // 绑定的值
+        loginFlag:0, // 0 未登录  1 登录 
+        userPhone:'',
+        envi:'',
+        isShow:false,
+
+        useName:'',
+        phone:'',
+        location:'',
       }
     },
     mounted() {
@@ -265,6 +310,7 @@
         $('.menuBg').removeClass('on');
       })
 
+    this.initData()
       $(".menuBox a").click(function() {
         $('.menuBox').removeClass('on');
         $('.menuBg').removeClass('on');
@@ -274,6 +320,136 @@
 
     },
     methods: {
+      nowPre(){
+        this.isShow = true
+      },
+      toSubmmit() {
+        if (this.useName == '') {
+          alert('请输入姓名')
+          return
+        }
+        if (this.phone == '') {
+          alert('请输入联系方式')
+          return
+        }
+        // if (!isvalidMobile(this.phone)) {
+        //   alert('请输入正确的手机号')
+        //   return
+        // }
+        if (this.location == '') {
+          alert('请输入所在地')
+          return
+        }
+        feedback({
+          location: this.location,
+          name: this.useName,
+          phone: this.phone
+        }).then(res => {
+          alert('提交成功')
+          this.isShow = false
+        })
+      },
+      closeTc() {
+        this.isShow = false
+      },
+      goDev(){
+      let dev1 = 'http://172.18.0.67:9700'
+      let uat = 'https://apiuat.yvrdream.com/yvrdeveloper/#/index'
+      let pro = 'https://developer.pfdm.cn'
+
+      if(this.envi == 'dev'){
+        window.location.href = dev1
+      }else if(this.envi == 'uat'){
+        window.location.href = uat
+      }else{
+        window.location.href = pro
+      }
+    },
+    initData(){
+      this.envi = this.environment()
+      let param  = this.urlParamsParse()
+      this.userPhone = param.phone
+      this.userPhone ? this.loginFlag = 1 : this.loginFlag = 0
+    },
+    environment(){
+      let currentDomain = window.location.hostname;
+      if(currentDomain.includes('apiuat')){
+        return 'uat'
+      }else if(currentDomain.includes('localhost') || currentDomain.includes('172.18.0.67') ||  currentDomain.includes('apitest')){
+        return 'dev'
+      }else{
+        return 'pro'
+      }
+    },
+    urlParamsParse () {
+      let obj = {};
+      let reg = /[?&][^?&]+=[^?&]+/g;
+      let url = window.location.href;
+      let arr = url.match(reg);
+      if (arr != null) {
+        arr.forEach((item) => {
+          let tempArr = item.substring(1).split("=");
+          let key = decodeURIComponent(tempArr[0]);
+          let val = decodeURIComponent(tempArr[1]);
+          obj[key] = val;
+        });
+      }
+      return obj;
+    },
+    handleCommand(val){
+      
+      if(this.loginFlag == 1){
+        // 已登录
+        if(val == 'login'){
+          // 啥也不干
+        }else{
+          // 
+          console.log('退出登录')
+          let url = window.location.href.split('?')[0]
+          window.location.href = url
+          location.reload();
+        }
+      }else{
+        // 未登录
+        if(val == 'login'){
+          // 啥也不干
+          console.log('登录')
+          this.goLogin()
+        }else{
+          // 
+          console.log('注册')
+          this.goLogin()
+        }
+      }
+    },
+    // 登录注册
+    goLogin(){
+      let dev1 = 'http://172.18.0.67:9528/login?iscn=true'
+      let uat = 'https://apiuat.yvrdream.com/login?iscn=true'
+      let pro = 'https://www.pfdm.cn/login?iscn=true'
+
+      if(this.envi == 'dev'){
+        window.location.href = dev1
+      }else if(this.envi == 'uat'){
+        window.location.href = uat
+      }else{
+        window.location.href = pro
+      }
+    },
+    changeLanguage(){
+      // 当前是中文
+      let dev1 = 'http://localhost:9702/'
+      let uat = 'https://apiuat.yvrdream.com/en/yvrofficial/#/index'
+      let pro = 'https://www.pfdm.cn/en' 
+
+      if(this.envi == 'dev'){
+        window.location.href = dev1
+      }else if(this.envi == 'uat'){
+        window.location.href = uat
+      }else{
+        window.location.href = pro
+      }
+    },
       async toSearch() {
         if (this.inputValue == "") {
           alert("输入不能为空")

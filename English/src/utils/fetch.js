@@ -5,8 +5,9 @@ import store from "../store";
 
 // 创建axios实例
 
-let BASE_API = "http://pfdm.ucantech.net:10031/api";
+// let BASE_API = "http://pfdm.ucantech.net:10031/api";
 
+let BASE_API = "https://api.yvrdream.com/api"
 Vue.prototype.BASE_API = BASE_API;
 
 const service = axios.create({
